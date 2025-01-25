@@ -23,7 +23,7 @@
         .banner-images {
             display: flex;
             position: absolute;
-            animation: scrollRight 20s linear infinite;
+            animation: scrollRight 40s linear infinite;
         }
 
         .banner-images img {
@@ -36,7 +36,7 @@
                 transform: translateX(0);
             }
             to {
-                transform: translateX(-100%);
+                transform: translateX(-50%);
             }
         }
 
@@ -82,11 +82,46 @@
 <body>
     <div class="banner">
         <div class="banner-images">
-            <img src="https://via.placeholder.com/300x150?text=Egg1" alt="Egg 1">
-            <img src="https://via.placeholder.com/300x150?text=Egg2" alt="Egg 2">
-            <img src="https://via.placeholder.com/300x150?text=Egg3" alt="Egg 3">
-            <img src="https://via.placeholder.com/300x150?text=Egg4" alt="Egg 4">
-            <img src="https://via.placeholder.com/300x150?text=Egg5" alt="Egg 5">
+            <img src="https://cdn.britannica.com/94/151894-050-F72A5317/Brown-eggs.jpg" alt="Egg 1">
+            <img src="https://media.istockphoto.com/id/520889612/photo/boiled-eggs-in-bowl.jpg?s=612x612&w=0&k=20&c=wwes11nnPnZu7IFz6SSSjhsfoBK-ZcTFsqH9Em72ClA=" alt="Egg 2">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Fried_Egg_2.jpg" alt="Egg 3">
+            <img src="https://www.thisfarmgirlcooks.com/wp-content/uploads/2019/02/overhead-oven-baked-eggs-500x375.jpg" alt="Egg 4">
+            <img src="https://www.seriouseats.com/thmb/WVPRP-rklqBZEafBt4zNMi7ZUtE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__04__20140416-tamago-kake-gohan-recipe-07-53a6bd75c53748d5bd3155c56434f7ab.jpg" alt="Egg 5">
+            <img src="https://www.onceuponachef.com/images/2024/04/Fried-Egg-Hero-3-scaled.jpg" alt="Egg 6">
+            <img src="https://southernbite.com/wp-content/uploads/2021/05/Perfect-Scrambled-Eggs-2.jpg" alt="Egg 7">
+            <img src="https://www.southernliving.com/thmb/m3m-JadISxPYjCOcASeSw3mTmI0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Sunny_Side_Up_Eggs_007-fe57becdb5c4473092cba5e14e407bfc.jpg" alt="Egg 8">
+            <img src="https://keytomylime.com/wp-content/uploads/2020/04/Sheet-Pan-Eggs-9-480x270.jpg" alt="Egg 9">
+            <img src="https://assets.bonappetit.com/photos/58c95c88aafcc51ad9a32bc9/16:9/w_4991,h_2807,c_limit/jammy-soft-boiled-eggs.jpg" alt="Egg 10">
+            <img src="https://homesteadingfamily.com/wp-content/uploads/2020/05/Eggs-into-cast-iron-pan.jpg" alt="Egg 11">
+            <img src="https://www.culinaryhill.com/wp-content/uploads/2021/02/Eggs-in-a-Basket-Culinary-Hill-1200x800-1.jpg" alt="Egg 12">
+            <img src="https://www.inspiredtaste.net/wp-content/uploads/2024/03/Easy-Poached-Eggs-Recipe.jpg" alt="Egg 13">
+            <img src="https://thesouthernladycooks.com/wp-content/uploads/2024/01/Deviled-Eggs-LR-Website.jpg" alt="Egg 14">
+            <img src="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3520x1980+0+0/resize/3520x1980!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd7%2F89%2F9a8492614a99b9ecde6c81f69ec3%2Fap24085620593030.jpg" alt="Egg 15">
+            <img src="https://www.onceuponachef.com/images/2017/10/soft-boiled-eggs-1-1.jpg" alt="Egg 16">
+            <img src="https://i0.wp.com/louskitchencorner.freybors.com/wp-content/uploads/2020/08/scotch-eggs6.png?fit=768%2C768&ssl=1" alt="Egg 17">
+            <img src="https://modernfarmer.com/wp-content/uploads/2016/11/shutterstock_139606535-1-jpg.webp" alt="Egg 18">
+            <img src="https://tastesbetterfromscratch.com/wp-content/uploads/2014/04/Eggs-Florentine-9.jpg" alt="Egg 19">
+            <img src="https://www.keckmedicine.org/wp-content/uploads/2021/11/these-eggs-are-happy-because-they-are-loaded-with-health-benefits.jpg" alt="Egg 20">
+            <img src="https://cdn.britannica.com/94/151894-050-F72A5317/Brown-eggs.jpg" alt="Egg 1">
+            <img src="https://media.istockphoto.com/id/520889612/photo/boiled-eggs-in-bowl.jpg?s=612x612&w=0&k=20&c=wwes11nnPnZu7IFz6SSSjhsfoBK-ZcTFsqH9Em72ClA=" alt="Egg 2">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Fried_Egg_2.jpg" alt="Egg 3">
+            <img src="https://www.thisfarmgirlcooks.com/wp-content/uploads/2019/02/overhead-oven-baked-eggs-500x375.jpg" alt="Egg 4">
+            <img src="https://www.seriouseats.com/thmb/WVPRP-rklqBZEafBt4zNMi7ZUtE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__04__20140416-tamago-kake-gohan-recipe-07-53a6bd75c53748d5bd3155c56434f7ab.jpg" alt="Egg 5">
+            <img src="https://www.onceuponachef.com/images/2024/04/Fried-Egg-Hero-3-scaled.jpg" alt="Egg 6">
+            <img src="https://southernbite.com/wp-content/uploads/2021/05/Perfect-Scrambled-Eggs-2.jpg" alt="Egg 7">
+            <img src="https://www.southernliving.com/thmb/m3m-JadISxPYjCOcASeSw3mTmI0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Sunny_Side_Up_Eggs_007-fe57becdb5c4473092cba5e14e407bfc.jpg" alt="Egg 8">
+            <img src="https://keytomylime.com/wp-content/uploads/2020/04/Sheet-Pan-Eggs-9-480x270.jpg" alt="Egg 9">
+            <img src="https://assets.bonappetit.com/photos/58c95c88aafcc51ad9a32bc9/16:9/w_4991,h_2807,c_limit/jammy-soft-boiled-eggs.jpg" alt="Egg 10">
+            <img src="https://homesteadingfamily.com/wp-content/uploads/2020/05/Eggs-into-cast-iron-pan.jpg" alt="Egg 11">
+            <img src="https://www.culinaryhill.com/wp-content/uploads/2021/02/Eggs-in-a-Basket-Culinary-Hill-1200x800-1.jpg" alt="Egg 12">
+            <img src="https://www.inspiredtaste.net/wp-content/uploads/2024/03/Easy-Poached-Eggs-Recipe.jpg" alt="Egg 13">
+            <img src="https://thesouthernladycooks.com/wp-content/uploads/2024/01/Deviled-Eggs-LR-Website.jpg" alt="Egg 14">
+            <img src="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3520x1980+0+0/resize/3520x1980!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd7%2F89%2F9a8492614a99b9ecde6c81f69ec3%2Fap24085620593030.jpg" alt="Egg 15">
+            <img src="https://www.onceuponachef.com/images/2017/10/soft-boiled-eggs-1-1.jpg" alt="Egg 16">
+            <img src="https://i0.wp.com/louskitchencorner.freybors.com/wp-content/uploads/2020/08/scotch-eggs6.png?fit=768%2C768&ssl=1" alt="Egg 17">
+            <img src="https://modernfarmer.com/wp-content/uploads/2016/11/shutterstock_139606535-1-jpg.webp" alt="Egg 18">
+            <img src="https://tastesbetterfromscratch.com/wp-content/uploads/2014/04/Eggs-Florentine-9.jpg" alt="Egg 19">
+            <img src="https://www.keckmedicine.org/wp-content/uploads/2021/11/these-eggs-are-happy-because-they-are-loaded-with-health-benefits.jpg" alt="Egg 20">
         </div>
     </div>
 
