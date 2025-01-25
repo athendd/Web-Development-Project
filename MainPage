@@ -9,7 +9,7 @@
             margin: 0;
             font-family: Arial, sans-serif;
             text-align: center;
-            background-color: #fff;
+            background-color: #fdf8e1;
         }
 
         .banner {
