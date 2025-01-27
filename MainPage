@@ -63,9 +63,9 @@
         .flags {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-            gap: 10px;
-            max-width: 800px;
-            margin: 30px auto;
+            gap: 80px;
+            margin-left: 40px;
+            margin-right: 40px;
         }
 
         .flags img {
@@ -136,7 +136,7 @@
 
     <div class="flags">
         <a href="page-white.html"><img src="Pictures\white flag.jpg" alt="White Flag">General</a>
-        <a href="page-us.html"><img src="Pictures\us flag.png" alt="US Flag">US</a>
+        <a href="page-us.html"><img src="Pictures\us flag.png" alt="US Flag">United States</a>
         <a href="page-fr.html"><img src="Pictures\france flag.png" alt="France Flag">France</a>
         <a href="page-jp.html"><img src="Pictures\morocco flag.png" alt="Morocco Flag">Morocco</a>
         <a href="page-mx.html"><img src="Pictures\mexico flag.png" alt="Mexico Flag">Mexico</a>
