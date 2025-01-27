@@ -79,6 +79,7 @@
         .flags img:hover {
             transform: scale(1.1);
         }
+
     </style> 
 </head>
 <body>
@@ -134,12 +135,13 @@
     </div>
 
     <div class="flags">
-        <a href="page-us.html"><img src="Pictures\us flag.png" alt="US Flag"></a>
-        <a href="page-fr.html"><img src="Pictures\france flag.png" alt="France Flag"></a>
-        <a href="page-jp.html"><img src="Pictures\morocco flag.png" alt="Morocco Flag"></a>
-        <a href="page-mx.html"><img src="Pictures\mexico flag.png" alt="Mexico Flag"></a>
-        <a href="page-br.html"><img src="Pictures\brazil flag.png" alt="Brazil Flag"></a>
-        <a href="page-cn.html"><img src="Pictures\china flag.png" alt="China Flag"></a>
+        <a href="page-white.html"><img src="Pictures\white flag.jpg" alt="White Flag">General</a>
+        <a href="page-us.html"><img src="Pictures\us flag.png" alt="US Flag">US</a>
+        <a href="page-fr.html"><img src="Pictures\france flag.png" alt="France Flag">France</a>
+        <a href="page-jp.html"><img src="Pictures\morocco flag.png" alt="Morocco Flag">Morocco</a>
+        <a href="page-mx.html"><img src="Pictures\mexico flag.png" alt="Mexico Flag">Mexico</a>
+        <a href="page-br.html"><img src="Pictures\brazil flag.png" alt="Brazil Flag">Brazil</a>
+        <a href="page-cn.html"><img src="Pictures\china flag.png" alt="China Flag">China</a>
     </div>
 </body>
 </html>
