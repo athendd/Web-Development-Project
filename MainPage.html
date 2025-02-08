@@ -101,8 +101,9 @@
         }
 
     </style> 
-
+    
     <script>
+        const button = document.getElementById("recipeButton");
         /*
         const dishes = ["Omelette", "Boiled Egg", "Scrambled Eggs", "Poached Egg", "Sunny Side Up Egg",
         "Over Easy Egg", "Ovos Mexidos con Chourico", "Feijao Tropeiro", "Moqueca de Ovos", "Shakshuka",
@@ -111,13 +112,16 @@
         "Egg Foo Young", "Steamed Egg Custard", "Egg Fried Rice", "French Omlette", "Croque Madame", 
         "Quiche Lorraine", "Sous Vide"];
         */
-        const dishes = ["Country Pages/GEN-Page.html", "Country Pages/USA-Page.html", 
-        "Country Pages/FRC-Page.html", "Country Pages/MOR-Page.html", "Country Pages/MXC-Page.html",
-        "Country Pages/BRZ-Page.html", "Country Pages/CHN-Page.html"]
+        button.addEventListener("click", function(){
+            const dishes = ["Country Pages/GEN-Page.html", "Country Pages/USA-Page.html", 
+            "Country Pages/FRC-Page.html", "Country Pages/MOR-Page.html", "Country Pages/MXC-Page.html",
+            "Country Pages/BRZ-Page.html", "Country Pages/CHN-Page.html"]
 
-        let chosenIndex = Math.floor(Math.random() * dishes.length);
+            let chosenIndex = Math.floor(Math.random() * dishes.length);
 
-        window.location.href = dishes[chosenIndex];
+            window.location.href = dishes[chosenIndex];
+        });
+        
     </script>
 </head>
 <body>
@@ -170,7 +174,7 @@
 
     <div class="search-bar">
         <input type="text" placeholder="Search for some eggscellent recipes...">
-        <button type="button">Random Recipe Selector</button>
+        <button id = "recipeSelect" type="button">Random Recipe Selector</button>
     </div>
 
     <div class="flags">
