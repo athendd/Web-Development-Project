@@ -47,8 +47,28 @@
             text-decoration: underline;
         }
 
+        button
+        {
+            margin-left: 20px;
+            margin-top: 40px;
+            background-color: lightblue;
+            height: 50px;
+            font-weight: bold;
+            border-color: black;
+            border-width: 2px;
+            border-style:solid;
+        }
+        
+        button:hover
+        {
+            background-color: blue;
+        }
+
         .search-bar {
-            margin: 80px;
+            margin-top: 40px;
+            margin-bottom: 80px;
+            margin-left: 40px;
+            margin-right: 40px;
         }
         .search-bar input {
             width: 45%;
@@ -81,6 +101,15 @@
         }
 
     </style> 
+
+    <script>
+        const dishes = ["Omelette", "Boiled Egg", "Scrambled Eggs", "Poached Egg", "Sunny Side Up Egg",
+        "Over Easy Egg", "Ovos Mexidos con Chourico", "Feijao Tropeiro", "Moqueca de Ovos", "Shakshuka",
+        "Kefa Mkaouara", "Vegetable and Egg Tagine", "Chilaquiles con Heuovs", "Heuvos Divorciados",
+        "Heuvos Rancheros", "Avocado Toast", "Breakfeast Burrito", "Eggs Benedict", "Century Egg and Tofu",
+        "Egg Foo Young", "Steamed Egg Custard", "Egg Fried Rice", "French Omlette", "Croque Madame", 
+        "Quiche Lorraine", "Sous Vide"];
+    </script>
 </head>
 <body>
     <div class="banner">
@@ -132,6 +161,7 @@
 
     <div class="search-bar">
         <input type="text" placeholder="Search for some eggscellent recipes...">
+        <button type="button">Random Recipe Selector</button>
     </div>
 
     <div class="flags">
