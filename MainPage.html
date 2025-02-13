@@ -47,8 +47,28 @@
             text-decoration: underline;
         }
 
+        button
+        {
+            margin-left: 20px;
+            margin-top: 40px;
+            background-color: lightblue;
+            height: 50px;
+            font-weight: bold;
+            border-color: black;
+            border-width: 2px;
+            border-style:solid;
+        }
+        
+        button:hover
+        {
+            background-color: blue;
+        }
+
         .search-bar {
-            margin: 80px;
+            margin-top: 40px;
+            margin-bottom: 80px;
+            margin-left: 40px;
+            margin-right: 40px;
         }
         .search-bar input {
             width: 45%;
@@ -81,6 +101,7 @@
         }
 
     </style> 
+    
 </head>
 <body>
     <div class="banner">
@@ -132,7 +153,9 @@
 
     <div class="search-bar">
         <input type="text" placeholder="Search for some eggscellent recipes...">
+        <button id = "recipeButton" type="button">Random Recipe Selector</button>
     </div>
+    
 
     <div class="flags">
         <a href="Country Pages/GEN-Page.html"><img src="Pictures\Country Flags\White Flag.jpg" alt="General">General</a>
@@ -144,4 +167,26 @@
         <a href="Country Pages/CHN-Page.html"><img src="Pictures\Country Flags\China Flag.png" alt="China Flag">China</a>
     </div>
 </body>
+
+<script>
+    const button = document.getElementById("recipeButton");
+    /*
+    const dishes = ["Omelette", "Boiled Egg", "Scrambled Eggs", "Poached Egg", "Sunny Side Up Egg",
+    "Over Easy Egg", "Ovos Mexidos con Chourico", "Feijao Tropeiro", "Moqueca de Ovos", "Shakshuka",
+    "Kefa Mkaouara", "Vegetable and Egg Tagine", "Chilaquiles con Heuovs", "Heuvos Divorciados",
+    "Heuvos Rancheros", "Avocado Toast", "Breakfeast Burrito", "Eggs Benedict", "Century Egg and Tofu",
+    "Egg Foo Young", "Steamed Egg Custard", "Egg Fried Rice", "French Omlette", "Croque Madame", 
+    "Quiche Lorraine", "Sous Vide"];
+    */
+    button.addEventListener("click", function(){
+        const dishes = ["Country Pages/GEN-Page.html", "Country Pages/USA-Page.html", 
+        "Country Pages/FRC-Page.html", "Country Pages/MOR-Page.html", "Country Pages/MXC-Page.html",
+        "Country Pages/BRZ-Page.html", "Country Pages/CHN-Page.html"]
+
+        let chosenIndex = Math.floor(Math.random() * dishes.length);
+
+        window.location.href = dishes[chosenIndex];
+    });
+    
+</script>
 </html>
