@@ -1,23 +1,6 @@
 let foodDictionary;
-/*
-let foodDictionary = new Map([
-    ["Protein", 0],
-    ["Cholesterol", 0],
-    ["Total Fat", 0],
-    ["Sugars", 0],
-    ["Calories", 0],
-    ["Sodium", 0], 
-    ["Saturated Fat", 0],
-    ["Fiber", 0],
-    ["Carbohydrates", 0]
-]);
-const gramCalculations = [30, 60, 28, 200, 50, 40, 28, 80];
-const queries = ["Eggs, Grade A, Large, egg whole", "chorizo", "bacon", "tater tots", "yellow onion", "cheddar cheese", "sour cream", "flour tortilla"];
-*/
 window.processAllFoods = processAllFoods;
 const event = new Event('dataLoaded');
-
-//processAllFoods();
 
 async function searchFood(query)
 {
