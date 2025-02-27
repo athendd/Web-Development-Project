@@ -165,7 +165,7 @@
         }
     </style>
 
-    <script src="webscraper.js"></script>
+    <script src="C:\Users\thynnea\OneDrive - Delsys Inc\Documents\GitHub\Web-Development-Project\webscraper.js"></script>
     <script>
         const gramCalculations = [30, 60, 28, 200, 50, 40, 28, 80];
         const queries = ["Eggs, Grade A, Large, egg whole", "chorizo", "bacon", "tater tots", "yellow onion", "cheddar cheese", "sour cream", "flour tortilla"];
@@ -173,7 +173,6 @@
     </script>
     <script>
         document.addEventListener('dataLoaded', function() {  
-            console.log('here');
             console.log(foodDictionary);
             document.querySelector("#proteinRow td:last-child").textContent = foodDictionary.get("Protein") + " G";
             document.querySelector("#sugarsRow td:last-child").textContent = foodDictionary.get("Sugars") + " G";
