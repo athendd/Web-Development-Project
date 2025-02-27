@@ -3,59 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>General Recipes</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #fdf8e1;
-        }
-        a {
-            text-decoration: none;
-            color: #000;
-        }
-        .home-button {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            padding: 10px 20px;
-            background-color: #fff;
-            border: 2px solid #d2b48c;
-            border-radius: 5px;
-            font-size: 1em;
-            font-weight: bold;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-        .home-button:hover {
-            background-color: #d2b48c;
-            color: #fff;
-        }
-        .dishes {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 20px;
-            padding: 20px;
-        }
-        .dish {
-            text-align: center;
-        }
-        .dish img {
-            width: 150px;
-            height: 150px;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: transform 0.2s ease;
-        }
-        .dish img:hover {
-            transform: scale(1.1);
-        }
-    </style>
+    <title>Country Page</title>
+    <link rel="stylesheet" href="CountryPage.css">
+    <script src="CountryPage.js" defer></script>
 </head>
 <body>
-    <a href="../MainPage.html" class="home-button">Home</a>
-    <h1>General Recipes</h1>
+    <a href="../../MainPage/MainPage.html" class="home-button">Home</a>
+    <h1 id="country-title">Loading...</h1>
+    <div id="country-content">Loading recipes...</div>
     
     <div class="dishes">
         <div class="dish"><a href="../General Dishes/Omelette.html"><img src="../Pictures/General Dishes/Omelette.jpg" alt="Dish 1"><br>Dish 1</a></div>
