@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fdf8e1;
+}
+
+
+
+.banner {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+.banner-images {
+    display: flex;
+    position: absolute;
+    animation: scrollRight 40s linear infinite;
+}
+.banner-images img {
+    height: 150px;
+    width: auto;
+}
+@keyframes scrollRight {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+
+
+h1 {
+    font-size: 4em;
+    font-weight: bold;
+    margin: 20px 0;
+    font-family: 'Calluna';
+    color: #d2b48c;
+    text-decoration: underline;
+}
+
+
+
+button {
+    margin-left: 20px;
+    margin-top: 40px;
+    background-color: lightblue;
+    height: 50px;
+    font-weight: bold;
+    border-color: black;
+    border-width: 2px;
+    border-style:solid;
+}
+button:hover {
+    background-color: blue;
+}
+
+
+
+.search-bar {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.search-bar input {
+    width: 45%;
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+.flags {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.flags img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+.flags img:hover {
+    transform: scale(1.1);
+}
