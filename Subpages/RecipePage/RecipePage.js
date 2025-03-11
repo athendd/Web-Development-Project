@@ -84,7 +84,6 @@ function checkData(nutrientIds, ids, food, nutrientMap)
 function getFoodData(data, currentFood, gramCalculations, foodDictionary, categories)
 {
     const updatedFoods = filterFoods(data.foods, currentFood, categories);
-    // Check if updated foods is empty or not 
     const firstFoodItem = updatedFoods[0];
     const foodNutrients = firstFoodItem.foodNutrients;
     let nutrientMap = {
@@ -106,6 +105,7 @@ function getFoodData(data, currentFood, gramCalculations, foodDictionary, catego
         delete nutrientMap[1005];
         nutrientMap[1050] = "Carbohydrate";
     }
+    console.log(firstFoodItem);
 
     /*
     Only use to check if an ingredient contains all necessary nutrients
@@ -118,14 +118,7 @@ function getFoodData(data, currentFood, gramCalculations, foodDictionary, catego
     foodNutrients.forEach(attr =>{
         if (nutrientMap[attr.nutrientId]) {
             let newValue = 0;
-            if (!firstFoodItem.hasOwnProperty("servingSize"))
-            {
-                newValue = ((attr.value * gramCalculations[currentFood])/100);
-            }
-            else
-            {
-                newValue = ((attr.value/firstFoodItem.servingSize) * gramCalculations[currentFood]);
-            }
+            newValue = ((attr.value * gramCalculations[currentFood])/100);
             foodDictionary[nutrientMap[attr.nutrientId]] += newValue;
         }
     });
