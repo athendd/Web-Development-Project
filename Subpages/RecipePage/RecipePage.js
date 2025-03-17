@@ -37,8 +37,7 @@ function filterFoods(foods, currentFood, categories)
     const currentCategories = categories[currentFood];
     for (const food of foods)
     {
-        if (currentCategories.includes(food.foodCategory) && food.description.toLowerCase().includes(currentFood.toLowerCase()) && (food.servingSizeUnit == "g" ||
-            !food.hasOwnProperty("servingSize")))
+        if (currentCategories.includes(food.foodCategory) && (food.servingSizeUnit == "g" || !food.hasOwnProperty("servingSize")))
         {
             updatedFoods.push(food);
         }
@@ -210,8 +209,13 @@ document.addEventListener("DOMContentLoaded", async function () {
     });
     currentRecipe["references"].forEach(item => {
         const li = document.createElement("li");
-        li.textContent = item;
-        referencesLink.appendChild(li);
+        const a = document.createElement("a");
+        a.href = item;      
+        a.textContent = item; 
+        // Opens the link in a new tab
+        a.target = "_blank";  
+        li.appendChild(a);   
+        referencesLink.appendChild(li); 
     })
 
     let nutritionDictionary = currentRecipe["nutrition"];

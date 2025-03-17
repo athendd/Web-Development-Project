@@ -101,6 +101,624 @@
         "Chorizo": "Chorizo"
       },
       "references": []
+    },
+    "Croque Madame": {
+      "name": "Croque Madame",
+      "image": "../../Pictures/Recipes/French/Croque Madame.webp",
+      "ingredients": [
+        "Unsalted Butter",
+        "All-purpose flour",
+        "Whole milk",
+        "Gruyère cheese, grated",
+        "Nutmeg",
+        "Sourdough bread",
+        "Cooked ham, thinly sliced",
+        "Dijon mustard",
+        "Eggs"
+      ],
+      "instructions": [
+        "In a medium saucepan over medium heat, melt the 30 grams of butter",
+        "Add the 30 grams of flour and whisk continuously for 2-3 minutes. This creates a roux. Ensure it doesn't brown",
+        "Gradually pour in the 300ml of whole milk, whisking constantly to prevent lumps",
+        "Bring the mixture to a simmer over medium heat, stirring regularly. The sauce will thicken",
+        "Season with salt, pepper, and a pinch of nutmeg and cheese",
+        "Reduce the heat to low and stir in the 60 grams of Gruyère cheese until melted and smooth",
+        "Keep the Mornay sauce warm",
+        "Preheat your oven to 220°C (430°F)",
+        "Brush both sides of the 2 slices of bread with the melted 20 grams of butter",
+        "Place them on a baking sheet and lightly toast them in the oven for about 3-5 minutes, or until golden",
+        "Spread a generous amount of the Mornay sauce on one side of each toasted bread slice",
+        "On one slice, layer half the grated Gruyère, the 150 grams of ham, and spread the 2 teaspoons of Dijon mustard over the ham",
+        "Then add the remainding grate gruyere",
+        "Top with the second piece of bread",
+        "Top with Mornay and Cheese",
+        "Cover the top of each sandwich with the remaining Mornay sauce and sprinkle with the remaining grated Gruyère cheese",
+        "Bake the sandwiches in the preheated oven for approximately 10 minutes, or until the cheese is melted and golden brown",
+        "If you have a broiler setting, you can broil for the last couple minutes, watching close to prevent burning, for a nicely browned top",
+        "While the sandwiches are baking, heat 1 tablespoon of olive oil in a frying pan over medium heat",
+        "Carefully crack the 2 eggs into the pan and fry them sunny-side up, or to your desired doneness",
+        "Season with salt and pepper",
+        "Once the sandwiches are baked, place a fried egg on top of each sandwich",
+        "Enjoy"
+      ],
+      "nutrition": {
+        "Calories": 0,
+        "Total Fat": 0,
+        "Saturated Fat": 0,
+        "Cholesterol": 0,
+        "Sodium": 0,
+        "Carbohydrate": 0,
+        "Fiber": 0,
+        "Sugars": 0,
+        "Protein": 0
+      },
+      "lastUpdate": "Tue Mar 11 2023 12:47:01 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "If the Mornay sauce becomes too thick, add a splash of warm milk to thin it out",
+        "Gruyère is the traditional cheese, but you can also use Comté or a combination of cheeses",
+        "A sturdy bread like sourdough or brioche holds up well to the sauce and toppings",
+        "Toast the bread lightly before assembling the sandwich to prevent it from becoming soggy",
+        "For perfectly round fried eggs, you can use a cooking ring",
+        "Feel free to add other ingredients like caramelized onions or mushrooms to your sandwich"
+      ],
+      "gram calculations": {
+        "Unsalted Butter": 50,
+        "All-purpose flour": 30,
+        "Whole milk": 300,
+        "Gruyère cheese, grated": 140,
+        "Nutmeg": 0.3,
+        "Sourdough bread": 64,
+        "Cooked ham, thinly sliced": 150,
+        "Dijon mustard": 12,
+        "Eggs": 100
+      },
+      "categories": {
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ],
+        "Dijon Mustard": [
+          "Ketchup, Mustard, BBQ & Cheese Sauce"
+        ],
+        "All-purpose flour": [
+          "Flours & Corn Meal"
+        ],
+        "Gruyere cheese, grated": [
+          "Cheese"
+        ],
+        "Sourdough bread": [
+          "Breads & Buns"
+        ],
+        "Unsalted Butter": [
+          "Butter & Spread"
+        ],
+        "Nutmeg": [
+          "Spices and Herbs"
+        ],
+        "Whole milk": [
+          "Milk, whole"
+        ],
+        "Cooked ham, thinly sliced": [
+          "Pepperoni, Salami & Cold Cuts",
+          "Cooked & Prepared"
+        ]
+      },
+      "queries": {
+        "Unsalted Butter": "Butter, unsalted",
+        "All-purpose flour": "Flour, all-purpose",
+        "Whole milk": "Milk, whole",
+        "Gruyère cheese, grated": "Cheese, gruyere",
+        "Nutmeg": "Spices, nutmeg, ground",
+        "Sourdough bread": "Sourdough bread",
+        "Cooked ham, thinly sliced": "Cooked Ham",
+        "Dijon mustard": "Dijon Mustard, Dijon",
+        "Eggs": "Eggs, Grade A, Large, egg whole"
+      },
+      "references": []
+    },
+    "Sunny Side Up Egg": {
+      "name": "Sunny Side Up Egg",
+      "image": "../../Pictures/Recipes/General/SunnySideUpEgg.jpg",
+      "ingredients": [
+        "Eggs"
+      ],
+      "instructions": [
+        "Heat a saucepan up to low heat",
+        "Add some butter or olive oil to the saucepan",
+        "Crack an egg into the saucepan",
+        "Use a spoon and scoop the butter or olive oil in the pan onto the egg yolk",
+        "Once the egg white is set, remove the egg from the saucepan",
+        "Add some salt and pepper",
+        "Enjoy"
+      ],
+      "nutrition": {
+        "Calories": 0,
+        "Total Fat": 0,
+        "Saturated Fat": 0,
+        "Cholesterol": 0,
+        "Sodium": 0,
+        "Carbohydrate": 0,
+        "Fiber": 0,
+        "Sugars": 0,
+        "Protein": 0
+      },
+      "lastUpdate": "Tue Mar 11 2023 12:47:01 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "Add seasonings once the egg is finished cooking",
+        "Use a combination of butter and olive oil"
+      ],
+      "gram calculations": {
+        "Eggs": 50
+      },
+      "categories": {
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ]
+      },
+      "queries": {
+        "Eggs": "Eggs, Grade A, Large, egg whole"
+      },
+      "references": []
+    },
+    "Poached Egg": {
+      "name": "Poached Egg",
+      "image": "../../Pictures/Recipes/General/PoachedEgg.jpg",
+      "ingredients": [
+        "Eggs"
+      ],
+      "instructions": [
+        "Bring a large pot of water to a boil, then reduce to low (or turn off the heat)",
+        "Crack the egg in a fine mesh sieve (over a small bowl) and remove the liquidy",
+        "Transfer the egg to a small ramekin or bowl",
+        "Add one tablespoon of light-colored vinegar to the pot and stir to create a vortex",
+        "Pour the ramekin with the egg into the middle of the vortex and set a timer for 3 minutes",
+        "Once the egg is done, use a slotted spoon to remove the poached egg. Dab with a paper towel to remove excess water and enjoy"
+      ],
+      "nutrition": {
+        "Calories": 0,
+        "Total Fat": 0,
+        "Saturated Fat": 0,
+        "Cholesterol": 0,
+        "Sodium": 0,
+        "Carbohydrate": 0,
+        "Fiber": 0,
+        "Sugars": 0,
+        "Protein": 0
+      },
+      "lastUpdate": "Tue Mar 11 2023 12:47:01 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "Use a fresh egg",
+        "Use a deep pot"
+      ],
+      "gram calculations": {
+        "Eggs": 100
+      },
+      "categories": {
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ]
+      },
+      "queries": {
+        "Eggs": "Eggs, Grade A, Large, egg whole"
+      },
+      "references": ["https://downshiftology.com/recipes/poached-eggs/"]
+    },
+    "Shakshuka": {
+      "name": "Shakshuka",
+      "image": "../../Pictures/Recipes/Moroccan/Shakshuka.jpg",
+      "ingredients": [
+        "Onion, finely chopped",
+        "Garlic, minced",
+        "Red bell pepper, diced",
+        "Canned tomatoes, crushed",
+        "Tomato paste",
+        "Ground cumin",
+        "Paprika",
+        "Cayenne pepper",
+        "Eggs",
+        "Feta cheese, crumbled",
+        "Fresh parsley, chopped"
+      ],
+      "instructions": [
+        "Heat 30 grams of olive oil in a large skillet over medium heat",
+        "Add 120 grams of finely chopped onion and sauté for about 3-4 minutes until softened",
+        "Stir in 10 grams of minced garlic and cook for another minute until fragrant",
+        "Add 150 grams of diced red bell pepper and sauté for 5-7 minutes until softened",
+        "Pour in 400 grams of crushed canned tomatoes and 30 grams of tomato paste, stirring well to combine",
+        "Season with 5 grams of ground cumin, 5 grams of paprika, 1 gram of cayenne pepper, 5 grams of salt, and 3 grams of black pepper",
+        "Simmer for 10-15 minutes, stirring occasionally, until the sauce thickens slightly",
+        "Make small wells in the sauce and crack 4 eggs (about 200 grams) into the wells",
+        "Cover and cook for 5-8 minutes until the egg whites are set but yolks remain slightly runny",
+        "Sprinkle with 50 grams of crumbled feta cheese and 15 grams of freshly chopped parsley",
+        "Enjoy with warm bread for dipping"
+      ],
+      "nutrition": {
+        "Calories": 0,
+        "Total Fat": 0,
+        "Saturated Fat": 0,
+        "Cholesterol": 0,
+        "Sodium": 0,
+        "Carbohydrate": 0,
+        "Fiber": 0,
+        "Sugars": 0,
+        "Protein": 0
+      },
+      "lastUpdate": "Mon Mar 17 2022 14:20:00 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "For extra depth of flavor, let the sauce simmer longer before adding the eggs",
+        "If the sauce thickens too much, add a splash of water or vegetable broth to loosen it",
+        "Covering the pan while cooking the eggs helps them set more evenly",
+        "For a spicier shakshuka, increase the cayenne pepper or add chopped chili peppers",
+        "Serve with warm pita, sourdough, or crusty bread to soak up the sauce"
+      ],
+      "gram calculations": {
+        "Onion": 120,
+        "Garlic": 10,
+        "Red bell pepper": 150,
+        "Canned tomatoes, crushed": 400,
+        "Tomato paste": 30,
+        "Ground cumin": 5,
+        "Paprika": 5,
+        "Cayenne pepper": 1,
+        "Eggs": 200,
+        "Feta cheese": 50,
+        "Fresh parsley": 15
+      },
+      "categories": {
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ],
+        "Onion": [
+          "Pre-Packed Fruit & Vegetables",
+          "Vegetables and Vegetable Products"
+        ],
+        "Garlic": [
+          "Pre-Packaged Fruit & Vegetables"
+        ],
+        "Red bell pepper": [
+          "Vegetables and Vegetable Products"
+        ],
+        "Canned tomatoes, crushed": [
+          "Vegetables and Vegetable Products"
+        ],
+        "Tomato paste": [
+          "Tomatoes"
+        ],
+        "Ground cumin": [
+          "Herbs & Spices"
+        ],
+        "Paprika": [
+          "Herbs & Spices"
+        ],
+        "Cayenne pepper": [
+          "Herbs & Spices"
+        ],
+        "Feta cheese":[
+          "Cheese"
+        ],
+        "Fresh parsley":[
+          "Vegetables and Vegetable Products"
+        ]
+      },
+      "queries": {
+        "Unsalted Butter": "Butter, unsalted",
+        "Onion": "Yellow Onion",
+        "Garlic": "Garlic",
+        "Red bell pepper": "Peppers, bell, red, raw",
+        "Canned tomatoes, crushed": "Tomatoes, crushed, canned",
+        "Tomato paste": "Tomato Paste",
+        "Ground cumin": "Ground Cumin",
+        "Paprika": "Paprika",
+        "Cayenne pepper": "Cayenne Pepper",
+        "Eggs": "Eggs, Grade A, Large, egg whole",
+        "Feta cheese": "Feta Cheese Crumbles, Feta Cheese",
+        "Fresh parsley": "Parsley, fresh"
+      },
+      "references": []
+    },  
+    "Huevos Rancheros": {
+      "name": "Huevos Rancheros",
+      "image": "../../Pictures/Recipes/Mexican/huevos-racheros.jpg",
+      "ingredients": [
+        "Onion, diced",
+        "Garlic, minced",
+        "Jalapeño, diced",
+        "Canned tomatoes, crushed",
+        "Tomato paste",
+        "Ground cumin",
+        "Paprika",
+        "Eggs",
+        "Corn tortilla",
+        "Refried beans",
+        "Fresh cilantro, chopped",
+        "Cotija cheese, crumbled"
+      ],
+      "instructions": [
+        "Heat 30 grams of olive oil in a skillet over medium heat",
+        "Add 100 grams of finely chopped onion and sauté for about 3-4 minutes until softened",
+        "Stir in 10 grams of minced garlic and 1 diced jalapeño (about 20 grams), cooking for another minute until fragrant",
+        "Pour in 400 grams of crushed canned tomatoes and 20 grams of tomato paste, stirring to combine",
+        "Season with 5 grams of ground cumin, 5 grams of paprika, 5 grams of salt, and 3 grams of black pepper",
+        "Simmer for 10-12 minutes, stirring occasionally, until the sauce thickens",
+        "In a separate pan, heat 10 grams of olive oil over medium heat and lightly fry 4 corn tortillas (about 120 grams total) until golden and crispy. Set aside",
+        "Heat another 10 grams of olive oil and fry 4 eggs (about 200 grams total) to your preferred doneness",
+        "Warm 200 grams of refried beans and spread evenly over the fried tortillas",
+        "Spoon the tomato sauce over the beans, then top each with a fried egg",
+        "Garnish with 15 grams of freshly chopped cilantro",
+        "Enjoy"
+      ],
+      "nutrition": {
+        "Calories": 0,
+        "Total Fat": 0,
+        "Saturated Fat": 0,
+        "Cholesterol": 0,
+        "Sodium": 0,
+        "Carbohydrate": 0,
+        "Fiber": 0,
+        "Sugars": 0,
+        "Protein": 0
+      },
+      "lastUpdate": "Mon Mar 17 2025 14:35:00 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "For a smokier flavor, roast the jalapeño and tomatoes before blending into the sauce",
+        "If you prefer a spicier sauce, add extra jalapeño or a dash of hot sauce",
+        "Use freshly made refried beans for the best flavor, or mix in a little lime juice for extra zest"
+      ],
+      "gram calculations": {
+        "Onion": 100,
+        "Garlic": 10,
+        "Jalapeno": 20,
+        "Canned tomatoes, crushed": 400,
+        "Tomato paste": 20,
+        "Ground cumin": 5,
+        "Paprika": 5,
+        "Eggs": 200,
+        "Corn tortillas": 120,
+        "Refried beans": 200,
+        "Fresh cilantro": 15
+      },
+      "categories": {
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ],
+        "Onion": [
+          "Pre-Packed Fruit & Vegetables",
+          "Vegetables and Vegetable Products"
+        ],
+        "Garlic": [
+          "Pre-Packaged Fruit & Vegetables"
+        ],
+        "Canned tomatoes, crushed": [
+          "Vegetables and Vegetable Products"
+        ],
+        "Tomato paste": [
+          "Tomatoes"
+        ],
+        "Ground cumin": [
+          "Herbs & Spices"
+        ],
+        "Paprika": [
+          "Herbs & Spices"
+        ],
+        "Jalapeno":[
+          "Pre-Packaged Fruit & Vegetables"
+        ],
+        "Refried beans":[
+          "Beans, peas, legumes",
+          "Canned & Bottled Beans"
+        ],
+        "Fresh cilantro":[
+          "Herbs & Spices"
+        ],
+        "Corn tortillas":[
+          "Mexican Dinner Mixes"
+        ]
+      },
+      "queries": {
+        "Onion": "Yellow Onion",
+        "Garlic": "Garlic",
+        "Canned tomatoes, crushed": "Tomatoes, crushed, canned",
+        "Tomato paste": "Tomato Paste",
+        "Ground cumin": "Ground Cumin",
+        "Paprika": "Paprika",
+        "Jalapeno": "Jalapeno",
+        "Refried beans": "Refried Beans",
+        "Fresh cilantro": "Cilantro",
+        "Corn tortillas": "Corn Tortilla",
+        "Eggs": "Eggs, Grade A, Large, egg whole"
+      },
+      "references": []
+    },
+    "Ovos Mexidos com Chorizo": {
+      "name": "Ovos Mexidos com Chorizo",
+      "image": "../../Pictures/Recipes/Brazilian/Ovos mexicado com chorizo.web",
+      "ingredients": [
+        "Chorizo",
+        "Onion, finely chopped",
+        "Garlic, minced",
+        "Eggs",
+        "Whole milk",
+        "Fresh parsley, chopped"
+      ],
+      "instructions": [
+        "Heat 20 grams of olive oil in a pan over medium heat",
+        "Add 100 grams of diced chorizo and cook for 3-4 minutes until it releases its oils and becomes crispy",
+        "Stir in 50 grams of finely chopped onion and cook until softened, about 2-3 minutes",
+        "Add 5 grams of minced garlic and sauté for another minute until fragrant",
+        "In a bowl, whisk 4 eggs (about 200 grams total) with 30 grams of whole milk, 3 grams of salt, and 2 grams of black pepper",
+        "Reduce heat to low and pour the egg mixture into the pan, stirring continuously to scramble",
+        "Cook gently until the eggs are just set but still soft, about 3-4 minutes",
+        "Remove from heat and sprinkle with 10 grams of freshly chopped parsley",
+        "Enjoy"
+      ],
+      "nutrition": {
+        "Calories": 0,
+        "Total Fat": 0,
+        "Saturated Fat": 0,
+        "Cholesterol": 0,
+        "Sodium": 0,
+        "Carbohydrate": 0,
+        "Fiber": 0,
+        "Sugars": 0,
+        "Protein": 0
+      },
+      "lastUpdate": "Mon Mar 17 2022 14:45:00 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "Use a good-quality chorizo for the best flavor",
+        "For creamier scrambled eggs, cook them on low heat and stir gently",
+        "If you like a spicier version, try adding a pinch of smoked paprika or chili flakes",
+        "Serve with rustic bread",
+        "You can add a handful of grated cheese at the end for a richer dish"
+      ],
+      "gram calculations": {
+        "Chourico": 100,
+        "Onion": 50,
+        "Garlic": 5,
+        "Eggs": 200,
+        "Whole milk": 30,
+        "Fresh parsley": 10
+      },
+      "categories": {
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ],
+        "Onion": [
+          "Pre-Packed Fruit & Vegetables",
+          "Vegetables and Vegetable Products"
+        ],
+        "Garlic": [
+          "Pre-Packaged Fruit & Vegetables"
+        ],
+        "Fresh parsley":[
+          "Vegetables and Vegetable Products"
+        ],
+        "Whole milk": [
+          "Milk, whole"
+        ],
+        "Chorizo": [
+          "Sausages, Hotdogs & Brats",
+          "Sausages"
+        ]
+      },
+      "queries": {
+        "Whole milk": "Milk, whole",
+        "Fresh parsley": "Parsley, fresh",
+        "Onion": "Yellow Onion",
+        "Garlic": "Garlic",
+        "Eggs": "Eggs, Grade A, Large, egg whole",
+        "Chorizo": "Chorizo"
+      },
+      "references": []
+    },
+    "Chilaquiles con Huevos": {
+      "name": "Chilaquiles con Huevos",
+      "image": "../../Pictures/Recipes/Mexican/chilaquiles con heuvos.jpg",
+      "ingredients": [
+        "Corn chips",
+        "Eggs",
+        "Tomatoes, chopped",
+        "Onion, finely chopped",
+        "Garlic, minced",
+        "Jalapeño, sliced",
+        "Chicken broth",
+        "Tomato sauce",
+        "Cilantro, chopped",
+        "Queso fresco, crumbled",
+        "Crema Mexicana",
+        "Avocado, sliced"
+      ],
+      "instructions": [
+        "In a blender, combine 150 grams of chopped tomatoes, 50 grams of finely chopped onion, 5 grams of minced garlic, 1 sliced jalapeño, 200 ml of chicken broth, and 100 grams of tomato sauce. Blend until smooth",
+        "In a large skillet, heat 10 grams of vegetable oil over medium heat and pour in the blended sauce. Simmer for 5-7 minutes until slightly thickened",
+        "Season the sauce with 3 grams of salt and 2 grams of black pepper",
+        "Add the fried tortilla chips to the skillet and gently toss to coat them in the sauce. Cook for 2-3 minutes until they soften slightly but remain crisp",
+        "In a separate pan, heat 10 grams of oil and fry 2 eggs (about 100 grams total) to your preferred doneness, seasoning with salt and pepper",
+        "Serve the chilaquiles on a plate and top each portion with a fried egg",
+        "Garnish with 10 grams of chopped cilantro",
+        "Serve immediately"
+      ],
+      "nutrition": {
+        "Calories": 0,
+        "Total Fat": 0,
+        "Saturated Fat": 0,
+        "Cholesterol": 0,
+        "Sodium": 0,
+        "Carbohydrate": 0,
+        "Fiber": 0,
+        "Sugars": 0,
+        "Protein": 0
+      },
+      "lastUpdate": "Mon Mar 17 2022 15:00:00 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "If you prefer a spicier sauce, add more jalapeños or a pinch of cayenne pepper",
+        "For a richer flavor, roast the tomatoes, onions, and garlic before blending the sauce",
+        "You can also add shredded chicken or black beans for extra protein",
+        "Chilaquiles can be served with red or green sauce, depending on preference"
+      ],
+      "gram calculations": {
+        "Corn chips": 200,
+        "Eggs": 100,
+        "Tomatoes": 150,
+        "Onion": 50,
+        "Garlic": 5,
+        "Jalapeño": 1,
+        "Chicken broth": 200,
+        "Tomato sauce": 100,
+        "Fresh cilantro": 10,
+        "Queso fresco": 40
+      },
+      "categories": {
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ],
+        "Jalapeno":[
+          "Pre-Packaged Fruit & Vegetables"
+        ],
+        "Onion": [
+          "Pre-Packed Fruit & Vegetables",
+          "Vegetables and Vegetable Products"
+        ],
+        "Garlic": [
+          "Pre-Packaged Fruit & Vegetables"
+        ],
+        "Fresh cilantro":[
+          "Herbs & Spices"
+        ],
+        "Tomatoes":[
+          "Tomatoes"
+        ],
+        "Tomato sauce":[
+          "Tomatoes"
+        ],
+        "Chicken broth":[
+          "Canned Soup"
+        ],
+        "Corn chips":[
+          "Chips, Pretzels & Snacks"
+        ],
+        "Queso fresco":[
+          "Cheese"
+        ]
+      },
+      "queries": {
+        "Onion": "Yellow Onion",
+        "Garlic": "Garlic",
+        "Eggs": "Eggs, Grade A, Large, egg whole",
+        "Jalapeno": "Jalapeno",
+        "Fresh cilantro": "Cilantro",
+        "Tomatoes": "Tomatoes",
+        "Tomato sauce": "Tomato sauce",
+        "Chicken broth": "Chicken Broth",
+        "Corn chips": "Corn Chips",
+        "Queso fresco": "Queso Fresco Fresh Crumbling cheese, queso fresco"
+      },
+      "references": []
     }
   }
 }
