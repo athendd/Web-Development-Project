@@ -3,27 +3,62 @@ document.addEventListener("DOMContentLoaded", function () {
     const urlParams = new URLSearchParams(window.location.search);
     const country = urlParams.get("country");
 
-    // Reference elements
-    const titleElement = document.getElementById("country-title");
-    const contentElement = document.getElementById("country-content");
+    // Reference HTML elements
+    const countryTitle = document.getElementById("country-title");
+    const countryRecipes = document.querySelector(".country-recipes");
 
     // Country data
     const countryData = {
-        GEN: { title: "General Recipes", content: "Here are some general egg recipes." },
-        USA: { title: "American Recipes", content: "Enjoy classic American egg dishes like Eggs Benedict and Breakfast Burritos." },
-        FRC: { title: "French Recipes", content: "Try delicious French egg dishes like Quiche Lorraine and French Omelette." },
-        MOR: { title: "Moroccan Recipes", content: "Taste Moroccan egg dishes like Shakshuka and Egg Tagine." },
-        MXC: { title: "Mexican Recipes", content: "Spice up your meal with Chilaquiles and Huevos Rancheros." },
-        BRZ: { title: "Brazilian Recipes", content: "Enjoy Feijão Tropeiro and Moqueca de Ovos." },
-        CHN: { title: "Chinese Recipes", content: "Explore Egg Fried Rice and Steamed Egg Custard." }
+        General: {
+            title: "General Recipes",
+            recipes: ["Baked", "Boiled", "Deviled", "Omelette","Over Easy", "Poached", "Scrambled", "Sunny Side Up"]
+        },
+        America: { 
+            title: "American Recipes",
+            recipes: ["Avocado Toast", "Breakfast Burrito", "Eggs Benedict"]
+        },
+        Brazil: { 
+            title: "Brazilian Recipes",
+            recipes: ["Feijao Tropeiro", "Moqueca de Ovos", "Ovos Mexidos com Chouriço"]
+        },
+        China: { 
+            title: "Chinese Recipes",
+            recipes: ["Century Egg and Tofu", "Egg Foo Young", "Egg Fried Rice", "Steamed Egg Custard"]
+        },
+        France: { 
+            title: "French Recipes",
+            recipes: ["Croque Madame", "French Omelette", "Quiche Lorraine", "Sous Vide"]
+        },
+        Mexico: { 
+            title: "Mexican Recipes",
+            recipes: ["Chilaquiles con Huevos", "Huevos Divorciados", "Huevos Rancheros"]
+        },
+        Morocco: { 
+            title: "Moroccan Recipes",
+            recipes: ["Kefta Mkaouara", "Shakshuka", "Vegetable and Egg Tagine"]
+        }
     };
 
-    // Set content if country is found, otherwise show default
-    if (countryData[country]) {
-        titleElement.textContent = countryData[country].title;
-        contentElement.textContent = countryData[country].content;
-    } else {
-        titleElement.textContent = "Unknown Country";
-        contentElement.textContent = "Please select a valid country.";
-    }
+    // Set country title
+    countryTitle.textContent = countryData[country].title;
+
+    // Populate recipe links/images
+    countryRecipes.innerHTML = ""; // Clear previous content
+    countryData[country].recipes.forEach(recipe => {
+        const recipeDiv = document.createElement("div");
+        recipeDiv.classList.add("recipe");
+
+        const recipeLink = document.createElement("a");
+        recipeLink.href = `../RecipePage/RecipePage.html?recipe=${encodeURIComponent(recipe)}`;
+
+        const recipeImg = document.createElement("img");
+        recipeImg.src = `../../Pictures/Recipes/${country}/${recipe}.jpg`;
+        recipeImg.alt = `${recipe} Image`;
+
+        recipeLink.appendChild(recipeImg);
+        recipeLink.innerHTML += `<br>${recipe}`;
+
+        recipeDiv.appendChild(recipeLink);
+        countryRecipes.appendChild(recipeDiv);
+    });
 });

@@ -1,0 +1,13 @@
+The General recipes should include Omelette, Boiled, Scrambled, Poached, Sunny Side Up, Over Easy, Baked, and Deviled.
+
+The American recipes should include Avocado Toast, Breakfast Burrito, and Eggs Benedict
+
+The Chinese recipes should include Century Egg and Tofu, Egg Foo Young, Steamed Egg Custard, and Egg Fried Rice
+
+The Brazilian recipes should include Ovos Mexidos com Chouriço, Feijao Tropeiro, and Moqueca de Ovos
+
+The Moroccan recipes should include Shakshuka, Kefta Mkaouara, and Vegetable and Egg Tagine
+
+The Mexican recipes should include Chilaquiles con Heuvos, Huevos Divorciados, and Heuvos Rancheros
+
+The French recipes should include French Omelette, Croque Madame, Quiche Lorraine, and Sous Vide

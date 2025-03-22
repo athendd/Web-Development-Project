@@ -1,23 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // random recipe button
-    const dishes = [
-        "Country Pages/GEN-Page.html",
-        "Country Pages/USA-Page.html",
-        "Country Pages/FRC-Page.html",
-        "Country Pages/MOR-Page.html",
-        "Country Pages/MXC-Page.html",
-        "Country Pages/BRZ-Page.html",
-        "Country Pages/CHN-Page.html"
-    ];
-    const button = document.getElementById("recipeButton");
-    if (button) {
-        button.addEventListener("click", function () {
-            let chosenIndex = Math.floor(Math.random()*dishes.length);
-            window.location.href = dishes[chosenIndex];
-        });
-    }
-
-    // populates scolling egg images in top banner
+    // Populate scolling egg images in top banner
     const bannerImages = document.querySelector(".banner-images");
     const imageFolder = "../Pictures/ScrollingEggs/";
     const imageCount = 20;
@@ -35,11 +17,78 @@ document.addEventListener("DOMContentLoaded", function () {
         img.alt = `Egg ${i}`;
         bannerImages.appendChild(img);
     }
+
+
+    // Random recipe button funtionality
+    const recipes = [
+        // General
+        "Baked",
+        "Boiled",
+        "Deviled",
+        "Omelette",
+        "Over Easy",
+        "Poached",
+        "Scrambled",
+        "Sunny Side Up",
+        // America
+        "Avocado Toast",
+        "Breakfast Burrito",
+        "Eggs Benedict",
+        // Brazil
+        "Feijao Tropeiro",
+        "Moqueca de Ovos",
+        "Ovos Mexidos com Chouriço",
+        // China
+        "Century Egg and Tofu",
+        "Egg Foo Young",
+        "Egg Fried Rice",
+        "Steamed Egg Custard",
+        // France
+        "Croque Madame",
+        "French Omelette",
+        "Quiche Lorraine",
+        "Sous Vide",
+        // Mexican
+        "Chilaquiles con Heuvos",
+        "Huevos Divorciados",
+        "Heuvos Rancheros",
+        // Morocco
+        "Kefta Mkaouara",
+        "Shakshuka",
+        "Vegetable and Egg Tagine"
+    ];
+    const button = document.getElementById("recipeButton");
+    button.addEventListener("click", function () {
+        let chosenIndex = Math.round(Math.random() * recipes.length);
+        window.location.href = `../Subpages/RecipePage/RecipePage.html?recipe=${encodeURIComponent(recipes[chosenIndex])}`;
+    });
+
+
+    // Populate country links/images
+    const contries = ["General", "America", "Brazil", "China", "France", "Mexico", "Morocco"];
+    const countryPages = document.querySelector(".country-flags");
+    countryPages.innerHTML = ""; // Clear previous content
+    contries.forEach(country => {
+        const countryDiv = document.createElement("div");
+
+        const countryLink = document.createElement("a");
+        countryLink.href = `../Subpages/CountryPage/CountryPage.html?country=${encodeURIComponent(country)}`;
+
+        const countryImg = document.createElement("img");
+        countryImg.src = `../Pictures/CountryFlags/${country}.png`;
+        countryImg.alt = `${country} Flag`;
+
+        countryLink.appendChild(countryImg);
+        countryLink.innerHTML += `<br>${country}`;
+
+        countryDiv.appendChild(countryLink);
+        countryPages.appendChild(countryDiv);
+    });
 });
 
 /*
 const dishes = ["Omelette", "Boiled Egg", "Scrambled Eggs", "Poached Egg", "Sunny Side Up Egg",
-"Over Easy Egg", "Ovos Mexidos con Chourico", "Feijao Tropeiro", "Moqueca de Ovos", "Shakshuka",
+"Over Easy Egg", "Ovos Mexidos com Chouriço", "Feijao Tropeiro", "Moqueca de Ovos", "Shakshuka",
 "Kefa Mkaouara", "Vegetable and Egg Tagine", "Chilaquiles con Heuovs", "Heuvos Divorciados",
 "Heuvos Rancheros", "Avocado Toast", "Breakfeast Burrito", "Eggs Benedict", "Century Egg and Tofu",
 "Egg Foo Young", "Steamed Egg Custard", "Egg Fried Rice", "French Omlette", "Croque Madame", 

@@ -80,20 +80,20 @@ button:hover {
 
 
 
-.flags {
+.country-flags {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 80px;
     margin-left: 40px;
     margin-right: 40px;
 }
-.flags img {
+.country-flags img {
     width: 100px;
     height: 100px;
     cursor: pointer;
     border-radius: 8px;
     transition: transform 0.2s ease;
 }
-.flags img:hover {
+.country-flags img:hover {
     transform: scale(1.1);
 }
