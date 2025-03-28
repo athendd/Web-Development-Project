@@ -1,3 +1,5 @@
+console.log('here');
+
 function compareNutritionDics(scraped, current)
 {
     const keys = Object.keys(current);
@@ -182,7 +184,11 @@ function setNutritionTable(nutritionDictionary)
 document.addEventListener("DOMContentLoaded", async function () {
     const response = await fetch('http://localhost:3000/data');
     const data = await response.json();
-    let currentRecipe = data.Recipes['Breakfast Burrito'];
+    const urlParams = new URLSearchParams(window.location.search);
+    const recipeName = urlParams.get("recipe");
+    let currentRecipe = data.Recipes[recipeName];
+    console.log(currentRecipe);
+    //let currentRecipe = data.Recipes['Breakfast Burrito'];
     let titleLink = document.getElementById("title");
     let imageLink = document.getElementById("image");
     let ingredientsLink = document.getElementById("ingredients");
@@ -238,11 +244,22 @@ document.addEventListener("DOMContentLoaded", async function () {
         {
             nutritionDictionary = compareNutritionDics(foodDictionary, nutritionDictionary);
         }
+        /*
         fetch('http://localhost:3000/data', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(currentRecipe)
         });
+        */
+        fetch('http://localhost:3000/data', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                name: recipeName, // Ensure this is defined in your frontend
+                data: currentRecipe // The actual recipe data
+            })
+        });
+        
 
         spinnerContainer.style.display="none";
         nutritionTable.style.display = "block";

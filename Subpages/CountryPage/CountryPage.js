@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Country data
     const countryData = {
-        General: {
+        General: { 
             title: "General Recipes",
             recipes: ["Baked", "Boiled", "Deviled", "Omelette","Over Easy", "Poached", "Scrambled", "Sunny Side Up"]
         },
@@ -49,7 +49,9 @@ document.addEventListener("DOMContentLoaded", function () {
         recipeDiv.classList.add("recipe");
 
         const recipeLink = document.createElement("a");
-        recipeLink.href = `../RecipePage/RecipePage.html?recipe=${encodeURIComponent(recipe)}`;
+
+        recipeLink.href = '../RecipePage/Recipe.html';
+        //recipeLink.href = `../RecipePage/RecipePage.html?recipe=${encodeURIComponent(recipe)}`;
 
         const recipeImg = document.createElement("img");
         recipeImg.src = `../../Pictures/Recipes/${country}/${recipe}.jpg`;
