@@ -34,7 +34,9 @@ function deepEqual(obj1, obj2) {
 function filterFoods(foods, currentFood, categories)
 {
     let updatedFoods = new Array();
+    console.log(currentFood);
     const currentCategories = categories[currentFood];
+    console.log(currentCategories);
     for (const food of foods)
     {
         if (currentCategories.includes(food.foodCategory) && (food.servingSizeUnit == "g" || !food.hasOwnProperty("servingSize")))
@@ -229,7 +231,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     {
         let nutritionTable = document.getElementById("nutrition-summary-container");
         let spinnerContainer = document.getElementById("spinnerContainer");
-        nutritionTable.style.display = "None";
+        nutritionTable.style.display = "none";
         spinnerContainer.style.display="flex";
         
 

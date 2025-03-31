@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Brazil
         "Feijao Tropeiro",
         "Moqueca de Ovos",
-        "Ovos Mexidos com Chouriço",
+        "Ovos Mexidos com Chorizo",
         // China
         "Century Egg and Tofu",
         "Egg Foo Young",

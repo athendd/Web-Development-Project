@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         Brazil: { 
             title: "Brazilian Recipes",
-            recipes: ["Feijao Tropeiro", "Moqueca de Ovos", "Ovos Mexidos com Chouriço"]
+            recipes: ["Feijao Tropeiro", "Moqueca de Ovos", "Ovos Mexidos com Chorizo"]
         },
         China: { 
             title: "Chinese Recipes",

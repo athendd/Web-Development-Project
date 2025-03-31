@@ -32,17 +32,17 @@
         "Finish up and enjoy!"
       ],
       "nutrition": {
-        "Calories": 1196.26,
-        "Total Fat": 80.30600000000001,
-        "Saturated Fat": 30.4624,
-        "Cholesterol": 986.86,
-        "Sodium": 2449.08,
-        "Carbohydrate": 47.388,
+        "Calories": 1163.04,
+        "Total Fat": 80.86200000000001,
+        "Saturated Fat": 31.5784,
+        "Cholesterol": 967.4,
+        "Sodium": 2151.5,
+        "Carbohydrate": 47.2446,
         "Fiber": 3.46,
         "Sugars": 2.728,
-        "Protein": 62.980999999999995
+        "Protein": 55.64719999999999
       },
-      "lastUpdate": "Tue Mar 11 2025 12:47:01 GMT-0400 (Eastern Daylight Time)",
+      "lastUpdate": "Mon Mar 31 2025 13:11:48 GMT-0400 (Eastern Daylight Time)",
       "cooking tips": [
         "Put bacon into cold oven before heating",
         "For soft scrambled eggs, constantly stir eggs with a spatula",
@@ -104,7 +104,7 @@
     },
     "Croque Madame": {
       "name": "Croque Madame",
-      "image": "../../Pictures/Recipes/French/Croque Madame.webp",
+      "image": "../../Pictures/Recipes/France/Croque Madame.jpg",
       "ingredients": [
         "Unsalted Butter",
         "All-purpose flour",
@@ -142,17 +142,17 @@
         "Enjoy"
       ],
       "nutrition": {
-        "Calories": 0,
-        "Total Fat": 0,
-        "Saturated Fat": 0,
-        "Cholesterol": 0,
-        "Sodium": 0,
-        "Carbohydrate": 0,
-        "Fiber": 0,
-        "Sugars": 0,
-        "Protein": 0
+        "Calories": 1675.3350000000003,
+        "Total Fat": 110.1009,
+        "Saturated Fat": 60.3359,
+        "Cholesterol": 789,
+        "Sodium": 3480.0879999999997,
+        "Carbohydrate": 72.54289999999999,
+        "Fiber": 4.3764,
+        "Sugars": 0.2,
+        "Protein": 99.37111999999999
       },
-      "lastUpdate": "Tue Mar 11 2023 12:47:01 GMT-0400 (Eastern Daylight Time)",
+      "lastUpdate": "Mon Mar 31 2025 13:14:44 GMT-0400 (Eastern Daylight Time)",
       "cooking tips": [
         "If the Mornay sauce becomes too thick, add a splash of warm milk to thin it out",
         "Gruyère is the traditional cheese, but you can also use Comté or a combination of cheeses",
@@ -177,13 +177,13 @@
           "Eggs & Egg Substitutes",
           "Dairy and Egg Products"
         ],
-        "Dijon Mustard": [
+        "Dijon mustard": [
           "Ketchup, Mustard, BBQ & Cheese Sauce"
         ],
         "All-purpose flour": [
           "Flours & Corn Meal"
         ],
-        "Gruyere cheese, grated": [
+        "Gruyère cheese, grated": [
           "Cheese"
         ],
         "Sourdough bread": [
@@ -216,9 +216,9 @@
       },
       "references": []
     },
-    "Sunny Side Up Egg": {
+    "Sunny Side Up": {
       "name": "Sunny Side Up Egg",
-      "image": "../../Pictures/Recipes/General/SunnySideUpEgg.jpg",
+      "image": "../../Pictures/Recipes/General/Sunny Side Up.jpg",
       "ingredients": [
         "Eggs"
       ],
@@ -232,17 +232,17 @@
         "Enjoy"
       ],
       "nutrition": {
-        "Calories": 0,
-        "Total Fat": 0,
-        "Saturated Fat": 0,
-        "Cholesterol": 0,
-        "Sodium": 0,
-        "Carbohydrate": 0,
+        "Calories": 74,
+        "Total Fat": 4.98,
+        "Saturated Fat": 1.6,
+        "Cholesterol": 205.5,
+        "Sodium": 64.5,
+        "Carbohydrate": 0.48,
         "Fiber": 0,
-        "Sugars": 0,
-        "Protein": 0
+        "Sugars": 0.1,
+        "Protein": 6.2
       },
-      "lastUpdate": "Tue Mar 11 2023 12:47:01 GMT-0400 (Eastern Daylight Time)",
+      "lastUpdate": "Mon Mar 31 2025 13:17:36 GMT-0400 (Eastern Daylight Time)",
       "cooking tips": [
         "Add seasonings once the egg is finished cooking",
         "Use a combination of butter and olive oil"
@@ -261,9 +261,9 @@
       },
       "references": []
     },
-    "Poached Egg": {
+    "Poached": {
       "name": "Poached Egg",
-      "image": "../../Pictures/Recipes/General/PoachedEgg.jpg",
+      "image": "../../Pictures/Recipes/General/Poached.jpg",
       "ingredients": [
         "Eggs"
       ],
@@ -276,17 +276,17 @@
         "Once the egg is done, use a slotted spoon to remove the poached egg. Dab with a paper towel to remove excess water and enjoy"
       ],
       "nutrition": {
-        "Calories": 0,
-        "Total Fat": 0,
-        "Saturated Fat": 0,
-        "Cholesterol": 0,
-        "Sodium": 0,
-        "Carbohydrate": 0,
+        "Calories": 148,
+        "Total Fat": 9.96,
+        "Saturated Fat": 3.2,
+        "Cholesterol": 411,
+        "Sodium": 129,
+        "Carbohydrate": 0.96,
         "Fiber": 0,
-        "Sugars": 0,
-        "Protein": 0
+        "Sugars": 0.2,
+        "Protein": 12.4
       },
-      "lastUpdate": "Tue Mar 11 2023 12:47:01 GMT-0400 (Eastern Daylight Time)",
+      "lastUpdate": "Mon Mar 31 2025 13:18:07 GMT-0400 (Eastern Daylight Time)",
       "cooking tips": [
         "Use a fresh egg",
         "Use a deep pot"
@@ -303,11 +303,13 @@
       "queries": {
         "Eggs": "Eggs, Grade A, Large, egg whole"
       },
-      "references": ["https://downshiftology.com/recipes/poached-eggs/"]
+      "references": [
+        "https://downshiftology.com/recipes/poached-eggs/"
+      ]
     },
     "Shakshuka": {
       "name": "Shakshuka",
-      "image": "../../Pictures/Recipes/Moroccan/Shakshuka.jpg",
+      "image": "../../Pictures/Recipes/Morocco/Shakshuka.jpg",
       "ingredients": [
         "Onion, finely chopped",
         "Garlic, minced",
@@ -335,17 +337,17 @@
         "Enjoy with warm bread for dipping"
       ],
       "nutrition": {
-        "Calories": 0,
-        "Total Fat": 0,
-        "Saturated Fat": 0,
-        "Cholesterol": 0,
-        "Sodium": 0,
-        "Carbohydrate": 0,
-        "Fiber": 0,
-        "Sugars": 0,
-        "Protein": 0
+        "Calories": 610,
+        "Total Fat": 21.407500000000002,
+        "Saturated Fat": 6.5798000000000005,
+        "Cholesterol": 827.5,
+        "Sodium": 1625.1000000000001,
+        "Carbohydrate": 64.6265,
+        "Fiber": 13.944999999999999,
+        "Sugars": 7.384000000000001,
+        "Protein": 49.35450000000001
       },
-      "lastUpdate": "Mon Mar 17 2022 14:20:00 GMT-0400 (Eastern Daylight Time)",
+      "lastUpdate": "Mon Mar 31 2025 13:19:42 GMT-0400 (Eastern Daylight Time)",
       "cooking tips": [
         "For extra depth of flavor, let the sauce simmer longer before adding the eggs",
         "If the sauce thickens too much, add a splash of water or vegetable broth to loosen it",
@@ -396,15 +398,14 @@
         "Cayenne pepper": [
           "Herbs & Spices"
         ],
-        "Feta cheese":[
+        "Feta cheese": [
           "Cheese"
         ],
-        "Fresh parsley":[
+        "Fresh parsley": [
           "Vegetables and Vegetable Products"
         ]
       },
       "queries": {
-        "Unsalted Butter": "Butter, unsalted",
         "Onion": "Yellow Onion",
         "Garlic": "Garlic",
         "Red bell pepper": "Peppers, bell, red, raw",
@@ -418,10 +419,10 @@
         "Fresh parsley": "Parsley, fresh"
       },
       "references": []
-    },  
+    },
     "Huevos Rancheros": {
       "name": "Huevos Rancheros",
-      "image": "../../Pictures/Recipes/Mexican/huevos-racheros.jpg",
+      "image": "../../Pictures/Recipes/Mexico/Huevos Rancheros.jpg",
       "ingredients": [
         "Onion, diced",
         "Garlic, minced",
@@ -451,17 +452,17 @@
         "Enjoy"
       ],
       "nutrition": {
-        "Calories": 0,
-        "Total Fat": 0,
-        "Saturated Fat": 0,
-        "Cholesterol": 0,
-        "Sodium": 0,
-        "Carbohydrate": 0,
-        "Fiber": 0,
-        "Sugars": 0,
-        "Protein": 0
+        "Calories": 1218.6999999999998,
+        "Total Fat": 29.394000000000002,
+        "Saturated Fat": 7.822,
+        "Cholesterol": 822,
+        "Sodium": 1795.2,
+        "Carbohydrate": 179.504,
+        "Fiber": 22.64,
+        "Sugars": 6.220000000000001,
+        "Protein": 55.798
       },
-      "lastUpdate": "Mon Mar 17 2025 14:35:00 GMT-0400 (Eastern Daylight Time)",
+      "lastUpdate": "Mon Mar 31 2025 13:22:01 GMT-0400 (Eastern Daylight Time)",
       "cooking tips": [
         "For a smokier flavor, roast the jalapeño and tomatoes before blending into the sauce",
         "If you prefer a spicier sauce, add extra jalapeño or a dash of hot sauce",
@@ -504,17 +505,17 @@
         "Paprika": [
           "Herbs & Spices"
         ],
-        "Jalapeno":[
+        "Jalapeno": [
           "Pre-Packaged Fruit & Vegetables"
         ],
-        "Refried beans":[
+        "Refried beans": [
           "Beans, peas, legumes",
           "Canned & Bottled Beans"
         ],
-        "Fresh cilantro":[
+        "Fresh cilantro": [
           "Herbs & Spices"
         ],
-        "Corn tortillas":[
+        "Corn tortillas": [
           "Mexican Dinner Mixes"
         ]
       },
@@ -535,7 +536,7 @@
     },
     "Ovos Mexidos com Chorizo": {
       "name": "Ovos Mexidos com Chorizo",
-      "image": "../../Pictures/Recipes/Brazilian/Ovos mexicado com chorizo.web",
+      "image": "../../Pictures/Recipes/Brazil/Ovos Mexidos com Chouriço.jpg",
       "ingredients": [
         "Chorizo",
         "Onion, finely chopped",
@@ -556,17 +557,17 @@
         "Enjoy"
       ],
       "nutrition": {
-        "Calories": 0,
-        "Total Fat": 0,
-        "Saturated Fat": 0,
-        "Cholesterol": 0,
-        "Sodium": 0,
-        "Carbohydrate": 0,
-        "Fiber": 0,
-        "Sugars": 0,
-        "Protein": 0
+        "Calories": null,
+        "Total Fat": null,
+        "Saturated Fat": null,
+        "Cholesterol": null,
+        "Sodium": null,
+        "Carbohydrate": null,
+        "Fiber": null,
+        "Sugars": 3.31,
+        "Protein": null
       },
-      "lastUpdate": "Mon Mar 17 2022 14:45:00 GMT-0400 (Eastern Daylight Time)",
+      "lastUpdate": "Mon Mar 31 2025 13:23:57 GMT-0400 (Eastern Daylight Time)",
       "cooking tips": [
         "Use a good-quality chorizo for the best flavor",
         "For creamier scrambled eggs, cook them on low heat and stir gently",
@@ -594,7 +595,7 @@
         "Garlic": [
           "Pre-Packaged Fruit & Vegetables"
         ],
-        "Fresh parsley":[
+        "Fresh parsley": [
           "Vegetables and Vegetable Products"
         ],
         "Whole milk": [
@@ -617,7 +618,7 @@
     },
     "Chilaquiles con Huevos": {
       "name": "Chilaquiles con Huevos",
-      "image": "../../Pictures/Recipes/Mexican/chilaquiles con heuvos.jpg",
+      "image": "../../Pictures/Recipes/Mexico/Chilaquiles con Huevos.jpg",
       "ingredients": [
         "Corn chips",
         "Eggs",
@@ -643,17 +644,17 @@
         "Serve immediately"
       ],
       "nutrition": {
-        "Calories": 0,
-        "Total Fat": 0,
-        "Saturated Fat": 0,
-        "Cholesterol": 0,
-        "Sodium": 0,
-        "Carbohydrate": 0,
-        "Fiber": 0,
-        "Sugars": 0,
-        "Protein": 0
+        "Calories": null,
+        "Total Fat": null,
+        "Saturated Fat": null,
+        "Cholesterol": null,
+        "Sodium": null,
+        "Carbohydrate": null,
+        "Fiber": null,
+        "Sugars": 3.1100000000000003,
+        "Protein": null
       },
-      "lastUpdate": "Mon Mar 17 2022 15:00:00 GMT-0400 (Eastern Daylight Time)",
+      "lastUpdate": "Mon Mar 31 2025 13:25:25 GMT-0400 (Eastern Daylight Time)",
       "cooking tips": [
         "If you prefer a spicier sauce, add more jalapeños or a pinch of cayenne pepper",
         "For a richer flavor, roast the tomatoes, onions, and garlic before blending the sauce",
@@ -677,7 +678,7 @@
           "Eggs & Egg Substitutes",
           "Dairy and Egg Products"
         ],
-        "Jalapeno":[
+        "Jalapeno": [
           "Pre-Packaged Fruit & Vegetables"
         ],
         "Onion": [
@@ -687,22 +688,22 @@
         "Garlic": [
           "Pre-Packaged Fruit & Vegetables"
         ],
-        "Fresh cilantro":[
+        "Fresh cilantro": [
           "Herbs & Spices"
         ],
-        "Tomatoes":[
+        "Tomatoes": [
           "Tomatoes"
         ],
-        "Tomato sauce":[
+        "Tomato sauce": [
           "Tomatoes"
         ],
-        "Chicken broth":[
+        "Chicken broth": [
           "Canned Soup"
         ],
-        "Corn chips":[
+        "Corn chips": [
           "Chips, Pretzels & Snacks"
         ],
-        "Queso fresco":[
+        "Queso fresco": [
           "Cheese"
         ]
       },
