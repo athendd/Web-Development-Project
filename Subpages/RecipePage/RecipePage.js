@@ -1,5 +1,3 @@
-console.log('here');
-
 function compareNutritionDics(scraped, current)
 {
     const keys = Object.keys(current);
@@ -187,7 +185,6 @@ document.addEventListener("DOMContentLoaded", async function () {
     const urlParams = new URLSearchParams(window.location.search);
     const recipeName = urlParams.get("recipe");
     let currentRecipe = data.Recipes[recipeName];
-    console.log(currentRecipe);
     //let currentRecipe = data.Recipes['Breakfast Burrito'];
     let titleLink = document.getElementById("title");
     let imageLink = document.getElementById("image");
@@ -195,7 +192,6 @@ document.addEventListener("DOMContentLoaded", async function () {
     let instructionsLink = document.getElementById("instructions");
     let cookingTipsLink = document.getElementById("cooking-tips-list");
     let referencesLink = document.getElementById("reference-list");
-
     titleLink.textContent = currentRecipe["name"];
     imageLink.src = currentRecipe["image"];
     currentRecipe["ingredients"].forEach(item => {
@@ -233,7 +229,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     {
         let nutritionTable = document.getElementById("nutrition-summary-container");
         let spinnerContainer = document.getElementById("spinnerContainer");
-        nutritionTable.style.display = "none";
+        nutritionTable.style.display = "None";
         spinnerContainer.style.display="flex";
         
 

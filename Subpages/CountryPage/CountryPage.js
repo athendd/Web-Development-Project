@@ -50,8 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const recipeLink = document.createElement("a");
 
-        recipeLink.href = '../RecipePage/Recipe.html';
-        //recipeLink.href = `../RecipePage/RecipePage.html?recipe=${encodeURIComponent(recipe)}`;
+        recipeLink.href = `../RecipePage/Recipe.html?recipe=${encodeURIComponent(recipe)}`;
 
         const recipeImg = document.createElement("img");
         recipeImg.src = `../../Pictures/Recipes/${country}/${recipe}.jpg`;

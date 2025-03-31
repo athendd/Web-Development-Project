@@ -22,6 +22,7 @@ app.get('/data', (req, res) => {
 
 // Write data
 app.post('/data', (req, res) => {
+    console.log("started");
     fs.readFile(DATA_FILE, (err, data) => {
         if (err) return res.status(500).send('Error reading data');
         let jsonData = JSON.parse(data);
