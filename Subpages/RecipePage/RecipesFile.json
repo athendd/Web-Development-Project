@@ -536,7 +536,7 @@
     },
     "Ovos Mexidos com Chorizo": {
       "name": "Ovos Mexidos com Chorizo",
-      "image": "../../Pictures/Recipes/Brazil/Ovos Mexidos com Chouriço.jpg",
+      "image": "../../Pictures/Recipes/Brazil/Ovos Mexidos com Chorizo.jpg",
       "ingredients": [
         "Chorizo",
         "Onion, finely chopped",
@@ -557,17 +557,17 @@
         "Enjoy"
       ],
       "nutrition": {
-        "Calories": null,
-        "Total Fat": null,
-        "Saturated Fat": null,
-        "Cholesterol": null,
-        "Sodium": null,
-        "Carbohydrate": null,
-        "Fiber": null,
+        "Calories": 686.25,
+        "Total Fat": 49.084,
+        "Saturated Fat": 16.4212,
+        "Cholesterol": 932.6,
+        "Sodium": 1258.5,
+        "Carbohydrate": 12.541999999999998,
+        "Fiber": 1.28,
         "Sugars": 3.31,
-        "Protein": null
+        "Protein": 45.793000000000006
       },
-      "lastUpdate": "Mon Mar 31 2025 13:23:57 GMT-0400 (Eastern Daylight Time)",
+      "lastUpdate": "Mon Mar 31 2025 17:00:08 GMT-0400 (Eastern Daylight Time)",
       "cooking tips": [
         "Use a good-quality chorizo for the best flavor",
         "For creamier scrambled eggs, cook them on low heat and stir gently",
@@ -576,7 +576,7 @@
         "You can add a handful of grated cheese at the end for a richer dish"
       ],
       "gram calculations": {
-        "Chourico": 100,
+        "Chorizo": 100,
         "Onion": 50,
         "Garlic": 5,
         "Eggs": 200,
@@ -644,17 +644,17 @@
         "Serve immediately"
       ],
       "nutrition": {
-        "Calories": null,
-        "Total Fat": null,
-        "Saturated Fat": null,
-        "Cholesterol": null,
-        "Sodium": null,
-        "Carbohydrate": null,
-        "Fiber": null,
+        "Calories": 1365.8500000000001,
+        "Total Fat": 70.805,
+        "Saturated Fat": 17.18,
+        "Cholesterol": 443.4,
+        "Sodium": 1922.1,
+        "Carbohydrate": 146.94819999999999,
+        "Fiber": 4,
         "Sugars": 3.1100000000000003,
-        "Protein": null
+        "Protein": 36.7251
       },
-      "lastUpdate": "Mon Mar 31 2025 13:25:25 GMT-0400 (Eastern Daylight Time)",
+      "lastUpdate": "Mon Mar 31 2025 16:58:32 GMT-0400 (Eastern Daylight Time)",
       "cooking tips": [
         "If you prefer a spicier sauce, add more jalapeños or a pinch of cayenne pepper",
         "For a richer flavor, roast the tomatoes, onions, and garlic before blending the sauce",
@@ -678,7 +678,7 @@
           "Eggs & Egg Substitutes",
           "Dairy and Egg Products"
         ],
-        "Jalapeno": [
+        "Jalapeño": [
           "Pre-Packaged Fruit & Vegetables"
         ],
         "Onion": [
@@ -711,7 +711,7 @@
         "Onion": "Yellow Onion",
         "Garlic": "Garlic",
         "Eggs": "Eggs, Grade A, Large, egg whole",
-        "Jalapeno": "Jalapeno",
+        "Jalapeño": "Jalapeno",
         "Fresh cilantro": "Cilantro",
         "Tomatoes": "Tomatoes",
         "Tomato sauce": "Tomato sauce",
@@ -720,6 +720,622 @@
         "Queso fresco": "Queso Fresco Fresh Crumbling cheese, queso fresco"
       },
       "references": []
+    },
+    "Moqueca de Ovos": {
+      "name": "Moqueca de Ovos",
+      "image": "../../Pictures/Recipes/Brazil/Moqueca de Ovos.jpg",
+      "ingredients": [
+        "Onion, diced",
+        "Garlic, minced",
+        "Bell pepper, diced",
+        "Tomatoes, diced",
+        "Coconut milk",
+        "Palm oil (or olive oil)",
+        "Ground cumin",
+        "Paprika",
+        "Salt",
+        "Black pepper",
+        "Lime juice",
+        "Eggs",
+        "Fresh cilantro, chopped"
+      ],
+      "instructions": [
+        "Heat 30 grams of palm oil in a skillet over medium heat",
+        "Add 100 grams of diced onion and sauté for about 3-4 minutes until softened",
+        "Stir in 10 grams of minced garlic and 80 grams of diced bell pepper, cooking for another minute until fragrant",
+        "Add 200 grams of diced tomatoes and stir well",
+        "Pour in 250 grams of coconut milk, stirring to combine",
+        "Season with 5 grams of ground cumin, 5 grams of paprika, 5 grams of salt, and 3 grams of black pepper",
+        "Simmer for 10-12 minutes, stirring occasionally, until the sauce thickens",
+        "Crack 4 eggs (about 200 grams total) directly into the simmering sauce, covering the pan to let them poach for 5-7 minutes, or until the whites are set but the yolks remain runny",
+        "Drizzle with 10 grams of fresh lime juice for extra brightness",
+        "Garnish with 15 grams of freshly chopped cilantro",
+        "Serve hot with rice or toasted bread",
+        "Enjoy"
+      ],
+      "nutrition": {
+        "Calories": 1075.2,
+        "Total Fat": 85.6,
+        "Saturated Fat": 51.2,
+        "Cholesterol": 744,
+        "Sodium": 1260,
+        "Carbohydrate": 46.8,
+        "Fiber": 8.2,
+        "Sugars": 14.6,
+        "Protein": 35.4
+      },
+      "lastUpdate": "Mon Mar 31 2022 13:22:01 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "For a deeper flavor, let the sauce simmer longer before adding the eggs",
+        "If you prefer a spicier moqueca, add a diced chili pepper or a pinch of red pepper flakes",
+        "Palm oil gives it a traditional Brazilian taste, but you can substitute with olive oil if unavailable"
+      ],
+      "gram calculations": {
+        "Onion": 100,
+        "Garlic": 10,
+        "Bell pepper": 80,
+        "Tomatoes": 200,
+        "Coconut milk": 250,
+        "Eggs": 200,
+        "Fresh cilantro": 15
+      },
+      "categories": {
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ],
+        "Onion": [
+          "Pre-Packed Fruit & Vegetables",
+          "Vegetables and Vegetable Products"
+        ],
+        "Garlic": [
+          "Pre-Packaged Fruit & Vegetables"
+        ],
+        "Fresh cilantro": [
+          "Herbs & Spices"
+        ],
+        "Tomatoes": [
+          "Tomatoes"
+        ],
+        "Bell pepper": [
+          "Vegetables and Vegetable Products"
+        ],
+        "Coconut milk": [
+        ]
+      },
+      "queries": {
+        "Onion": "Yellow Onion",
+        "Garlic": "Garlic",
+        "Eggs": "Eggs, Grade A, Large, egg whole",
+        "Fresh cilantro": "Cilantro",
+        "Tomatoes": "Tomatoes",
+        "Bell pepper": "Peppers, bell"
+        "Coconut milk": 
+      },
+      "references": []
+    },
+    "Feijão Tropeiro": {
+      "name": "Feijão Tropeiro",
+      "image": "../../Pictures/Recipes/Brazil/Feijao Tropeiro.jpg",
+      "ingredients": [
+        "Cooked pinto beans",
+        "Bacon, diced",
+        "Linguiça sausage, sliced",
+        "Onion, chopped",
+        "Garlic, minced",
+        "Collard greens, chopped",
+        "Eggs",
+        "Cassava flour (farofa)",
+        "Salt",
+        "Black pepper",
+        "Olive oil",
+        "Fresh parsley, chopped"
+      ],
+      "instructions": [
+        "In a large skillet, heat 20 grams of olive oil over medium heat",
+        "Add 100 grams of diced bacon and cook until crispy, about 5 minutes",
+        "Stir in 150 grams of sliced linguiça sausage and cook for another 5 minutes until browned",
+        "Add 80 grams of chopped onion and sauté until translucent, about 3 minutes",
+        "Stir in 10 grams of minced garlic and cook for another minute",
+        "Push the ingredients to the side of the skillet and scramble 2 eggs (about 100 grams total) in the center until fully cooked",
+        "Add 300 grams of cooked pinto beans, stirring gently to combine",
+        "Season with 5 grams of salt and 3 grams of black pepper",
+        "Stir in 100 grams of cassava flour (farofa) to absorb excess moisture and add texture",
+        "Add 150 grams of chopped collard greens and cook for another 3 minutes until slightly wilted",
+        "Garnish with 10 grams of fresh chopped parsley before serving",
+        "Enjoy"
+      ],
+      "nutrition": {
+        "Calories": 1345.6,
+        "Total Fat": 76.2,
+        "Saturated Fat": 22.5,
+        "Cholesterol": 442,
+        "Sodium": 1890,
+        "Carbohydrate": 98.4,
+        "Fiber": 18.3,
+        "Sugars": 6.2,
+        "Protein": 65.7
+      },
+      "lastUpdate": "Mon Mar 31 2022 16:58:32 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "For a more authentic taste, use traditional Brazilian linguiça sausage",
+        "Adjust the amount of cassava flour to your preference—more for a drier dish, less for a moister texture",
+        "Serve with white rice and grilled meat for a complete meal"
+      ],
+      "gram calculations": {
+        "Cooked pinto beans": 300,
+        "Bacon": 100,
+        "Linguiça sausage": 150,
+        "Onion": 80,
+        "Garlic": 10,
+        "Collard greens": 150,
+        "Eggs": 100,
+        "Cassava flour": 100,
+        "Fresh parsley": 10
+      },
+      "categories": {
+        "Cooked pinto beans": ["Legumes"],
+        "Bacon": ["Meats"],
+        "Linguiça sausage": ["Meats"],
+        "Onion": ["Vegetables and Vegetable Products"],
+        "Garlic": ["Herbs & Spices"],
+        "Collard greens": ["Leafy Greens"],
+        "Eggs": ["Eggs & Egg Substitutes"],
+        "Cassava flour": ["Flours"],
+        "Fresh parsley": ["Herbs & Spices"]
+      },
+      "queries": {
+        "Cooked pinto beans": "Pinto beans, cooked",
+        "Bacon": "Bacon, cooked, diced",
+        "Linguiça sausage": "Linguiça sausage",
+        "Onion": "Yellow Onion",
+        "Garlic": "Garlic",
+        "Collard greens": "Collard Greens",
+        "Eggs": "Eggs, Grade A, Large, egg whole",
+        "Cassava flour": "Cassava flour, toasted (farofa)",
+        "Fresh parsley": "Parsley, fresh"
+      },
+      "references": []
+    },
+    "Kefta Mkaouara": {
+      "name": "Kefta Mkaouara",
+      "image": "../../Pictures/Recipes/Morocco/Kefta Mkaouara.jpg",
+      "ingredients": [
+        "Ground beef",
+        "Onion, finely chopped",
+        "Garlic, minced",
+        "Fresh parsley, chopped",
+        "Fresh cilantro, chopped",
+        "Ground cumin",
+        "Ground paprika",
+        "Ground cinnamon",
+        "Ground black pepper",
+        "Salt",
+        "Olive oil",
+        "Tomatoes, chopped",
+        "Tomato paste",
+        "Eggs"
+      ],
+      "instructions": [
+        "In a bowl, mix 300 grams of ground beef or lamb with 50 grams of finely chopped onion, 10 grams of minced garlic, 10 grams of chopped parsley, 10 grams of chopped cilantro, 5 grams of ground cumin, 5 grams of paprika, 2 grams of cinnamon, 3 grams of black pepper, and 5 grams of salt",
+        "Shape the mixture into small meatballs, about 20 grams each",
+        "In a large skillet, heat 20 grams of olive oil over medium heat",
+        "Add 150 grams of chopped tomatoes and 30 grams of tomato paste, stirring to combine",
+        "Season the sauce with 3 grams of salt, 2 grams of black pepper, 3 grams of paprika, and 3 grams of cumin",
+        "Simmer the sauce for 10 minutes until slightly thickened",
+        "Gently add the meatballs to the sauce and cook for 15-20 minutes, occasionally stirring gently",
+        "Crack 2 eggs (about 100 grams total) on top of the simmering sauce and cover the skillet",
+        "Cook for 5 minutes, or until the eggs are set to your preference",
+        "Garnish with extra chopped parsley and cilantro before serving",
+        "Enjoy with crusty bread or couscous"
+      ],
+      "nutrition": {
+        "Calories": 1185.4,
+        "Total Fat": 85.3,
+        "Saturated Fat": 27.5,
+        "Cholesterol": 476.2,
+        "Sodium": 1980,
+        "Carbohydrate": 32.6,
+        "Fiber": 6.8,
+        "Sugars": 10.4,
+        "Protein": 74.2
+      },
+      "lastUpdate": "Mon Mar 31 2022 16:58:32 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "For a richer sauce, let the tomatoes cook down longer before adding the meatballs",
+        "You can substitute lamb for beef to get a more traditional Moroccan flavor",
+        "Add a pinch of cayenne pepper for a spicier dish",
+        "Serve with warm flatbread or over couscous for a complete meal"
+      ],
+      "gram calculations": {
+        "Ground beef": 300,
+        "Onion": 50,
+        "Garlic": 10,
+        "Fresh parsley": 10,
+        "Fresh cilantro": 10,
+        "Tomatoes": 150,
+        "Tomato paste": 30,
+        "Eggs": 100
+      },
+      "categories": {
+        "Ground beef": ["Meats"],
+        "Onion": ["Vegetables and Vegetable Products"],
+        "Garlic": ["Herbs & Spices"],
+        "Fresh parsley": ["Herbs & Spices"],
+        "Fresh cilantro": ["Herbs & Spices"],
+        "Tomatoes": ["Tomatoes"],
+        "Tomato paste": ["Tomatoes"],
+        "Eggs": ["Eggs & Egg Substitutes"]
+      },
+      "queries": {
+        "Ground beef or lamb": "Beef, ground, 85% lean meat / 15% fat, raw",
+        "Onion": "Yellow Onion",
+        "Garlic": "Garlic",
+        "Fresh parsley": "Parsley, fresh",
+        "Fresh cilantro": "Cilantro",
+        "Tomatoes": "Tomatoes",
+        "Tomato paste": "Tomato paste",
+        "Eggs": "Eggs, Grade A, Large, egg whole"
+      },
+      "references": []
+    },
+    "Vegetable and Egg Tagine": {
+      "name": "Vegetable and Egg Tagine",
+      "image": "../../Pictures/Recipes/Morocco/Vegetable and Egg Tagine.jpg",
+      "ingredients": [
+        "Oil",
+        "Onion, finely chopped",
+        "Garlic, minced",
+        "Tomatoes, chopped",
+        "Carrots, sliced",
+        "Bell peppers, sliced",
+        "Zucchini, sliced",
+        "Potatoes, diced",
+        "Ground cumin",
+        "Ground paprika",
+        "Ground turmeric",
+        "Ground black pepper",
+        "Salt",
+        "Vegetable broth",
+        "Fresh parsley, chopped",
+        "Fresh cilantro, chopped",
+        "Eggs"
+      ],
+      "instructions": [
+        "In a large tagine or skillet, heat some oil over medium heat",
+        "Add 100 grams of finely chopped onion and 10 grams of minced garlic, sautéing until fragrant",
+        "Stir in 150 grams of chopped tomatoes, 100 grams of sliced carrots, 100 grams of sliced bell peppers, 100 grams of sliced zucchini, and 150 grams of diced potatoes",
+        "Season with 5 grams of ground cumin, 5 grams of paprika, 3 grams of turmeric, 3 grams of black pepper, and 5 grams of salt",
+        "Pour in 200 ml of vegetable broth and bring to a simmer",
+        "Cover and cook for 20-25 minutes, stirring occasionally, until the vegetables are tender",
+        "Crack 4 eggs (about 200 grams total) over the simmering vegetables",
+        "Cover and cook for another 5-7 minutes, or until the eggs are set to your preference",
+        "Garnish with 10 grams of chopped fresh parsley and 10 grams of chopped fresh cilantro",
+        "Serve hot with crusty bread or couscous"
+      ],
+      "nutrition": {
+        "Calories": 1065.3,
+        "Total Fat": 58.4,
+        "Saturated Fat": 11.2,
+        "Cholesterol": 744.8,
+        "Sodium": 2120.5,
+        "Carbohydrate": 98.6,
+        "Fiber": 14.8,
+        "Sugars": 18.4,
+        "Protein": 45.7
+      },
+      "lastUpdate": "Mon Mar 31 2022 16:58:32 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "For a richer flavor, roast the vegetables slightly before adding them to the tagine",
+        "Adjust the spices according to your taste—add chili flakes for some heat",
+        "Use sweet potatoes instead of regular potatoes for a slightly sweeter variation",
+        "Serve with warm bread to soak up the delicious sauce"
+      ],
+      "gram calculations": {
+        "Onion": 100,
+        "Garlic": 10,
+        "Tomatoes": 150,
+        "Carrots": 100,
+        "Bell peppers": 100,
+        "Zucchini": 100,
+        "Potatoes": 150,
+        "Vegetable broth": 200,
+        "Fresh parsley": 10,
+        "Fresh cilantro": 10,
+        "Eggs": 200
+      },
+      "categories": {
+        "Onion": ["Vegetables and Vegetable Products"],
+        "Garlic": ["Herbs & Spices"],
+        "Tomatoes": ["Tomatoes"],
+        "Carrots": ["Vegetables and Vegetable Products"],
+        "Bell peppers": ["Vegetables and Vegetable Products"],
+        "Zucchini": ["Vegetables and Vegetable Products"],
+        "Potatoes": ["Vegetables and Vegetable Products"],
+        "Vegetable broth": ["Canned Soup"],
+        "Fresh parsley": ["Herbs & Spices"],
+        "Fresh cilantro": ["Herbs & Spices"],
+        "Eggs": ["Eggs & Egg Substitutes"]
+      },
+      "queries": {
+        "Onion": "Yellow Onion",
+        "Garlic": "Garlic",
+        "Tomatoes": "Tomatoes",
+        "Carrots": "Carrots",
+        "Bell peppers": "Bell Peppers",
+        "Zucchini": "Zucchini",
+        "Potatoes": "Potatoes",
+        "Vegetable broth": "Vegetable Broth",
+        "Fresh parsley": "Parsley, fresh",
+        "Fresh cilantro": "Cilantro",
+        "Eggs": "Eggs, Grade A, Large, egg whole"
+      },
+      "references": []
+    },
+
+    "Huevos Divorciados": {
+      "name": "Huevos Divorciados",
+      "image": "../../Pictures/Recipes/Mexico/Huevos Divorciados.jpg",
+      "ingredients": [
+        "Corn tortillas",
+        "Eggs",
+        "Red salsa",
+        "Green salsa",
+        "Refried beans",
+        "Onion, finely chopped",
+        "Garlic, minced",
+        "Tomatoes, chopped",
+        "Jalapeño, sliced",
+        "Cilantro, chopped",
+        "Queso fresco, crumbled",
+        "Crema Mexicana"
+      ],
+      "instructions": [
+        "In a pan, heat 10 grams of vegetable oil over medium heat and fry 2 corn tortillas until slightly crispy. Set aside",
+        "In the same pan, fry 2 eggs (about 100 grams total) to your preferred doneness, seasoning with salt and pepper",
+        "Heat 100 grams of refried beans and spread them onto each tortilla",
+        "Place one fried egg on each tortilla",
+        "Pour 50 grams of red salsa over one egg and 50 grams of green salsa over the other egg",
+        "Garnish with 10 grams of finely chopped onion, 5 grams of minced garlic, 10 grams of chopped cilantro, 40 grams of crumbled queso fresco, and 10 grams of Crema Mexicana",
+        "Serve with sliced avocado on the side"
+      ],
+      "nutrition": {
+        "Calories": 850.4,
+        "Total Fat": 45.2,
+        "Saturated Fat": 12.6,
+        "Cholesterol": 410.7,
+        "Sodium": 1200.3,
+        "Carbohydrate": 74.9,
+        "Fiber": 12.3,
+        "Sugars": 6.5,
+        "Protein": 34.8
+      },
+      "lastUpdate": "Mon Mar 31 2022 16:58:32 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "For a spicier version, add more jalapeño or a pinch of cayenne to the salsas",
+        "Use homemade red and green salsas for a fresher taste",
+        "Warm the tortillas before frying to prevent them from becoming too hard",
+        "Pair with black beans or rice for a more filling meal"
+      ],
+      "gram calculations": {
+        "Corn tortillas": 50,
+        "Eggs": 100,
+        "Red salsa": 50,
+        "Green salsa": 50,
+        "Refried beans": 100,
+        "Onion": 10,
+        "Garlic": 5,
+        "Tomatoes": 50,
+        "Jalapeño": 1,
+        "Cilantro": 10,
+        "Queso fresco": 40,
+        "Crema Mexicana": 10
+      },
+      "categories": {
+        "Corn tortillas": ["Bread & Bakery"],
+        "Eggs": ["Eggs & Egg Substitutes"],
+        "Red salsa": ["Sauces & Condiments"],
+        "Green salsa": ["Sauces & Condiments"],
+        "Refried beans": ["Canned Beans"],
+        "Onion": ["Vegetables and Vegetable Products"],
+        "Garlic": ["Herbs & Spices"],
+        "Tomatoes": ["Tomatoes"],
+        "Jalapeño": ["Pre-Packaged Fruit & Vegetables"],
+        "Cilantro": ["Herbs & Spices"],
+        "Queso fresco": ["Cheese"],
+        "Crema Mexicana": ["Dairy Products"]
+      },
+      "queries": {
+        "Corn tortillas": "Corn Tortillas",
+        "Eggs": "Eggs, Grade A, Large, egg whole",
+        "Red salsa": "Red Salsa",
+        "Green salsa": "Green Salsa",
+        "Refried beans": "Refried Beans",
+        "Onion": "Yellow Onion",
+        "Garlic": "Garlic",
+        "Tomatoes": "Tomatoes",
+        "Jalapeño": "Jalapeno",
+        "Cilantro": "Cilantro",
+        "Queso fresco": "Queso Fresco Fresh Crumbling cheese, queso fresco",
+        "Crema Mexicana": "Crema Mexicana"
+      },
+      "references": []
+    },
+    "Century Egg and Tofu": {
+      "name": "Century Egg and Tofu",
+      "image": "../../Pictures/Recipes/China/Century Egg and Tofu.jpg",
+      "ingredients": [
+        "Silken tofu",
+        "Century eggs",
+        "Soy sauce",
+        "Sesame oil",
+        "Rice vinegar",
+        "Garlic, minced",
+        "Ginger, minced",
+        "Green onion, finely chopped",
+        "Cilantro, chopped",
+        "Red chili, sliced",
+        "Sesame seeds"
+      ],
+      "instructions": [
+        "Carefully remove 200 grams of silken tofu from its package and place it on a serving plate. Drain any excess liquid",
+        "Dice 2 century eggs (about 100 grams total) into small pieces and spread them evenly over the tofu",
+        "In a small bowl, mix 15 ml of soy sauce, 5 ml of sesame oil, 5 ml of rice vinegar, 5 grams of minced garlic, 5 grams of minced ginger, 2 grams of white pepper, and 2 grams of salt",
+        "Drizzle the sauce mixture evenly over the tofu and century eggs",
+        "Garnish with 10 grams of finely chopped green onion, 5 grams of chopped cilantro, 5 grams of sliced red chili, and 5 grams of sesame seeds",
+        "Serve chilled or at room temperature"
+      ],
+      "nutrition": {
+        "Calories": 320.4,
+        "Total Fat": 22.5,
+        "Saturated Fat": 3.2,
+        "Cholesterol": 250.0,
+        "Sodium": 1150.2,
+        "Carbohydrate": 10.6,
+        "Fiber": 2.3,
+        "Sugars": 1.7,
+        "Protein": 22.9
+      },
+      "lastUpdate": "Mon Mar 31 2022 16:58:32 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "For a smoother presentation, gently pat the tofu dry before plating",
+        "If you prefer a stronger flavor, let the tofu marinate in the sauce for 10 minutes before serving",
+        "Use toasted sesame seeds for extra aroma and crunch",
+        "Pair with steamed rice for a more filling meal"
+      ],
+      "gram calculations": {
+        "Silken tofu": 200,
+        "Century eggs": 100,
+        "Soy sauce": 15,
+        "Sesame oil": 5,
+        "Rice vinegar": 5,
+        "Garlic": 5,
+        "Ginger": 5,
+        "Green onion": 10,
+        "Cilantro": 5,
+        "Red chili": 5,
+        "Sesame seeds": 5
+      },
+      "categories": {
+        "Silken tofu": ["Plant-Based Protein", "Tofu & Meat Substitutes"],
+        "Century eggs": ["Eggs & Egg Products"],
+        "Soy sauce": ["Sauces & Condiments"],
+        "Sesame oil": ["Oils"],
+        "Rice vinegar": ["Vinegar"],
+        "Garlic": ["Herbs & Spices"],
+        "Ginger": ["Herbs & Spices"],
+        "Green onion": ["Vegetables and Vegetable Products"],
+        "Cilantro": ["Herbs & Spices"],
+        "Red chili": ["Pre-Packaged Fruit & Vegetables"],
+        "Sesame seeds": ["Nuts & Seeds"]
+      },
+      "queries": {
+        "Silken tofu": "Silken Tofu",
+        "Century eggs": "Century Egg, Preserved Egg",
+        "Soy sauce": "Soy Sauce",
+        "Sesame oil": "Sesame Oil",
+        "Rice vinegar": "Rice Vinegar",
+        "Garlic": "Garlic",
+        "Ginger": "Ginger Root",
+        "Green onion": "Green Onion, Scallions",
+        "Cilantro": "Cilantro",
+        "Red chili": "Red Chili Pepper",
+        "Sesame seeds": "Sesame Seeds"
+      },
+      "references": []
+    },
+    "Egg Foo Young": {
+      "name": "Egg Foo Young",
+      "image": "../../Pictures/Recipes/China/Egg Foo Young.jpg",
+      "ingredients": [
+        "Eggs",
+        "Bean sprouts",
+        "Green onions, chopped",
+        "Mushrooms, sliced",
+        "Shrimp, cooked and chopped",
+        "Soy sauce",
+        "Oyster sauce",
+        "Sesame oil",
+        "Cornstarch",
+        "Chicken broth",
+        "Garlic, minced",
+        "Ginger, minced",
+        "Vegetable oil",
+        "Salt",
+        "White pepper"
+      ],
+      "instructions": [
+        "In a mixing bowl, beat 4 eggs (about 200 grams total) until smooth",
+        "Add 50 grams of bean sprouts, 20 grams of chopped green onions, 50 grams of sliced mushrooms, and 50 grams of cooked and chopped shrimp to the eggs",
+        "Season the mixture with 5 grams of soy sauce, 3 grams of oyster sauce, 2 grams of salt, and 2 grams of white pepper",
+        "Heat 10 grams of vegetable oil in a skillet over medium heat",
+        "Pour a portion of the egg mixture into the skillet, shaping it into a round patty. Cook for 2-3 minutes per side until golden brown and set. Repeat with remaining mixture",
+        "In a saucepan, mix 200 ml of chicken broth, 5 grams of soy sauce, 5 grams of oyster sauce, 5 grams of cornstarch, 5 grams of minced garlic, and 5 grams of minced ginger",
+        "Simmer the sauce for 2-3 minutes until thickened, stirring constantly",
+        "Drizzle the sauce over the cooked Egg Foo Young and serve hot"
+      ],
+      "nutrition": {
+        "Calories": 410.6,
+        "Total Fat": 28.3,
+        "Saturated Fat": 6.1,
+        "Cholesterol": 365.2,
+        "Sodium": 1250.3,
+        "Carbohydrate": 15.4,
+        "Fiber": 2.5,
+        "Sugars": 2.2,
+        "Protein": 30.1
+      },
+      "lastUpdate": "Mon Mar 31 2022 16:58:32 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "For a fluffier texture, beat the eggs until light and airy before mixing with other ingredients",
+        "You can replace shrimp with chicken, pork, or tofu for variation",
+        "Use a non-stick skillet to prevent sticking and ensure even cooking",
+        "For extra crispiness, pan-fry in a little more oil"
+      ],
+      "gram calculations": {
+        "Eggs": 200,
+        "Bean sprouts": 50,
+        "Green onions": 20,
+        "Mushrooms": 50,
+        "Shrimp": 50,
+        "Soy sauce": 10,
+        "Oyster sauce": 8,
+        "Sesame oil": 5,
+        "Cornstarch": 5,
+        "Chicken broth": 200,
+        "Garlic": 5,
+        "Ginger": 5
+      },
+      "categories": {
+        "Eggs": ["Eggs & Egg Substitutes"],
+        "Bean sprouts": ["Vegetables and Vegetable Products"],
+        "Green onions": ["Vegetables and Vegetable Products"],
+        "Mushrooms": ["Vegetables and Vegetable Products"],
+        "Shrimp": ["Seafood"],
+        "Soy sauce": ["Sauces & Condiments"],
+        "Oyster sauce": ["Sauces & Condiments"],
+        "Sesame oil": ["Oils"],
+        "Cornstarch": ["Baking & Cooking Ingredients"],
+        "Chicken broth": ["Canned Soup"],
+        "Garlic": ["Herbs & Spices"],
+        "Ginger": ["Herbs & Spices"]
+      },
+      "queries": {
+        "Eggs": "Eggs, Grade A, Large, egg whole",
+        "Bean sprouts": "Bean Sprouts",
+        "Green onions": "Green Onion, Scallions",
+        "Mushrooms": "Mushrooms",
+        "Shrimp": "Shrimp, cooked",
+        "Soy sauce": "Soy Sauce",
+        "Oyster sauce": "Oyster Sauce",
+        "Sesame oil": "Sesame Oil",
+        "Cornstarch": "Cornstarch",
+        "Chicken broth": "Chicken Broth",
+        "Garlic": "Garlic",
+        "Ginger": "Ginger Root"
+      },
+      "references": []
     }
+
   }
 }
