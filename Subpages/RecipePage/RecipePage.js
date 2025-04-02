@@ -187,7 +187,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     const urlParams = new URLSearchParams(window.location.search);
     const recipeName = urlParams.get("recipe");
     let currentRecipe = data.Recipes[recipeName];
-    //let currentRecipe = data.Recipes['Breakfast Burrito'];
+    console.log(currentRecipe);
     let titleLink = document.getElementById("title");
     let imageLink = document.getElementById("image");
     let ingredientsLink = document.getElementById("ingredients");
