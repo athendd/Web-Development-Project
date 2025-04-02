@@ -801,6 +801,7 @@
           "Vegetables and Vegetable Products"
         ],
         "Coconut milk": [
+          "Plant Based Milk"
         ]
       },
       "queries": {
@@ -809,8 +810,8 @@
         "Eggs": "Eggs, Grade A, Large, egg whole",
         "Fresh cilantro": "Cilantro",
         "Tomatoes": "Tomatoes",
-        "Bell pepper": "Peppers, bell"
-        "Coconut milk": 
+        "Bell pepper": "Peppers, bell, red, raw",
+        "Coconut milk": "Coconut Milk"
       },
       "references": []
     },
@@ -818,23 +819,23 @@
       "name": "Feijão Tropeiro",
       "image": "../../Pictures/Recipes/Brazil/Feijao Tropeiro.jpg",
       "ingredients": [
-        "Cooked pinto beans",
+        "Pinto beans",
         "Bacon, diced",
-        "Linguiça sausage, sliced",
+        "Chorizo sausage, sliced",
         "Onion, chopped",
         "Garlic, minced",
         "Collard greens, chopped",
         "Eggs",
-        "Cassava flour (farofa)",
-        "Salt",
+        "Salt", 
+        "Olive oil", 
         "Black pepper",
-        "Olive oil",
+        "Cassava flour (farofa)",
         "Fresh parsley, chopped"
       ],
       "instructions": [
         "In a large skillet, heat 20 grams of olive oil over medium heat",
         "Add 100 grams of diced bacon and cook until crispy, about 5 minutes",
-        "Stir in 150 grams of sliced linguiça sausage and cook for another 5 minutes until browned",
+        "Stir in 150 grams of sliced chorizo sausage and cook for another 5 minutes until browned",
         "Add 80 grams of chopped onion and sauté until translucent, about 3 minutes",
         "Stir in 10 grams of minced garlic and cook for another minute",
         "Push the ingredients to the side of the skillet and scramble 2 eggs (about 100 grams total) in the center until fully cooked",
@@ -863,9 +864,9 @@
         "Serve with white rice and grilled meat for a complete meal"
       ],
       "gram calculations": {
-        "Cooked pinto beans": 300,
+        "Pinto beans": 300,
         "Bacon": 100,
-        "Linguiça sausage": 150,
+        "Chorizo": 150,
         "Onion": 80,
         "Garlic": 10,
         "Collard greens": 150,
@@ -874,25 +875,25 @@
         "Fresh parsley": 10
       },
       "categories": {
-        "Cooked pinto beans": ["Legumes"],
-        "Bacon": ["Meats"],
-        "Linguiça sausage": ["Meats"],
-        "Onion": ["Vegetables and Vegetable Products"],
-        "Garlic": ["Herbs & Spices"],
-        "Collard greens": ["Leafy Greens"],
+        "Pinto beans": ["Vegetable and Lentil Mixes"],
+        "Bacon": ["Bacon, Sausages & Ribs"],
+        "Chorizo": ["Sausages, Hotdogs & Brats","Sausages"],
+        "Onion": ["Vegetables and Vegetable Products", "Pre-Packed Fruit & Vegetables"],
+        "Garlic": ["Pre-Packaged Fruit & Vegetables"],
+        "Collard greens": ["Pre-Packaged Fruit & Vegetables"],
         "Eggs": ["Eggs & Egg Substitutes"],
-        "Cassava flour": ["Flours"],
-        "Fresh parsley": ["Herbs & Spices"]
+        "Cassava flour": ["Flours & Corn Meal"],
+        "Fresh parsley": ["Vegetables and Vegetable Products"]
       },
       "queries": {
-        "Cooked pinto beans": "Pinto beans, cooked",
-        "Bacon": "Bacon, cooked, diced",
-        "Linguiça sausage": "Linguiça sausage",
+        "Pinto beans": "Pinto Beans",
+        "Bacon": "Bacon",
+        "Chorizo": "Chorizo",
         "Onion": "Yellow Onion",
         "Garlic": "Garlic",
         "Collard greens": "Collard Greens",
         "Eggs": "Eggs, Grade A, Large, egg whole",
-        "Cassava flour": "Cassava flour, toasted (farofa)",
+        "Cassava flour": "Cassava flour",
         "Fresh parsley": "Parsley, fresh"
       },
       "references": []
@@ -958,23 +959,23 @@
         "Eggs": 100
       },
       "categories": {
-        "Ground beef": ["Meats"],
-        "Onion": ["Vegetables and Vegetable Products"],
-        "Garlic": ["Herbs & Spices"],
-        "Fresh parsley": ["Herbs & Spices"],
+        "Ground beef": ["Other Meats"],
+        "Onion": ["Pre-Packed Fruit & Vegetables", "Vegetables and Vegetable Products"],
+        "Garlic": ["Pre-Packaged Fruit & Vegetables"],
+        "Fresh parsley": ["Vegetables and Vegetable Products"],
         "Fresh cilantro": ["Herbs & Spices"],
         "Tomatoes": ["Tomatoes"],
         "Tomato paste": ["Tomatoes"],
         "Eggs": ["Eggs & Egg Substitutes"]
       },
       "queries": {
-        "Ground beef or lamb": "Beef, ground, 85% lean meat / 15% fat, raw",
+        "Ground beef": "Ground Beef",
         "Onion": "Yellow Onion",
         "Garlic": "Garlic",
         "Fresh parsley": "Parsley, fresh",
         "Fresh cilantro": "Cilantro",
         "Tomatoes": "Tomatoes",
-        "Tomato paste": "Tomato paste",
+        "Tomato paste": "Tomato Paste",
         "Eggs": "Eggs, Grade A, Large, egg whole"
       },
       "references": []
@@ -1045,15 +1046,15 @@
         "Eggs": 200
       },
       "categories": {
-        "Onion": ["Vegetables and Vegetable Products"],
-        "Garlic": ["Herbs & Spices"],
+        "Onion": ["Pre-Packed Fruit & Vegetables", "Vegetables and Vegetable Products"],
+        "Garlic": ["Pre-Packaged Fruit & Vegetables"],
         "Tomatoes": ["Tomatoes"],
         "Carrots": ["Vegetables and Vegetable Products"],
         "Bell peppers": ["Vegetables and Vegetable Products"],
         "Zucchini": ["Vegetables and Vegetable Products"],
         "Potatoes": ["Vegetables and Vegetable Products"],
         "Vegetable broth": ["Canned Soup"],
-        "Fresh parsley": ["Herbs & Spices"],
+        "Fresh parsley": ["Vegetables and Vegetable Products"],
         "Fresh cilantro": ["Herbs & Spices"],
         "Eggs": ["Eggs & Egg Substitutes"]
       },
@@ -1061,8 +1062,8 @@
         "Onion": "Yellow Onion",
         "Garlic": "Garlic",
         "Tomatoes": "Tomatoes",
-        "Carrots": "Carrots",
-        "Bell peppers": "Bell Peppers",
+        "Carrots": "Carrots, raw",
+        "Bell peppers": "Peppers, bell, red, raw",
         "Zucchini": "Zucchini",
         "Potatoes": "Potatoes",
         "Vegetable broth": "Vegetable Broth",
@@ -1137,8 +1138,8 @@
         "Red salsa": ["Sauces & Condiments"],
         "Green salsa": ["Sauces & Condiments"],
         "Refried beans": ["Canned Beans"],
-        "Onion": ["Vegetables and Vegetable Products"],
-        "Garlic": ["Herbs & Spices"],
+        "Onion": ["Pre-Packed Fruit & Vegetables", "Vegetables and Vegetable Products"],
+        "Garlic": ["Pre-Packaged Fruit & Vegetables"],
         "Tomatoes": ["Tomatoes"],
         "Jalapeño": ["Pre-Packaged Fruit & Vegetables"],
         "Cilantro": ["Herbs & Spices"],
@@ -1168,7 +1169,6 @@
         "Silken tofu",
         "Century eggs",
         "Soy sauce",
-        "Sesame oil",
         "Rice vinegar",
         "Garlic, minced",
         "Ginger, minced",
@@ -1180,7 +1180,7 @@
       "instructions": [
         "Carefully remove 200 grams of silken tofu from its package and place it on a serving plate. Drain any excess liquid",
         "Dice 2 century eggs (about 100 grams total) into small pieces and spread them evenly over the tofu",
-        "In a small bowl, mix 15 ml of soy sauce, 5 ml of sesame oil, 5 ml of rice vinegar, 5 grams of minced garlic, 5 grams of minced ginger, 2 grams of white pepper, and 2 grams of salt",
+        "In a small bowl, mix 15 ml of soy sauce, 5 ml of rice vinegar, 5 grams of minced garlic, 5 grams of minced ginger, 2 grams of white pepper, and 2 grams of salt",
         "Drizzle the sauce mixture evenly over the tofu and century eggs",
         "Garnish with 10 grams of finely chopped green onion, 5 grams of chopped cilantro, 5 grams of sliced red chili, and 5 grams of sesame seeds",
         "Serve chilled or at room temperature"
@@ -1207,7 +1207,6 @@
         "Silken tofu": 200,
         "Century eggs": 100,
         "Soy sauce": 15,
-        "Sesame oil": 5,
         "Rice vinegar": 5,
         "Garlic": 5,
         "Ginger": 5,
@@ -1220,11 +1219,10 @@
         "Silken tofu": ["Plant-Based Protein", "Tofu & Meat Substitutes"],
         "Century eggs": ["Eggs & Egg Products"],
         "Soy sauce": ["Sauces & Condiments"],
-        "Sesame oil": ["Oils"],
-        "Rice vinegar": ["Vinegar"],
-        "Garlic": ["Herbs & Spices"],
+        "Rice vinegar": ["Other Cooking Sauces"],
+        "Garlic": ["Pre-Packaged Fruit & Vegetables"],
         "Ginger": ["Herbs & Spices"],
-        "Green onion": ["Vegetables and Vegetable Products"],
+        "Green onion": ["Onions"],
         "Cilantro": ["Herbs & Spices"],
         "Red chili": ["Pre-Packaged Fruit & Vegetables"],
         "Sesame seeds": ["Nuts & Seeds"]
@@ -1233,11 +1231,10 @@
         "Silken tofu": "Silken Tofu",
         "Century eggs": "Century Egg, Preserved Egg",
         "Soy sauce": "Soy Sauce",
-        "Sesame oil": "Sesame Oil",
         "Rice vinegar": "Rice Vinegar",
         "Garlic": "Garlic",
         "Ginger": "Ginger Root",
-        "Green onion": "Green Onion, Scallions",
+        "Green onion": "Onions, green, raw",
         "Cilantro": "Cilantro",
         "Red chili": "Red Chili Pepper",
         "Sesame seeds": "Sesame Seeds"
@@ -1255,14 +1252,10 @@
         "Shrimp, cooked and chopped",
         "Soy sauce",
         "Oyster sauce",
-        "Sesame oil",
         "Cornstarch",
         "Chicken broth",
         "Garlic, minced",
-        "Ginger, minced",
-        "Vegetable oil",
-        "Salt",
-        "White pepper"
+        "Ginger, minced"      
       ],
       "instructions": [
         "In a mixing bowl, beat 4 eggs (about 200 grams total) until smooth",
@@ -1300,7 +1293,6 @@
         "Shrimp": 50,
         "Soy sauce": 10,
         "Oyster sauce": 8,
-        "Sesame oil": 5,
         "Cornstarch": 5,
         "Chicken broth": 200,
         "Garlic": 5,
@@ -1309,27 +1301,25 @@
       "categories": {
         "Eggs": ["Eggs & Egg Substitutes"],
         "Bean sprouts": ["Vegetables and Vegetable Products"],
-        "Green onions": ["Vegetables and Vegetable Products"],
+        "Green onions": ["Onions"],
         "Mushrooms": ["Vegetables and Vegetable Products"],
-        "Shrimp": ["Seafood"],
-        "Soy sauce": ["Sauces & Condiments"],
-        "Oyster sauce": ["Sauces & Condiments"],
-        "Sesame oil": ["Oils"],
-        "Cornstarch": ["Baking & Cooking Ingredients"],
+        "Shrimp": ["Shellfish"],
+        "Soy sauce": ["Oriental, Mexican & Ethnic Sauces"],
+        "Oyster sauce": ["Oriental, Mexican & Ethnic Sauces"],
+        "Cornstarch": ["Flours & Corn Meal"],
         "Chicken broth": ["Canned Soup"],
-        "Garlic": ["Herbs & Spices"],
+        "Garlic": ["Pre-Packaged Fruit & Vegetables"],
         "Ginger": ["Herbs & Spices"]
       },
       "queries": {
         "Eggs": "Eggs, Grade A, Large, egg whole",
-        "Bean sprouts": "Bean Sprouts",
-        "Green onions": "Green Onion, Scallions",
-        "Mushrooms": "Mushrooms",
-        "Shrimp": "Shrimp, cooked",
+        "Bean sprouts": "Mung beans, mature seeds, sprouted, cooked, boiled, drained, with salt",
+        "Green onions": "Onions, green, raw",
+        "Mushrooms": "Mushrooms, shiitake",
+        "Shrimp": "Shrimp, steamed or boiled",
         "Soy sauce": "Soy Sauce",
-        "Oyster sauce": "Oyster Sauce",
-        "Sesame oil": "Sesame Oil",
-        "Cornstarch": "Cornstarch",
+        "Oyster sauce": "Oyster Sauce, Oyster",
+        "Cornstarch": "Organic Cornstarch",
         "Chicken broth": "Chicken Broth",
         "Garlic": "Garlic",
         "Ginger": "Ginger Root"
