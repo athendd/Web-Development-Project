@@ -2,7 +2,7 @@
   "Recipes": {
     "Breakfast Burrito": {
       "name": "Breakfast Burrito",
-      "image": "../../Pictures/Recipes/American/BreakfastBurrito.png",
+      "image": "../../Pictures/Recipes/America/Breakfast Burrito.jpg",
       "ingredients": [
         "2 tablespoons of sour cream",
         "1 large flour tortilla",
@@ -32,17 +32,17 @@
         "Finish up and enjoy!"
       ],
       "nutrition": {
-        "Calories": 1196.26,
-        "Total Fat": 80.30600000000001,
-        "Saturated Fat": 30.4624,
-        "Cholesterol": 986.86,
-        "Sodium": 2449.08,
-        "Carbohydrate": 47.388,
+        "Calories": 1163.04,
+        "Total Fat": 80.86200000000001,
+        "Saturated Fat": 31.5784,
+        "Cholesterol": 967.4,
+        "Sodium": 2151.5,
+        "Carbohydrate": 47.2446,
         "Fiber": 3.46,
         "Sugars": 2.728,
-        "Protein": 62.980999999999995
+        "Protein": 55.64719999999999
       },
-      "lastUpdate": "Tue Mar 11 2025 12:47:01 GMT-0400 (Eastern Daylight Time)",
+      "lastUpdate": "Mon Mar 31 2025 13:11:48 GMT-0400 (Eastern Daylight Time)",
       "cooking tips": [
         "Put bacon into cold oven before heating",
         "For soft scrambled eggs, constantly stir eggs with a spatula",
@@ -99,6 +99,2130 @@
         "Onion": "Yellow Onion",
         "Cheddar Cheese": "Cheddar Cheese",
         "Chorizo": "Chorizo"
+      },
+      "references": []
+    },
+    "Croque Madame": {
+      "name": "Croque Madame",
+      "image": "../../Pictures/Recipes/France/Croque Madame.jpg",
+      "ingredients": [
+        "Unsalted Butter",
+        "All-purpose flour",
+        "Whole milk",
+        "Gruyère cheese, grated",
+        "Nutmeg",
+        "Sourdough bread",
+        "Cooked ham, thinly sliced",
+        "Dijon mustard",
+        "Eggs"
+      ],
+      "instructions": [
+        "In a medium saucepan over medium heat, melt the 30 grams of butter",
+        "Add the 30 grams of flour and whisk continuously for 2-3 minutes. This creates a roux. Ensure it doesn't brown",
+        "Gradually pour in the 300ml of whole milk, whisking constantly to prevent lumps",
+        "Bring the mixture to a simmer over medium heat, stirring regularly. The sauce will thicken",
+        "Season with salt, pepper, and a pinch of nutmeg and cheese",
+        "Reduce the heat to low and stir in the 60 grams of Gruyère cheese until melted and smooth",
+        "Keep the Mornay sauce warm",
+        "Preheat your oven to 220°C (430°F)",
+        "Brush both sides of the 2 slices of bread with the melted 20 grams of butter",
+        "Place them on a baking sheet and lightly toast them in the oven for about 3-5 minutes, or until golden",
+        "Spread a generous amount of the Mornay sauce on one side of each toasted bread slice",
+        "On one slice, layer half the grated Gruyère, the 150 grams of ham, and spread the 2 teaspoons of Dijon mustard over the ham",
+        "Then add the remainding grate gruyere",
+        "Top with the second piece of bread",
+        "Top with Mornay and Cheese",
+        "Cover the top of each sandwich with the remaining Mornay sauce and sprinkle with the remaining grated Gruyère cheese",
+        "Bake the sandwiches in the preheated oven for approximately 10 minutes, or until the cheese is melted and golden brown",
+        "If you have a broiler setting, you can broil for the last couple minutes, watching close to prevent burning, for a nicely browned top",
+        "While the sandwiches are baking, heat 1 tablespoon of olive oil in a frying pan over medium heat",
+        "Carefully crack the 2 eggs into the pan and fry them sunny-side up, or to your desired doneness",
+        "Season with salt and pepper",
+        "Once the sandwiches are baked, place a fried egg on top of each sandwich",
+        "Enjoy"
+      ],
+      "nutrition": {
+        "Calories": 1675.3350000000003,
+        "Total Fat": 110.1009,
+        "Saturated Fat": 60.3359,
+        "Cholesterol": 789,
+        "Sodium": 3480.0879999999997,
+        "Carbohydrate": 72.54289999999999,
+        "Fiber": 4.3764,
+        "Sugars": 0.2,
+        "Protein": 99.37111999999999
+      },
+      "lastUpdate": "Mon Mar 31 2025 13:14:44 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "If the Mornay sauce becomes too thick, add a splash of warm milk to thin it out",
+        "Gruyère is the traditional cheese, but you can also use Comté or a combination of cheeses",
+        "A sturdy bread like sourdough or brioche holds up well to the sauce and toppings",
+        "Toast the bread lightly before assembling the sandwich to prevent it from becoming soggy",
+        "For perfectly round fried eggs, you can use a cooking ring",
+        "Feel free to add other ingredients like caramelized onions or mushrooms to your sandwich"
+      ],
+      "gram calculations": {
+        "Unsalted Butter": 50,
+        "All-purpose flour": 30,
+        "Whole milk": 300,
+        "Gruyère cheese, grated": 140,
+        "Nutmeg": 0.3,
+        "Sourdough bread": 64,
+        "Cooked ham, thinly sliced": 150,
+        "Dijon mustard": 12,
+        "Eggs": 100
+      },
+      "categories": {
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ],
+        "Dijon mustard": [
+          "Ketchup, Mustard, BBQ & Cheese Sauce"
+        ],
+        "All-purpose flour": [
+          "Flours & Corn Meal"
+        ],
+        "Gruyère cheese, grated": [
+          "Cheese"
+        ],
+        "Sourdough bread": [
+          "Breads & Buns"
+        ],
+        "Unsalted Butter": [
+          "Butter & Spread"
+        ],
+        "Nutmeg": [
+          "Spices and Herbs"
+        ],
+        "Whole milk": [
+          "Milk, whole"
+        ],
+        "Cooked ham, thinly sliced": [
+          "Pepperoni, Salami & Cold Cuts",
+          "Cooked & Prepared"
+        ]
+      },
+      "queries": {
+        "Unsalted Butter": "Butter, unsalted",
+        "All-purpose flour": "Flour, all-purpose",
+        "Whole milk": "Milk, whole",
+        "Gruyère cheese, grated": "Cheese, gruyere",
+        "Nutmeg": "Spices, nutmeg, ground",
+        "Sourdough bread": "Sourdough bread",
+        "Cooked ham, thinly sliced": "Cooked Ham",
+        "Dijon mustard": "Dijon Mustard, Dijon",
+        "Eggs": "Eggs, Grade A, Large, egg whole"
+      },
+      "references": []
+    },
+    "Sunny Side Up": {
+      "name": "Sunny Side Up Egg",
+      "image": "../../Pictures/Recipes/General/Sunny Side Up.jpg",
+      "ingredients": [
+        "Eggs"
+      ],
+      "instructions": [
+        "Heat a saucepan up to low heat",
+        "Add some butter or olive oil to the saucepan",
+        "Crack an egg into the saucepan",
+        "Use a spoon and scoop the butter or olive oil in the pan onto the egg yolk",
+        "Once the egg white is set, remove the egg from the saucepan",
+        "Add some salt and pepper",
+        "Enjoy"
+      ],
+      "nutrition": {
+        "Calories": 74,
+        "Total Fat": 4.98,
+        "Saturated Fat": 1.6,
+        "Cholesterol": 205.5,
+        "Sodium": 64.5,
+        "Carbohydrate": 0.48,
+        "Fiber": 0,
+        "Sugars": 0.1,
+        "Protein": 6.2
+      },
+      "lastUpdate": "Mon Mar 31 2025 13:17:36 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "Add seasonings once the egg is finished cooking",
+        "Use a combination of butter and olive oil"
+      ],
+      "gram calculations": {
+        "Eggs": 50
+      },
+      "categories": {
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ]
+      },
+      "queries": {
+        "Eggs": "Eggs, Grade A, Large, egg whole"
+      },
+      "references": []
+    },
+    "Poached": {
+      "name": "Poached Egg",
+      "image": "../../Pictures/Recipes/General/Poached.jpg",
+      "ingredients": [
+        "Eggs"
+      ],
+      "instructions": [
+        "Bring a large pot of water to a boil, then reduce to low (or turn off the heat)",
+        "Crack the egg in a fine mesh sieve (over a small bowl) and remove the liquidy",
+        "Transfer the egg to a small ramekin or bowl",
+        "Add one tablespoon of light-colored vinegar to the pot and stir to create a vortex",
+        "Pour the ramekin with the egg into the middle of the vortex and set a timer for 3 minutes",
+        "Once the egg is done, use a slotted spoon to remove the poached egg. Dab with a paper towel to remove excess water and enjoy"
+      ],
+      "nutrition": {
+        "Calories": 148,
+        "Total Fat": 9.96,
+        "Saturated Fat": 3.2,
+        "Cholesterol": 411,
+        "Sodium": 129,
+        "Carbohydrate": 0.96,
+        "Fiber": 0,
+        "Sugars": 0.2,
+        "Protein": 12.4
+      },
+      "lastUpdate": "Mon Mar 31 2022 13:18:07 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "Use a fresh egg",
+        "Use a deep pot"
+      ],
+      "gram calculations": {
+        "Eggs": 50
+      },
+      "categories": {
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ]
+      },
+      "queries": {
+        "Eggs": "Eggs, Grade A, Large, egg whole"
+      },
+      "references": [
+        "https://downshiftology.com/recipes/poached-eggs/"
+      ]
+    },
+    "Shakshuka": {
+      "name": "Shakshuka",
+      "image": "../../Pictures/Recipes/Morocco/Shakshuka.jpg",
+      "ingredients": [
+        "Onion, finely chopped",
+        "Garlic, minced",
+        "Red bell pepper, diced",
+        "Canned tomatoes, crushed",
+        "Tomato paste",
+        "Ground cumin",
+        "Paprika",
+        "Cayenne pepper",
+        "Eggs",
+        "Feta cheese, crumbled",
+        "Fresh parsley, chopped"
+      ],
+      "instructions": [
+        "Heat 30 grams of olive oil in a large skillet over medium heat",
+        "Add 120 grams of finely chopped onion and sauté for about 3-4 minutes until softened",
+        "Stir in 10 grams of minced garlic and cook for another minute until fragrant",
+        "Add 150 grams of diced red bell pepper and sauté for 5-7 minutes until softened",
+        "Pour in 400 grams of crushed canned tomatoes and 30 grams of tomato paste, stirring well to combine",
+        "Season with 5 grams of ground cumin, 5 grams of paprika, 1 gram of cayenne pepper, 5 grams of salt, and 3 grams of black pepper",
+        "Simmer for 10-15 minutes, stirring occasionally, until the sauce thickens slightly",
+        "Make small wells in the sauce and crack 4 eggs (about 200 grams) into the wells",
+        "Cover and cook for 5-8 minutes until the egg whites are set but yolks remain slightly runny",
+        "Sprinkle with 50 grams of crumbled feta cheese and 15 grams of freshly chopped parsley",
+        "Enjoy with warm bread for dipping"
+      ],
+      "nutrition": {
+        "Calories": 610,
+        "Total Fat": 21.407500000000002,
+        "Saturated Fat": 6.5798000000000005,
+        "Cholesterol": 827.5,
+        "Sodium": 1625.1000000000001,
+        "Carbohydrate": 64.6265,
+        "Fiber": 13.944999999999999,
+        "Sugars": 7.384000000000001,
+        "Protein": 49.35450000000001
+      },
+      "lastUpdate": "Mon Mar 31 2025 13:19:42 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "For extra depth of flavor, let the sauce simmer longer before adding the eggs",
+        "If the sauce thickens too much, add a splash of water or vegetable broth to loosen it",
+        "Covering the pan while cooking the eggs helps them set more evenly",
+        "For a spicier shakshuka, increase the cayenne pepper or add chopped chili peppers",
+        "Serve with warm pita, sourdough, or crusty bread to soak up the sauce"
+      ],
+      "gram calculations": {
+        "Onion": 120,
+        "Garlic": 10,
+        "Red bell pepper": 150,
+        "Canned tomatoes, crushed": 400,
+        "Tomato paste": 30,
+        "Ground cumin": 5,
+        "Paprika": 5,
+        "Cayenne pepper": 1,
+        "Eggs": 200,
+        "Feta cheese": 50,
+        "Fresh parsley": 15
+      },
+      "categories": {
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ],
+        "Onion": [
+          "Pre-Packed Fruit & Vegetables",
+          "Vegetables and Vegetable Products"
+        ],
+        "Garlic": [
+          "Pre-Packaged Fruit & Vegetables"
+        ],
+        "Red bell pepper": [
+          "Vegetables and Vegetable Products"
+        ],
+        "Canned tomatoes, crushed": [
+          "Vegetables and Vegetable Products"
+        ],
+        "Tomato paste": [
+          "Tomatoes"
+        ],
+        "Ground cumin": [
+          "Herbs & Spices"
+        ],
+        "Paprika": [
+          "Herbs & Spices"
+        ],
+        "Cayenne pepper": [
+          "Herbs & Spices"
+        ],
+        "Feta cheese": [
+          "Cheese"
+        ],
+        "Fresh parsley": [
+          "Vegetables and Vegetable Products"
+        ]
+      },
+      "queries": {
+        "Onion": "Yellow Onion",
+        "Garlic": "Garlic",
+        "Red bell pepper": "Peppers, bell, red, raw",
+        "Canned tomatoes, crushed": "Tomatoes, crushed, canned",
+        "Tomato paste": "Tomato Paste",
+        "Ground cumin": "Ground Cumin",
+        "Paprika": "Paprika",
+        "Cayenne pepper": "Cayenne Pepper",
+        "Eggs": "Eggs, Grade A, Large, egg whole",
+        "Feta cheese": "Feta Cheese Crumbles, Feta Cheese",
+        "Fresh parsley": "Parsley, fresh"
+      },
+      "references": []
+    },
+    "Huevos Rancheros": {
+      "name": "Huevos Rancheros",
+      "image": "../../Pictures/Recipes/Mexico/Huevos Rancheros.jpg",
+      "ingredients": [
+        "Onion, diced",
+        "Garlic, minced",
+        "Jalapeño, diced",
+        "Canned tomatoes, crushed",
+        "Tomato paste",
+        "Ground cumin",
+        "Paprika",
+        "Eggs",
+        "Corn tortilla",
+        "Refried beans",
+        "Fresh cilantro, chopped",
+        "Cotija cheese, crumbled"
+      ],
+      "instructions": [
+        "Heat 30 grams of olive oil in a skillet over medium heat",
+        "Add 100 grams of finely chopped onion and sauté for about 3-4 minutes until softened",
+        "Stir in 10 grams of minced garlic and 1 diced jalapeño (about 20 grams), cooking for another minute until fragrant",
+        "Pour in 400 grams of crushed canned tomatoes and 20 grams of tomato paste, stirring to combine",
+        "Season with 5 grams of ground cumin, 5 grams of paprika, 5 grams of salt, and 3 grams of black pepper",
+        "Simmer for 10-12 minutes, stirring occasionally, until the sauce thickens",
+        "In a separate pan, heat 10 grams of olive oil over medium heat and lightly fry 4 corn tortillas (about 120 grams total) until golden and crispy. Set aside",
+        "Heat another 10 grams of olive oil and fry 4 eggs (about 200 grams total) to your preferred doneness",
+        "Warm 200 grams of refried beans and spread evenly over the fried tortillas",
+        "Spoon the tomato sauce over the beans, then top each with a fried egg",
+        "Garnish with 15 grams of freshly chopped cilantro",
+        "Enjoy"
+      ],
+      "nutrition": {
+        "Calories": 1218.6999999999998,
+        "Total Fat": 29.394000000000002,
+        "Saturated Fat": 7.822,
+        "Cholesterol": 822,
+        "Sodium": 1795.2,
+        "Carbohydrate": 179.504,
+        "Fiber": 22.64,
+        "Sugars": 6.220000000000001,
+        "Protein": 55.798
+      },
+      "lastUpdate": "Mon Mar 31 2025 13:22:01 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "For a smokier flavor, roast the jalapeño and tomatoes before blending into the sauce",
+        "If you prefer a spicier sauce, add extra jalapeño or a dash of hot sauce",
+        "Use freshly made refried beans for the best flavor, or mix in a little lime juice for extra zest"
+      ],
+      "gram calculations": {
+        "Onion": 100,
+        "Garlic": 10,
+        "Jalapeno": 20,
+        "Canned tomatoes, crushed": 400,
+        "Tomato paste": 20,
+        "Ground cumin": 5,
+        "Paprika": 5,
+        "Eggs": 200,
+        "Corn tortillas": 120,
+        "Refried beans": 200,
+        "Fresh cilantro": 15
+      },
+      "categories": {
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ],
+        "Onion": [
+          "Pre-Packed Fruit & Vegetables",
+          "Vegetables and Vegetable Products"
+        ],
+        "Garlic": [
+          "Pre-Packaged Fruit & Vegetables"
+        ],
+        "Canned tomatoes, crushed": [
+          "Vegetables and Vegetable Products"
+        ],
+        "Tomato paste": [
+          "Tomatoes"
+        ],
+        "Ground cumin": [
+          "Herbs & Spices"
+        ],
+        "Paprika": [
+          "Herbs & Spices"
+        ],
+        "Jalapeno": [
+          "Pre-Packaged Fruit & Vegetables"
+        ],
+        "Refried beans": [
+          "Beans, peas, legumes",
+          "Canned & Bottled Beans"
+        ],
+        "Fresh cilantro": [
+          "Herbs & Spices"
+        ],
+        "Corn tortillas": [
+          "Mexican Dinner Mixes"
+        ]
+      },
+      "queries": {
+        "Onion": "Yellow Onion",
+        "Garlic": "Garlic",
+        "Canned tomatoes, crushed": "Tomatoes, crushed, canned",
+        "Tomato paste": "Tomato Paste",
+        "Ground cumin": "Ground Cumin",
+        "Paprika": "Paprika",
+        "Jalapeno": "Jalapeno",
+        "Refried beans": "Refried Beans",
+        "Fresh cilantro": "Cilantro",
+        "Corn tortillas": "Corn Tortilla",
+        "Eggs": "Eggs, Grade A, Large, egg whole"
+      },
+      "references": []
+    },
+    "Ovos Mexidos com Chorizo": {
+      "name": "Ovos Mexidos com Chorizo",
+      "image": "../../Pictures/Recipes/Brazil/Ovos Mexidos com Chorizo.jpg",
+      "ingredients": [
+        "Chorizo",
+        "Onion, finely chopped",
+        "Garlic, minced",
+        "Eggs",
+        "Whole milk",
+        "Fresh parsley, chopped"
+      ],
+      "instructions": [
+        "Heat 20 grams of olive oil in a pan over medium heat",
+        "Add 100 grams of diced chorizo and cook for 3-4 minutes until it releases its oils and becomes crispy",
+        "Stir in 50 grams of finely chopped onion and cook until softened, about 2-3 minutes",
+        "Add 5 grams of minced garlic and sauté for another minute until fragrant",
+        "In a bowl, whisk 4 eggs (about 200 grams total) with 30 grams of whole milk, 3 grams of salt, and 2 grams of black pepper",
+        "Reduce heat to low and pour the egg mixture into the pan, stirring continuously to scramble",
+        "Cook gently until the eggs are just set but still soft, about 3-4 minutes",
+        "Remove from heat and sprinkle with 10 grams of freshly chopped parsley",
+        "Enjoy"
+      ],
+      "nutrition": {
+        "Calories": 686.25,
+        "Total Fat": 49.084,
+        "Saturated Fat": 16.4212,
+        "Cholesterol": 932.6,
+        "Sodium": 1258.5,
+        "Carbohydrate": 12.541999999999998,
+        "Fiber": 1.28,
+        "Sugars": 3.31,
+        "Protein": 45.793000000000006
+      },
+      "lastUpdate": "Mon Mar 31 2025 17:00:08 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "Use a good-quality chorizo for the best flavor",
+        "For creamier scrambled eggs, cook them on low heat and stir gently",
+        "If you like a spicier version, try adding a pinch of smoked paprika or chili flakes",
+        "Serve with rustic bread",
+        "You can add a handful of grated cheese at the end for a richer dish"
+      ],
+      "gram calculations": {
+        "Chorizo": 100,
+        "Onion": 50,
+        "Garlic": 5,
+        "Eggs": 200,
+        "Whole milk": 30,
+        "Fresh parsley": 10
+      },
+      "categories": {
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ],
+        "Onion": [
+          "Pre-Packed Fruit & Vegetables",
+          "Vegetables and Vegetable Products"
+        ],
+        "Garlic": [
+          "Pre-Packaged Fruit & Vegetables"
+        ],
+        "Fresh parsley": [
+          "Vegetables and Vegetable Products"
+        ],
+        "Whole milk": [
+          "Milk, whole"
+        ],
+        "Chorizo": [
+          "Sausages, Hotdogs & Brats",
+          "Sausages"
+        ]
+      },
+      "queries": {
+        "Whole milk": "Milk, whole",
+        "Fresh parsley": "Parsley, fresh",
+        "Onion": "Yellow Onion",
+        "Garlic": "Garlic",
+        "Eggs": "Eggs, Grade A, Large, egg whole",
+        "Chorizo": "Chorizo"
+      },
+      "references": []
+    },
+    "Chilaquiles con Huevos": {
+      "name": "Chilaquiles con Huevos",
+      "image": "../../Pictures/Recipes/Mexico/Chilaquiles con Huevos.jpg",
+      "ingredients": [
+        "Corn chips",
+        "Eggs",
+        "Tomatoes, chopped",
+        "Onion, finely chopped",
+        "Garlic, minced",
+        "Jalapeño, sliced",
+        "Chicken broth",
+        "Tomato sauce",
+        "Cilantro, chopped",
+        "Queso fresco, crumbled",
+        "Crema Mexicana",
+        "Avocado, sliced"
+      ],
+      "instructions": [
+        "In a blender, combine 150 grams of chopped tomatoes, 50 grams of finely chopped onion, 5 grams of minced garlic, 1 sliced jalapeño, 200 ml of chicken broth, and 100 grams of tomato sauce. Blend until smooth",
+        "In a large skillet, heat 10 grams of vegetable oil over medium heat and pour in the blended sauce. Simmer for 5-7 minutes until slightly thickened",
+        "Season the sauce with 3 grams of salt and 2 grams of black pepper",
+        "Add the fried tortilla chips to the skillet and gently toss to coat them in the sauce. Cook for 2-3 minutes until they soften slightly but remain crisp",
+        "In a separate pan, heat 10 grams of oil and fry 2 eggs (about 100 grams total) to your preferred doneness, seasoning with salt and pepper",
+        "Serve the chilaquiles on a plate and top each portion with a fried egg",
+        "Garnish with 10 grams of chopped cilantro",
+        "Serve immediately"
+      ],
+      "nutrition": {
+        "Calories": 1365.8500000000001,
+        "Total Fat": 70.805,
+        "Saturated Fat": 17.18,
+        "Cholesterol": 443.4,
+        "Sodium": 1922.1,
+        "Carbohydrate": 146.94819999999999,
+        "Fiber": 4,
+        "Sugars": 3.1100000000000003,
+        "Protein": 36.7251
+      },
+      "lastUpdate": "Mon Mar 31 2025 16:58:32 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "If you prefer a spicier sauce, add more jalapeños or a pinch of cayenne pepper",
+        "For a richer flavor, roast the tomatoes, onions, and garlic before blending the sauce",
+        "You can also add shredded chicken or black beans for extra protein",
+        "Chilaquiles can be served with red or green sauce, depending on preference"
+      ],
+      "gram calculations": {
+        "Corn chips": 200,
+        "Eggs": 100,
+        "Tomatoes": 150,
+        "Onion": 50,
+        "Garlic": 5,
+        "Jalapeño": 15,
+        "Chicken broth": 200,
+        "Tomato sauce": 100,
+        "Fresh cilantro": 10,
+        "Queso fresco": 40
+      },
+      "categories": {
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ],
+        "Jalapeño": [
+          "Pre-Packaged Fruit & Vegetables"
+        ],
+        "Onion": [
+          "Pre-Packed Fruit & Vegetables",
+          "Vegetables and Vegetable Products"
+        ],
+        "Garlic": [
+          "Pre-Packaged Fruit & Vegetables"
+        ],
+        "Fresh cilantro": [
+          "Herbs & Spices"
+        ],
+        "Tomatoes": [
+          "Tomatoes"
+        ],
+        "Tomato sauce": [
+          "Tomatoes"
+        ],
+        "Chicken broth": [
+          "Canned Soup"
+        ],
+        "Corn chips": [
+          "Chips, Pretzels & Snacks"
+        ],
+        "Queso fresco": [
+          "Cheese"
+        ]
+      },
+      "queries": {
+        "Onion": "Yellow Onion",
+        "Garlic": "Garlic",
+        "Eggs": "Eggs, Grade A, Large, egg whole",
+        "Jalapeño": "Jalapeno",
+        "Fresh cilantro": "Cilantro",
+        "Tomatoes": "Tomatoes",
+        "Tomato sauce": "Tomato sauce",
+        "Chicken broth": "Chicken Broth",
+        "Corn chips": "Corn Chips",
+        "Queso fresco": "Queso Fresco Fresh Crumbling cheese, queso fresco"
+      },
+      "references": []
+    },
+    "Moqueca de Ovos": {
+      "name": "Moqueca de Ovos",
+      "image": "../../Pictures/Recipes/Brazil/Moqueca de Ovos.jpg",
+      "ingredients": [
+        "Onion, diced",
+        "Garlic, minced",
+        "Bell pepper, diced",
+        "Tomatoes, diced",
+        "Coconut milk",
+        "Palm oil (or olive oil)",
+        "Ground cumin",
+        "Paprika",
+        "Salt",
+        "Black pepper",
+        "Lime juice",
+        "Eggs",
+        "Fresh cilantro, chopped"
+      ],
+      "instructions": [
+        "Heat 30 grams of palm oil in a skillet over medium heat",
+        "Add 100 grams of diced onion and sauté for about 3-4 minutes until softened",
+        "Stir in 10 grams of minced garlic and 80 grams of diced bell pepper, cooking for another minute until fragrant",
+        "Add 200 grams of diced tomatoes and stir well",
+        "Pour in 250 grams of coconut milk, stirring to combine",
+        "Season with 5 grams of ground cumin, 5 grams of paprika, 5 grams of salt, and 3 grams of black pepper",
+        "Simmer for 10-12 minutes, stirring occasionally, until the sauce thickens",
+        "Crack 4 eggs (about 200 grams total) directly into the simmering sauce, covering the pan to let them poach for 5-7 minutes, or until the whites are set but the yolks remain runny",
+        "Drizzle with 10 grams of fresh lime juice for extra brightness",
+        "Garnish with 15 grams of freshly chopped cilantro",
+        "Serve hot with rice or toasted bread",
+        "Enjoy"
+      ],
+      "nutrition": {
+        "Calories": 566.2,
+        "Total Fat": 35.695800000000006,
+        "Saturated Fat": 20.450000000000003,
+        "Cholesterol": 822,
+        "Sodium": 321.5,
+        "Carbohydrate": 34.195,
+        "Fiber": 2.828,
+        "Sugars": 6.220000000000001,
+        "Protein": 26.346799999999998
+      },
+      "lastUpdate": "Wed Apr 02 2025 12:55:01 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "For a deeper flavor, let the sauce simmer longer before adding the eggs",
+        "If you prefer a spicier moqueca, add a diced chili pepper or a pinch of red pepper flakes",
+        "Palm oil gives it a traditional Brazilian taste, but you can substitute with olive oil if unavailable"
+      ],
+      "gram calculations": {
+        "Onion": 100,
+        "Garlic": 10,
+        "Bell pepper": 80,
+        "Tomatoes": 200,
+        "Coconut milk": 250,
+        "Eggs": 200,
+        "Fresh cilantro": 15
+      },
+      "categories": {
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ],
+        "Onion": [
+          "Pre-Packed Fruit & Vegetables",
+          "Vegetables and Vegetable Products"
+        ],
+        "Garlic": [
+          "Pre-Packaged Fruit & Vegetables"
+        ],
+        "Fresh cilantro": [
+          "Herbs & Spices"
+        ],
+        "Tomatoes": [
+          "Tomatoes"
+        ],
+        "Bell pepper": [
+          "Vegetables and Vegetable Products"
+        ],
+        "Coconut milk": [
+          "Plant Based Milk"
+        ]
+      },
+      "queries": {
+        "Onion": "Yellow Onion",
+        "Garlic": "Garlic",
+        "Eggs": "Eggs, Grade A, Large, egg whole",
+        "Fresh cilantro": "Cilantro",
+        "Tomatoes": "Tomatoes",
+        "Bell pepper": "Peppers, bell, red, raw",
+        "Coconut milk": "Coconut Milk"
+      },
+      "references": []
+    },
+    "Feijao Tropeiro": {
+      "name": "Feijão Tropeiro",
+      "image": "../../Pictures/Recipes/Brazil/Feijao Tropeiro.jpg",
+      "ingredients": [
+        "Pinto beans",
+        "Bacon, diced",
+        "Chorizo sausage, sliced",
+        "Onion, chopped",
+        "Garlic, minced",
+        "Collard greens, chopped",
+        "Eggs",
+        "Salt",
+        "Olive oil",
+        "Black pepper",
+        "Cassava flour (farofa)",
+        "Fresh parsley, chopped"
+      ],
+      "instructions": [
+        "In a large skillet, heat 20 grams of olive oil over medium heat",
+        "Add 100 grams of diced bacon and cook until crispy, about 5 minutes",
+        "Stir in 150 grams of sliced chorizo sausage and cook for another 5 minutes until browned",
+        "Add 80 grams of chopped onion and sauté until translucent, about 3 minutes",
+        "Stir in 10 grams of minced garlic and cook for another minute",
+        "Push the ingredients to the side of the skillet and scramble 2 eggs (about 100 grams total) in the center until fully cooked",
+        "Add 300 grams of cooked pinto beans, stirring gently to combine",
+        "Season with 5 grams of salt and 3 grams of black pepper",
+        "Stir in 100 grams of cassava flour (farofa) to absorb excess moisture and add texture",
+        "Add 150 grams of chopped collard greens and cook for another 3 minutes until slightly wilted",
+        "Garnish with 10 grams of fresh chopped parsley before serving",
+        "Enjoy"
+      ],
+      "nutrition": {
+        "Calories": 2103.7000000000003,
+        "Total Fat": 102.269,
+        "Saturated Fat": 35.0882,
+        "Cholesterol": 601.5,
+        "Sodium": 2559.9,
+        "Carbohydrate": 303.316,
+        "Fiber": 130.9,
+        "Sugars": 4.656000000000001,
+        "Protein": 110.77600000000001
+      },
+      "lastUpdate": "Wed Apr 02 2025 12:56:04 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "For a more authentic taste, use traditional Brazilian linguiça sausage",
+        "Adjust the amount of cassava flour to your preference—more for a drier dish, less for a moister texture",
+        "Serve with white rice and grilled meat for a complete meal"
+      ],
+      "gram calculations": {
+        "Pinto beans": 300,
+        "Bacon": 100,
+        "Chorizo": 150,
+        "Onion": 80,
+        "Garlic": 10,
+        "Collard greens": 150,
+        "Eggs": 100,
+        "Cassava flour": 100,
+        "Fresh parsley": 10
+      },
+      "categories": {
+        "Pinto beans": [
+          "Vegetable and Lentil Mixes"
+        ],
+        "Bacon": [
+          "Bacon, Sausages & Ribs"
+        ],
+        "Chorizo": [
+          "Sausages, Hotdogs & Brats",
+          "Sausages"
+        ],
+        "Onion": [
+          "Vegetables and Vegetable Products",
+          "Pre-Packed Fruit & Vegetables"
+        ],
+        "Garlic": [
+          "Pre-Packaged Fruit & Vegetables"
+        ],
+        "Collard greens": [
+          "Pre-Packaged Fruit & Vegetables"
+        ],
+        "Eggs": [
+          "Eggs & Egg Substitutes"
+        ],
+        "Cassava flour": [
+          "Flours & Corn Meal"
+        ],
+        "Fresh parsley": [
+          "Vegetables and Vegetable Products"
+        ]
+      },
+      "queries": {
+        "Pinto beans": "Pinto Beans",
+        "Bacon": "Bacon",
+        "Chorizo": "Chorizo",
+        "Onion": "Yellow Onion",
+        "Garlic": "Garlic",
+        "Collard greens": "Collard Greens",
+        "Eggs": "Eggs, Grade A, Large, egg whole",
+        "Cassava flour": "Cassava flour",
+        "Fresh parsley": "Parsley, fresh"
+      },
+      "references": []
+    },
+    "Kefta Mkaouara": {
+      "name": "Kefta Mkaouara",
+      "image": "../../Pictures/Recipes/Morocco/Kefta Mkaouara.jpg",
+      "ingredients": [
+        "Ground beef",
+        "Onion, finely chopped",
+        "Garlic, minced",
+        "Fresh parsley, chopped",
+        "Fresh cilantro, chopped",
+        "Ground cumin",
+        "Ground paprika",
+        "Ground cinnamon",
+        "Ground black pepper",
+        "Salt",
+        "Olive oil",
+        "Tomatoes, chopped",
+        "Tomato paste",
+        "Eggs"
+      ],
+      "instructions": [
+        "In a bowl, mix 300 grams of ground beef or lamb with 50 grams of finely chopped onion, 10 grams of minced garlic, 10 grams of chopped parsley, 10 grams of chopped cilantro, 5 grams of ground cumin, 5 grams of paprika, 2 grams of cinnamon, 3 grams of black pepper, and 5 grams of salt",
+        "Shape the mixture into small meatballs, about 20 grams each",
+        "In a large skillet, heat 20 grams of olive oil over medium heat",
+        "Add 150 grams of chopped tomatoes and 30 grams of tomato paste, stirring to combine",
+        "Season the sauce with 3 grams of salt, 2 grams of black pepper, 3 grams of paprika, and 3 grams of cumin",
+        "Simmer the sauce for 10 minutes until slightly thickened",
+        "Gently add the meatballs to the sauce and cook for 15-20 minutes, occasionally stirring gently",
+        "Crack 2 eggs (about 100 grams total) on top of the simmering sauce and cover the skillet",
+        "Cook for 5 minutes, or until the eggs are set to your preference",
+        "Garnish with extra chopped parsley and cilantro before serving",
+        "Enjoy with crusty bread or couscous"
+      ],
+      "nutrition": {
+        "Calories": 1163.6,
+        "Total Fat": 90.504,
+        "Saturated Fat": 35.1132,
+        "Cholesterol": 625,
+        "Sodium": 360.6,
+        "Carbohydrate": 17.958000000000002,
+        "Fiber": 3.1100000000000003,
+        "Sugars": 2.91,
+        "Protein": 64.621
+      },
+      "lastUpdate": "Wed Apr 02 2025 13:10:59 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "For a richer sauce, let the tomatoes cook down longer before adding the meatballs",
+        "You can substitute lamb for beef to get a more traditional Moroccan flavor",
+        "Add a pinch of cayenne pepper for a spicier dish",
+        "Serve with warm flatbread or over couscous for a complete meal"
+      ],
+      "gram calculations": {
+        "Ground beef": 300,
+        "Onion": 50,
+        "Garlic": 10,
+        "Fresh parsley": 10,
+        "Fresh cilantro": 10,
+        "Tomatoes": 150,
+        "Tomato paste": 30,
+        "Eggs": 100
+      },
+      "categories": {
+        "Ground beef": [
+          "Other Meats"
+        ],
+        "Onion": [
+          "Pre-Packed Fruit & Vegetables",
+          "Vegetables and Vegetable Products"
+        ],
+        "Garlic": [
+          "Pre-Packaged Fruit & Vegetables"
+        ],
+        "Fresh parsley": [
+          "Vegetables and Vegetable Products"
+        ],
+        "Fresh cilantro": [
+          "Herbs & Spices"
+        ],
+        "Tomatoes": [
+          "Tomatoes"
+        ],
+        "Tomato paste": [
+          "Tomatoes"
+        ],
+        "Eggs": [
+          "Eggs & Egg Substitutes"
+        ]
+      },
+      "queries": {
+        "Ground beef": "Ground Beef",
+        "Onion": "Yellow Onion",
+        "Garlic": "Garlic",
+        "Fresh parsley": "Parsley, fresh",
+        "Fresh cilantro": "Cilantro",
+        "Tomatoes": "Tomatoes",
+        "Tomato paste": "Tomato Paste",
+        "Eggs": "Eggs, Grade A, Large, egg whole"
+      },
+      "references": []
+    },
+    "Vegetable and Egg Tagine": {
+      "name": "Vegetable and Egg Tagine",
+      "image": "../../Pictures/Recipes/Morocco/Vegetable and Egg Tagine.jpg",
+      "ingredients": [
+        "Oil",
+        "Onion, finely chopped",
+        "Garlic, minced",
+        "Tomatoes, chopped",
+        "Carrots, sliced",
+        "Bell peppers, sliced",
+        "Zucchini, sliced",
+        "Potatoes, diced",
+        "Ground cumin",
+        "Ground paprika",
+        "Ground turmeric",
+        "Ground black pepper",
+        "Salt",
+        "Vegetable broth",
+        "Fresh parsley, chopped",
+        "Fresh cilantro, chopped",
+        "Eggs"
+      ],
+      "instructions": [
+        "In a large tagine or skillet, heat some oil over medium heat",
+        "Add 100 grams of finely chopped onion and 10 grams of minced garlic, sautéing until fragrant",
+        "Stir in 150 grams of chopped tomatoes, 100 grams of sliced carrots, 100 grams of sliced bell peppers, 100 grams of sliced zucchini, and 150 grams of diced potatoes",
+        "Season with 5 grams of ground cumin, 5 grams of paprika, 3 grams of turmeric, 3 grams of black pepper, and 5 grams of salt",
+        "Pour in 200 ml of vegetable broth and bring to a simmer",
+        "Cover and cook for 20-25 minutes, stirring occasionally, until the vegetables are tender",
+        "Crack 4 eggs (about 200 grams total) over the simmering vegetables",
+        "Cover and cook for another 5-7 minutes, or until the eggs are set to your preference",
+        "Garnish with 10 grams of chopped fresh parsley and 10 grams of chopped fresh cilantro",
+        "Serve hot with crusty bread or couscous"
+      ],
+      "nutrition": {
+        "Calories": 423.29999999999995,
+        "Total Fat": 21.9215,
+        "Saturated Fat": 6.0452,
+        "Cholesterol": 740,
+        "Sodium": 1091.15,
+        "Carbohydrate": 158.323,
+        "Fiber": 15.29,
+        "Sugars": 5.82,
+        "Protein": 40.117999999999995
+      },
+      "lastUpdate": "Wed Apr 02 2025 13:11:03 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "For a richer flavor, roast the vegetables slightly before adding them to the tagine",
+        "Adjust the spices according to your taste—add chili flakes for some heat",
+        "Use sweet potatoes instead of regular potatoes for a slightly sweeter variation",
+        "Serve with warm bread to soak up the delicious sauce"
+      ],
+      "gram calculations": {
+        "Onion": 100,
+        "Garlic": 10,
+        "Tomatoes": 150,
+        "Carrots": 100,
+        "Bell peppers": 100,
+        "Zucchini": 100,
+        "Potatoes": 150,
+        "Vegetable broth": 200,
+        "Fresh parsley": 10,
+        "Fresh cilantro": 10,
+        "Eggs": 200
+      },
+      "categories": {
+        "Onion": [
+          "Pre-Packed Fruit & Vegetables",
+          "Vegetables and Vegetable Products"
+        ],
+        "Garlic": [
+          "Pre-Packaged Fruit & Vegetables"
+        ],
+        "Tomatoes": [
+          "Tomatoes"
+        ],
+        "Carrots": [
+          "Vegetables and Vegetable Products"
+        ],
+        "Bell peppers": [
+          "Vegetables and Vegetable Products"
+        ],
+        "Zucchini": [
+          "Pre-Packaged Fruit & Vegetables"
+        ],
+        "Potatoes": [
+          "Vegetables and Vegetable Products"
+        ],
+        "Vegetable broth": [
+          "Canned Soup"
+        ],
+        "Fresh parsley": [
+          "Vegetables and Vegetable Products"
+        ],
+        "Fresh cilantro": [
+          "Herbs & Spices"
+        ],
+        "Eggs": [
+          "Eggs & Egg Substitutes"
+        ]
+      },
+      "queries": {
+        "Onion": "Yellow Onion",
+        "Garlic": "Garlic",
+        "Tomatoes": "Tomatoes",
+        "Carrots": "Carrots, raw",
+        "Bell peppers": "Peppers, bell, red, raw",
+        "Zucchini": "Zucchini Squash, Zucchini",
+        "Potatoes": "Potatoes",
+        "Vegetable broth": "Vegetable Broth, Vegetable",
+        "Fresh parsley": "Parsley, fresh",
+        "Fresh cilantro": "Cilantro",
+        "Eggs": "Eggs, Grade A, Large, egg whole"
+      },
+      "references": []
+    },
+    "Huevos Divorciados": {
+      "name": "Huevos Divorciados",
+      "image": "../../Pictures/Recipes/Mexico/Huevos Divorciados.jpg",
+      "ingredients": [
+        "Corn tortillas",
+        "Eggs",
+        "Red salsa",
+        "Green salsa",
+        "Refried beans",
+        "Onion, finely chopped",
+        "Garlic, minced",
+        "Tomatoes, chopped",
+        "Jalapeño, sliced",
+        "Cilantro, chopped",
+        "Queso fresco, crumbled"
+      ],
+      "instructions": [
+        "In a pan, heat 10 grams of vegetable oil over medium heat and fry 2 corn tortillas until slightly crispy. Set aside",
+        "In the same pan, fry 2 eggs (about 100 grams total) to your preferred doneness, seasoning with salt and pepper",
+        "Heat 100 grams of refried beans and spread them onto each tortilla",
+        "Place one fried egg on each tortilla",
+        "Pour 50 grams of red salsa over one egg and 50 grams of green salsa over the other egg",
+        "Garnish with 10 grams of finely chopped onion, 5 grams of minced garlic, 10 grams of chopped cilantro, and 40 grams of crumbled queso fresco",
+        "Serve with sliced avocado on the side"
+      ],
+      "nutrition": {
+        "Calories": 525.1500000000001,
+        "Total Fat": 21.43,
+        "Saturated Fat": 9.666500000000001,
+        "Cholesterol": 398.4,
+        "Sodium": 1177.2,
+        "Carbohydrate": 52.58919999999999,
+        "Fiber": 10.339999999999998,
+        "Sugars": 0.5820000000000001,
+        "Protein": 28.5031
+      },
+      "lastUpdate": "Wed Apr 02 2025 13:10:40 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "For a spicier version, add more jalapeño or a pinch of cayenne to the salsas",
+        "Use homemade red and green salsas for a fresher taste",
+        "Warm the tortillas before frying to prevent them from becoming too hard",
+        "Pair with black beans or rice for a more filling meal"
+      ],
+      "gram calculations": {
+        "Corn tortillas": 50,
+        "Eggs": 100,
+        "Red salsa": 50,
+        "Green salsa": 50,
+        "Refried beans": 100,
+        "Onion": 10,
+        "Garlic": 5,
+        "Tomatoes": 50,
+        "Jalapeño": 1,
+        "Cilantro": 10,
+        "Queso fresco": 40
+      },
+      "categories": {
+        "Corn tortillas": [
+          "Tortillas"
+        ],
+        "Eggs": [
+          "Eggs & Egg Substitutes"
+        ],
+        "Red salsa": [
+          "Dips & Salsa"
+        ],
+        "Green salsa": [
+          "Dips & Salsa"
+        ],
+        "Refried beans": [
+          "Canned & Bottled Beans"
+        ],
+        "Onion": [
+          "Pre-Packed Fruit & Vegetables",
+          "Vegetables and Vegetable Products"
+        ],
+        "Garlic": [
+          "Pre-Packaged Fruit & Vegetables"
+        ],
+        "Tomatoes": [
+          "Tomatoes"
+        ],
+        "Jalapeño": [
+          "Pre-Packaged Fruit & Vegetables"
+        ],
+        "Cilantro": [
+          "Herbs & Spices"
+        ],
+        "Queso fresco": [
+          "Cheese"
+        ]
+      },
+      "queries": {
+        "Corn tortillas": "Tortilla, corn",
+        "Eggs": "Eggs, Grade A, Large, egg whole",
+        "Red salsa": "Salsa",
+        "Green salsa": "Tomatillo Salsa",
+        "Refried beans": "Refried Beans",
+        "Onion": "Yellow Onion",
+        "Garlic": "Garlic",
+        "Tomatoes": "Tomatoes",
+        "Jalapeño": "Jalapeno",
+        "Cilantro": "Cilantro",
+        "Queso fresco": "Queso Fresco Fresh Crumbling cheese, queso fresco"
+      },
+      "references": []
+    },
+    "Century Egg and Tofu": {
+      "name": "Century Egg and Tofu",
+      "image": "../../Pictures/Recipes/China/Century Egg and Tofu.jpg",
+      "ingredients": [
+        "Silken tofu",
+        "Eggs",
+        "Soy sauce",
+        "Cider vinegar",
+        "Garlic, minced",
+        "Ginger, minced",
+        "Green onion, finely chopped",
+        "Cilantro, chopped",
+        "Red chili, sliced",
+        "Sesame seeds"
+      ],
+      "instructions": [
+        "Carefully remove 200 grams of silken tofu from its package and place it on a serving plate. Drain any excess liquid",
+        "Dice 2 eggs (about 100 grams total) into small pieces and spread them evenly over the tofu",
+        "In a small bowl, mix 15 ml of soy sauce, 5 ml of cider vinegar, 5 grams of minced garlic, 5 grams of minced ginger, 2 grams of white pepper, and 2 grams of salt",
+        "Drizzle the sauce mixture evenly over the tofu and eggs",
+        "Garnish with 10 grams of finely chopped green onion, 5 grams of chopped cilantro, 5 grams of sliced red chili, and 5 grams of sesame seeds",
+        "Serve chilled or at room temperature"
+      ],
+      "nutrition": {
+        "Calories": 308.65,
+        "Total Fat": 18.353,
+        "Saturated Fat": 3.55255,
+        "Cholesterol": 411,
+        "Sodium": 591.35,
+        "Carbohydrate": 12.728,
+        "Fiber": 1.055,
+        "Sugars": 0.2,
+        "Protein": 25.2755
+      },
+      "lastUpdate": "Wed Apr 02 2025 13:10:09 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "For a smoother presentation, gently pat the tofu dry before plating",
+        "If you prefer a stronger flavor, let the tofu marinate in the sauce for 10 minutes before serving",
+        "Use toasted sesame seeds for extra aroma and crunch",
+        "Pair with steamed rice for a more filling meal"
+      ],
+      "gram calculations": {
+        "Silken tofu": 200,
+        "Eggs": 100,
+        "Soy sauce": 15,
+        "Garlic": 5,
+        "Ginger": 5,
+        "Green onion": 10,
+        "Cilantro": 5,
+        "Red chili": 5,
+        "Sesame seeds": 5
+      },
+      "categories": {
+        "Silken tofu": [
+          "Other Meats"
+        ],
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ],
+        "Soy sauce": [
+          "Oriental, Mexican & Ethnic Sauces"
+        ],
+        "Garlic": [
+          "Pre-Packaged Fruit & Vegetables"
+        ],
+        "Ginger": [
+          "Pickles, Olives, Peppers & Relishes"
+        ],
+        "Green onion": [
+          "Onions"
+        ],
+        "Cilantro": [
+          "Herbs & Spices"
+        ],
+        "Red chili": [
+          "Vegetables and Vegetable Products"
+        ],
+        "Sesame seeds": [
+          "Nut and Seed Products"
+        ]
+      },
+      "queries": {
+        "Silken tofu": "Silken Tofu",
+        "Eggs": "Eggs, Grade A, Large, egg whole",
+        "Soy sauce": "Soy Sauce",
+        "Garlic": "Garlic",
+        "Ginger": "Organic Ginger Roots",
+        "Green onion": "Onions, green, raw",
+        "Cilantro": "Cilantro",
+        "Red chili": "Peppers, sweet, red, frozen, chopped, boiled, drained, without salt",
+        "Sesame seeds": "Sesame Seeds"
+      },
+      "references": []
+    },
+    "Egg Foo Young": {
+      "name": "Egg Foo Young",
+      "image": "../../Pictures/Recipes/China/Egg Foo Young.jpg",
+      "ingredients": [
+        "Eggs",
+        "Bean sprouts",
+        "Green onions, chopped",
+        "Mushrooms, sliced",
+        "Shrimp, cooked and chopped",
+        "Soy sauce",
+        "Oyster sauce",
+        "Cornstarch",
+        "Chicken broth",
+        "Garlic, minced",
+        "Ginger, minced"
+      ],
+      "instructions": [
+        "In a mixing bowl, beat 4 eggs (about 200 grams total) until smooth",
+        "Add 50 grams of bean sprouts, 20 grams of chopped green onions, 50 grams of sliced mushrooms, and 50 grams of cooked and chopped shrimp to the eggs",
+        "Season the mixture with 5 grams of soy sauce, 3 grams of oyster sauce, 2 grams of salt, and 2 grams of white pepper",
+        "Heat 10 grams of vegetable oil in a skillet over medium heat",
+        "Pour a portion of the egg mixture into the skillet, shaping it into a round patty. Cook for 2-3 minutes per side until golden brown and set. Repeat with remaining mixture",
+        "In a saucepan, mix 200 ml of chicken broth, 5 grams of soy sauce, 5 grams of oyster sauce, 5 grams of cornstarch, 5 grams of minced garlic, and 5 grams of minced ginger",
+        "Simmer the sauce for 2-3 minutes until thickened, stirring constantly",
+        "Drizzle the sauce over the cooked Egg Foo Young and serve hot"
+      ],
+      "nutrition": {
+        "Calories": 396.28999999999996,
+        "Total Fat": 21.640500000000003,
+        "Saturated Fat": 6.583900000000001,
+        "Cholesterol": 823.5,
+        "Sodium": 2077.068,
+        "Carbohydrate": 19.2575,
+        "Fiber": 3.17,
+        "Sugars": 2.2,
+        "Protein": 36.5346
+      },
+      "lastUpdate": "Wed Apr 02 2025 12:56:49 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "For a fluffier texture, beat the eggs until light and airy before mixing with other ingredients",
+        "You can replace shrimp with chicken, pork, or tofu for variation",
+        "Use a non-stick skillet to prevent sticking and ensure even cooking",
+        "For extra crispiness, pan-fry in a little more oil"
+      ],
+      "gram calculations": {
+        "Eggs": 200,
+        "Bean sprouts": 50,
+        "Green onions": 20,
+        "Mushrooms": 50,
+        "Shrimp": 50,
+        "Soy sauce": 10,
+        "Oyster sauce": 8,
+        "Cornstarch": 5,
+        "Chicken broth": 200,
+        "Garlic": 5,
+        "Ginger": 5
+      },
+      "categories": {
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ],
+        "Bean sprouts": [
+          "Vegetables and Vegetable Products"
+        ],
+        "Green onions": [
+          "Onions"
+        ],
+        "Mushrooms": [
+          "Vegetables and Vegetable Products"
+        ],
+        "Shrimp": [
+          "Shellfish"
+        ],
+        "Soy sauce": [
+          "Oriental, Mexican & Ethnic Sauces"
+        ],
+        "Oyster sauce": [
+          "Oriental, Mexican & Ethnic Sauces"
+        ],
+        "Cornstarch": [
+          "Flours & Corn Meal"
+        ],
+        "Chicken broth": [
+          "Canned Soup"
+        ],
+        "Garlic": [
+          "Pre-Packaged Fruit & Vegetables"
+        ],
+        "Ginger": [
+          "Pickles, Olives, Peppers & Relishes"
+        ]
+      },
+      "queries": {
+        "Eggs": "Eggs, Grade A, Large, egg whole",
+        "Bean sprouts": "Mung beans, mature seeds, sprouted, cooked, boiled, drained, with salt",
+        "Green onions": "Onions, green, raw",
+        "Mushrooms": "Mushrooms, shiitake",
+        "Shrimp": "Shrimp, steamed or boiled",
+        "Soy sauce": "Soy Sauce",
+        "Oyster sauce": "Oyster Sauce, Oyster",
+        "Cornstarch": "Organic Cornstarch",
+        "Chicken broth": "Chicken Broth",
+        "Garlic": "Garlic",
+        "Ginger": "Organic Ginger Roots"
+      },
+      "references": []
+    },
+    "Quiche Lorraine": {
+      "name": "Quiche Lorraine",
+      "image": "../../Pictures/Recipes/France/Quiche Lorraine.jpg",
+      "ingredients": [
+        "Pie crust",
+        "Eggs",
+        "Heavy cream",
+        "Milk",
+        "Bacon, cooked and chopped",
+        "Gruyère cheese, shredded",
+        "Onion, finely chopped",
+        "Nutmeg",
+        "Salt",
+        "Black pepper"
+      ],
+      "instructions": [
+        "Preheat the oven to 375°F (190°C). Roll out the pie crust and fit it into a 9-inch (23 cm) pie dish. Prick the bottom with a fork and pre-bake for 10 minutes.",
+        "In a skillet, cook 100 grams of chopped bacon over medium heat until crispy. Remove and drain on paper towels.",
+        "In the same skillet, sauté 50 grams of finely chopped onion until soft and translucent.",
+        "In a mixing bowl, whisk together 4 large eggs (about 200 grams), 200 ml of heavy cream, 100 ml of milk, 2 grams of salt, 1 gram of black pepper, and 1 gram of nutmeg.",
+        "Spread the cooked bacon and onions evenly over the pre-baked crust, then sprinkle 100 grams of shredded Gruyère cheese on top.",
+        "Pour the egg mixture over the ingredients in the crust.",
+        "Bake for 35-40 minutes until the quiche is set and the top is golden brown.",
+        "Let the quiche cool slightly before slicing and serving."
+      ],
+      "nutrition": {
+        "Calories": 2893,
+        "Total Fat": 247.085,
+        "Saturated Fat": 113.813,
+        "Cholesterol": 1349,
+        "Sodium": 2826.5,
+        "Carbohydrate": 95.815,
+        "Fiber": 7.75,
+        "Sugars": 3.31,
+        "Protein": 76.83500000000001
+      },
+      "lastUpdate": "Wed Apr 02 2025 15:14:37 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "Blind-bake the crust to prevent sogginess.",
+        "For a richer flavor, use a mix of Gruyère and Parmesan cheese.",
+        "Let the quiche cool for at least 10 minutes before slicing to allow it to set properly.",
+        "Substitute bacon with smoked salmon or ham for variation."
+      ],
+      "gram calculations": {
+        "Pie crust": 200,
+        "Eggs": 200,
+        "Heavy cream": 200,
+        "Milk": 100,
+        "Bacon": 100,
+        "Gruyère cheese": 100,
+        "Onion": 50
+      },
+      "categories": {
+        "Pie crust": [
+          "Baked Products"
+        ],
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ],
+        "Heavy cream": [
+          "Cream"
+        ],
+        "Milk": [
+          "Milk, whole"
+        ],
+        "Bacon": [
+          "Bacon, Sausages & Ribs"
+        ],
+        "Gruyère cheese": [
+          "Cheese"
+        ],
+        "Onion": [
+          "Pre-Packed Fruit & Vegetables",
+          "Vegetables and Vegetable Products"
+        ]
+      },
+      "queries": {
+        "Pie crust": "Pie crust, standard-type, prepared from recipe, unbaked",
+        "Eggs": "Eggs, Grade A, Large, egg whole",
+        "Heavy cream": "Heavy whipping cream",
+        "Milk": "Milk, whole",
+        "Bacon": "Bacon",
+        "Gruyère cheese": "Cheese, gruyere",
+        "Onion": "Yellow Onion"
+      },
+      "references": []
+    },
+    "Steamed Egg Custard": {
+      "name": "Steamed Egg Custard",
+      "image": "../../Pictures/Recipes/China/Steamed Egg Custard.jpg",
+      "ingredients": [
+        "Eggs",
+        "Warm water",
+        "Soy sauce",
+        "Salt",
+        "White pepper",
+        "Sesame oil",
+        "Green onions, chopped"
+      ],
+      "instructions": [
+        "In a mixing bowl, beat 3 large eggs (about 150 grams total) until smooth.",
+        "Gradually add 300 ml of warm water while continuing to whisk gently.",
+        "Season the mixture with 5 grams of soy sauce, 2 grams of salt, and 1 gram of white pepper.",
+        "Strain the mixture through a fine sieve to remove air bubbles for a smoother texture.",
+        "Pour the egg mixture into a heatproof bowl or ramekins.",
+        "Cover the bowl with plastic wrap or foil to prevent condensation from dripping into the custard.",
+        "Steam over medium-low heat for 10-15 minutes until the custard is just set.",
+        "Drizzle with 5 grams of sesame oil and garnish with chopped green onions before serving."
+      ],
+      "nutrition": {
+        "Calories": 269.4,
+        "Total Fat": 19.959000000000003,
+        "Saturated Fat": 5.513199999999999,
+        "Cholesterol": 616.5,
+        "Sodium": 335.1,
+        "Carbohydrate": 3.174,
+        "Fiber": 0.26,
+        "Sugars": 0.3,
+        "Protein": 18.783
+      },
+      "lastUpdate": "Wed Apr 02 2025 14:02:24 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "Use warm water instead of cold water for a silkier texture.",
+        "Strain the egg mixture to remove air bubbles and ensure smooth custard.",
+        "Cover the dish while steaming to prevent condensation from affecting the texture.",
+        "Adjust steaming time based on container size and heat level."
+      ],
+      "gram calculations": {
+        "Eggs": 150,
+        "Soy sauce": 5,
+        "Sesame oil": 5,
+        "Green onions": 10
+      },
+      "categories": {
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ],
+        "Soy sauce": [
+          "Oriental, Mexican & Ethnic Sauces"
+        ],
+        "Sesame oil": [
+          "Salad dressings and vegetable oils"
+        ],
+        "Green onions": [
+          "Onions"
+        ]
+      },
+      "queries": {
+        "Eggs": "Eggs, Grade A, Large, egg whole",
+        "Soy sauce": "Soy Sauce",
+        "Sesame oil": "Sesame Oil",
+        "Green onions": "Onions, green, raw"
+      },
+      "references": []
+    },
+    "French Omelette": {
+      "name": "French Omelette",
+      "image": "../../Pictures/Recipes/France/French Omelette.jpg",
+      "ingredients": [
+        "Eggs",
+        "Butter",
+        "Salt",
+        "White pepper",
+        "Fresh herbs (optional)",
+        "Cheese (optional)"
+      ],
+      "instructions": [
+        "In a mixing bowl, beat 3 large eggs (about 150 grams total) until fully combined and slightly frothy.",
+        "Season with 2 grams of salt and 1 gram of white pepper.",
+        "Heat butter in a non-stick skillet over low heat until melted but not browned.",
+        "Pour in the eggs and continuously stir with a spatula while shaking the pan to create small curds.",
+        "Once the eggs begin to set but are still slightly runny, smooth out the surface and let them cook for another 10-15 seconds.",
+        "If using, sprinkle fresh herbs or cheese onto the omelette before folding.",
+        "Gently roll the omelette into a cylindrical shape and slide it onto a plate.",
+        "Brush with an additional small amount of butter for a glossy finish before serving."
+      ],
+      "nutrition": {
+        "Calories": 222,
+        "Total Fat": 14.940000000000003,
+        "Saturated Fat": 4.8,
+        "Cholesterol": 616.5,
+        "Sodium": 193.5,
+        "Carbohydrate": 1.44,
+        "Fiber": 0,
+        "Sugars": 0.3,
+        "Protein": 18.6
+      },
+      "lastUpdate": "Wed Apr 02 2025 14:01:51 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "Use low heat to prevent overcooking and achieve a tender texture.",
+        "Continuously stir and shake the pan to create a smooth and creamy consistency.",
+        "For extra creaminess, add a teaspoon of heavy cream or milk to the eggs before cooking.",
+        "Use a rubber spatula to shape and fold the omelette gently."
+      ],
+      "gram calculations": {
+        "Eggs": 150
+      },
+      "categories": {
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ]
+      },
+      "queries": {
+        "Eggs": "Eggs, Grade A, Large, egg whole"
+      },
+      "references": []
+    },
+    "Avocado Toast": {
+      "name": "Avocado Toast",
+      "image": "../../Pictures/Recipes/America/Avocado Toast.jpg",
+      "ingredients": [
+        "Sourdough bread",
+        "Guacamole",
+        "Olive oil",
+        "Fried egg",
+        "Red pepper flakes (optional)"
+      ],
+      "instructions": [
+        "Toast 2 slices of bread until golden and crisp.",
+        "Spread the guacamole evenly onto the toasted bread.",
+        "Drizzle with 5 grams of olive oil and sprinkle red pepper flakes if desired.",
+        "Bring a saucepan up to medim heat before adding in some butter or oil.",
+        "Add in an egg and cook until the white is set.",
+        "Top with fried egg for extra flavor and protein.",
+        "Serve immediately."
+      ],
+      "nutrition": {
+        "Calories": 453.5,
+        "Total Fat": 21.93,
+        "Saturated Fat": 4.015000000000001,
+        "Cholesterol": 229.5,
+        "Sodium": 1284,
+        "Carbohydrate": 44.99999999999999,
+        "Fiber": 1.5,
+        "Sugars": 0.1,
+        "Protein": 15.544999999999998
+      },
+      "lastUpdate": "Wed Apr 02 2025 13:59:58 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "Use ripe avocados for a creamy texture.",
+        "Toast the bread until crisp to prevent sogginess.",
+        "Add extra toppings like feta cheese, radishes, or microgreens for variety.",
+        "For a tangy kick, add a splash of balsamic glaze."
+      ],
+      "gram calculations": {
+        "Sourdough bread": 60,
+        "Guacamole": 150,
+        "Egg": 50
+      },
+      "categories": {
+        "Sourdough bread": [
+          "Breads & Buns"
+        ],
+        "Guacamole": [
+          "Dips & Salsa"
+        ],
+        "Egg": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ]
+      },
+      "queries": {
+        "Sourdough bread": "Sourdough Bread, Sourdough",
+        "Guacamole": "GUACAMOLE DIP MIX, GUACAMOLE",
+        "Egg": "Eggs, Grade A, Large, egg whole"
+      },
+      "references": []
+    },
+    "Scrambled": {
+      "name": "Scrambled Eggs",
+      "image": "../../Pictures/Recipes/General/Scrambled.jpg",
+      "ingredients": [
+        "3 Eggs",
+        "Salt (optional)",
+        "Pepper (optional)"
+      ],
+      "instructions": [
+        "Bring a saucepan up to low heat.",
+        "Add in butter or oil to the saucepan.",
+        "Whisk the eggs together in a mixing bowl.",
+        "Pour the whisked eggs into the saucepan.",
+        "Use a spatula to keep moving the eggs while also jiggling the saucepan.",
+        "Once the eggs are only a litte watery, remove from heat and add desired seasongs.",
+        "Enjoy."
+      ],
+      "nutrition": {
+        "Calories": 222,
+        "Total Fat": 14.940000000000003,
+        "Saturated Fat": 4.8,
+        "Cholesterol": 616.5,
+        "Sodium": 193.5,
+        "Carbohydrate": 1.44,
+        "Fiber": null,
+        "Sugars": 0.3,
+        "Protein": 18.6
+      },
+      "lastUpdate": "Wed Apr 02 2025 15:12:17 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "Move the saucepan and mix the eggs with spatula to keep the curdles small.",
+        "Add salt to the eggs to bring out the flavor.",
+        "Use a combination of olive oil and butter"
+      ],
+      "gram calculations": {
+        "Eggs": 150
+      },
+      "categories": {
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ]
+      },
+      "queries": {
+        "Eggs": "Eggs, Grade A, Large, egg whole"
+      },
+      "references": []
+    },
+    "Omelette": {
+      "name": "Classic Omelette",
+      "image": "../../Pictures/Recipes/General/Omelette.jpg",
+      "ingredients": [
+        "Eggs",
+        "Milk or cream (optional)",
+        "Cheese (optional)",
+        "Herbs (optional, such as parsley or chives)"
+      ],
+      "instructions": [
+        "In a bowl, beat 3 eggs (about 150 grams) with a pinch of salt, black pepper, and optionally some milk or cream.",
+        "Heat butter or oil in a non-stick skillet over medium-low heat until melted.",
+        "Pour the egg mixture into the pan, tilting to spread evenly.",
+        "Use a spatula to gently stir the eggs while shaking the pan to allow uncooked eggs to reach the surface.",
+        "Once the eggs begin to set but are still slightly runny on top, add 20 grams of cheese if using.",
+        "Carefully fold the omelette in half and cook for another 30 seconds until fully set.",
+        "Slide onto a plate and garnish with chopped herbs if desired. Serve immediately."
+      ],
+      "nutrition": {
+        "Calories": 222,
+        "Total Fat": 14.940000000000003,
+        "Saturated Fat": 4.8,
+        "Cholesterol": 616.5,
+        "Sodium": 193.5,
+        "Carbohydrate": 1.44,
+        "Fiber": 0,
+        "Sugars": 0.3,
+        "Protein": 18.6
+      },
+      "lastUpdate": "Wed Apr 02 2025 15:10:43 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "Use fresh eggs for the best texture and flavor.",
+        "Cook over medium-low heat to avoid overcooking.",
+        "For a fluffier omelette, beat the eggs thoroughly before cooking.",
+        "Add fillings like mushrooms, spinach, or ham for variety."
+      ],
+      "gram calculations": {
+        "Eggs": 150
+      },
+      "categories": {
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ]
+      },
+      "queries": {
+        "Eggs": "Eggs, Grade A, Large, egg whole"
+      },
+      "references": []
+    },
+    "Baked": {
+      "name": "Baked Eggs",
+      "image": "../../Pictures/Recipes/General/Baked.jpg",
+      "ingredients": [
+        "Eggs",
+        "Butter or olive oil",
+        "Salt",
+        "Black pepper",
+        "Heavy cream (optional)",
+        "Cheese (optional, such as Parmesan or Gruyère)",
+        "Fresh herbs (optional, such as parsley or chives)",
+        "Tomatoes or spinach (optional)"
+      ],
+      "instructions": [
+        "Preheat oven to 375°F (190°C). Grease a small baking dish or ramekin with butter or olive oil.",
+        "Crack 2 eggs (about 100 grams) into the dish and season with a pinch of salt and 1 gram of black pepper.",
+        "Drizzle with 10 grams of heavy cream if using and sprinkle with 15 grams of cheese.",
+        "Optionally, add 20 grams of chopped tomatoes or spinach for extra flavor.",
+        "Bake for 12-15 minutes, or until the egg whites are set but the yolks are still slightly runny.",
+        "Remove from oven and garnish with 5 grams of fresh herbs. Serve warm."
+      ],
+      "nutrition": {
+        "Calories": 148,
+        "Total Fat": 9.96,
+        "Saturated Fat": 3.2,
+        "Cholesterol": 411,
+        "Sodium": 129,
+        "Carbohydrate": 0.96,
+        "Fiber": 0,
+        "Sugars": 0.2,
+        "Protein": 12.4
+      },
+      "lastUpdate": "Wed Apr 02 2025 15:10:32 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "Use fresh eggs for the best texture and flavor.",
+        "Adjust baking time to achieve desired yolk consistency.",
+        "Serve with toasted bread or a side salad for a complete meal.",
+        "Experiment with different cheeses and toppings for variety."
+      ],
+      "gram calculations": {
+        "Eggs": 100
+      },
+      "categories": {
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ]
+      },
+      "queries": {
+        "Eggs": "Eggs, Grade A, Large, egg whole"
+      },
+      "references": []
+    },
+    "Deviled": {
+      "name": "Deviled Eggs",
+      "image": "../../Pictures/Recipes/General/Deviled.jpg",
+      "ingredients": [
+        "Eggs",
+        "Mayonnaise",
+        "Dijon mustard",
+        "White vinegar",
+        "Salt",
+        "Black pepper",
+        "Paprika"
+      ],
+      "instructions": [
+        "Place 6 eggs (about 300 grams total) in a pot and cover with water. Bring to a boil, then cover and remove from heat. Let sit for 12 minutes.",
+        "Transfer eggs to an ice bath and let cool for 5 minutes. Peel and slice in half lengthwise.",
+        "Remove the yolks and place them in a bowl. Mash with a fork until smooth.",
+        "Add 50 grams of mayonnaise, 10 grams of Dijon mustard, 5 grams of white vinegar, 2 grams of salt, and 1 gram of black pepper to the yolks. Mix until creamy.",
+        "Spoon or pipe the yolk mixture back into the egg whites.",
+        "Sprinkle with paprika.",
+        "Serve chilled."
+      ],
+      "nutrition": {
+        "Calories": 210,
+        "Total Fat": 18,
+        "Saturated Fat": 4,
+        "Cholesterol": 372,
+        "Sodium": 320,
+        "Carbohydrate": 1,
+        "Fiber": 0,
+        "Sugars": 1,
+        "Protein": 12
+      },
+      "lastUpdate": "Wed Apr 02 2025 14:25:30 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "For easier peeling, use eggs that are at least a week old.",
+        "Chill the filling before piping for better texture.",
+        "Experiment with toppings like crispy bacon, pickles, or hot sauce.",
+        "Use a piping bag for a more decorative presentation."
+      ],
+      "gram calculations": {
+        "Eggs": 300,
+        "Mayonnaise": 50,
+        "Dijon mustard": 10,
+        "White vinegar": 5
+      },
+      "categories": {
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ],
+        "Mayonnaise": [
+          "Salad Dressing & Mayonnaise"
+        ],
+        "Dijon mustard": [
+          "Ketchup, Mustard, BBQ & Cheese Sauce"
+        ],
+        "White vinegar": [
+          "Other Cooking Sauces"
+        ]
+      },
+      "queries": {
+        "Eggs": "Eggs, Grade A, Large, egg whole",
+        "Mayonnaise": "Mayo, Mayonnaise",
+        "Dijon mustard": "Dijon Mustard, Dijon",
+        "White vinegar": "DISTILLED WHITE VINEGAR, DISTILLED WHITE"
+      },
+      "references": []
+    },
+    "Over Easy": {
+      "name": "Over Easy Eggs",
+      "image": "../../Pictures/Recipes/General/Over Easy.jpg",
+      "ingredients": [
+        "Egg"
+      ],
+      "instructions": [
+        "Bring a saucepan up to low heat.",
+        "Add oil or butter to the saucepan.",
+        "Crack the egg into the saucepan.",
+        "Once the white of the egg has set, flip the egg over.",
+        "After 20-30 seconds remove the egg from the saucepan.",
+        "Enjoy."
+      ],
+      "nutrition": {
+        "Calories": 74,
+        "Total Fat": 4.98,
+        "Saturated Fat": 1.6,
+        "Cholesterol": 205.5,
+        "Sodium": 64.5,
+        "Carbohydrate": 0.48,
+        "Fiber": 0,
+        "Sugars": 0.1,
+        "Protein": 6.2
+      },
+      "lastUpdate": "Wed Apr 02 2025 15:10:48 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "Use fresh eggs to maximize flavor.",
+        "Add desired seasonings to eggs before consuming them."
+      ],
+      "gram calculations": {
+        "Eggs": 50
+      },
+      "categories": {
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ]
+      },
+      "queries": {
+        "Eggs": "Eggs, Grade A, Large, egg whole"
+      },
+      "references": []
+    },
+    "Boiled": {
+      "name": "Boiled Eggs",
+      "image": "../../Pictures/Recipes/General/Boiled.jpg",
+      "ingredients": [
+        "Egg"
+      ],
+      "instructions": [
+        "Add egg to pot full of cold water.",
+        "Bring the pot to a boil.",
+        "Let eggs boil until desired doneness (6 minutes for soft boiled and 10 for hard boiled).",
+        "Remove eggs from pot and let them cool off.",
+        "Enjoy."
+      ],
+      "nutrition": {
+        "Calories": 74,
+        "Total Fat": 4.98,
+        "Saturated Fat": 1.6,
+        "Cholesterol": 205.5,
+        "Sodium": 64.5,
+        "Carbohydrate": 0.48,
+        "Fiber": 0,
+        "Sugars": 0.1,
+        "Protein": 6.2
+      },
+      "lastUpdate": "Wed Apr 02 2025 13:59:45 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "Use fresh eggs to maximize flavor.",
+        "Put eggs in cold, ice water after boiling."
+      ],
+      "gram calculations": {
+        "Eggs": 50
+      },
+      "categories": {
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ]
+      },
+      "queries": {
+        "Eggs": "Eggs, Grade A, Large, egg whole"
+      },
+      "references": []
+    },
+    "Egg Fried Rice": {
+      "name": "Egg Fried Rice",
+      "image": "../../Pictures/Recipes/China/Egg Fried Rice.jpg",
+      "ingredients": [
+        "White rice",
+        "Eggs",
+        "Green onions, chopped",
+        "Carrots, diced",
+        "Peas",
+        "Garlic, minced",
+        "Soy sauce",
+        "Sesame oil",
+        "Salt",
+        "Black pepper"
+      ],
+      "instructions": [
+        "Heat oil in a large skillet or wok over medium-high heat.",
+        "Add 2 beaten eggs (about 100 grams) and scramble until just set. Remove from the skillet and set aside.",
+        "In the same skillet, add 5 grams of vegetable oil, 50 grams of diced carrots, 50 grams of peas, and 5 grams of minced garlic. Sauté for 2 minutes.",
+        "Add 300 grams of cooked rice and stir-fry for 3-4 minutes.",
+        "Return the scrambled eggs to the skillet and mix well.",
+        "Season with 10 grams of soy sauce, 5 grams of sesame oil, salt, and black pepper.",
+        "Stir in 20 grams of chopped green onions and serve hot."
+      ],
+      "nutrition": {
+        "Calories": 1337.95,
+        "Total Fat": 19.018,
+        "Saturated Fat": 3.9324000000000003,
+        "Cholesterol": 411,
+        "Sodium": 461.7,
+        "Carbohydrate": 257.033,
+        "Fiber": 5.67,
+        "Sugars": 0.2,
+        "Protein": 36.296
+      },
+      "lastUpdate": "Wed Apr 02 2025 14:28:59 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "Use cold, day-old rice for the best texture.",
+        "Stir-fry over high heat to prevent the rice from becoming mushy.",
+        "Customize with protein like chicken, shrimp, or tofu."
+      ],
+      "gram calculations": {
+        "Rice": 300,
+        "Eggs": 100,
+        "Green onions": 20,
+        "Carrots": 50,
+        "Peas": 50,
+        "Garlic": 5,
+        "Soy sauce": 10,
+        "Sesame oil": 5
+      },
+      "categories": {
+        "Rice": [
+          "Cereal Grains and Pasta"
+        ],
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ],
+        "Green onions": [
+          "Onions"
+        ],
+        "Carrots": [
+          "Vegetables and Vegetable Products"
+        ],
+        "Peas": [
+          "Frozen Vegetables"
+        ],
+        "Garlic": [
+          "Pre-Packaged Fruit & Vegetables"
+        ],
+        "Soy sauce": [
+          "Oriental, Mexican & Ethnic Sauces"
+        ],
+        "Sesame oil": [
+          "Salad dressings and vegetable oils"
+        ]
+      },
+      "queries": {
+        "Rice": "Rice, white",
+        "Eggs": "Eggs, Grade A, Large, egg whole",
+        "Green onions": "Onions, green, raw",
+        "Carrots": "Carrots, raw",
+        "Peas": "Green Peas",
+        "Garlic": "Garlic",
+        "Soy sauce": "Soy Sauce",
+        "Sesame oil": "Sesame Oil"
+      },
+      "references": []
+    },
+    "Eggs Benedict": {
+      "name": "Eggs Benedict",
+      "image": "../../Pictures/Recipes/America/Eggs Benedict.jpg",
+      "ingredients": [
+        "English muffins",
+        "Eggs",
+        "Bacon",
+        "White vinegar",
+        "Salt",
+        "Black pepper",
+        "Hollandaise sauce"
+      ],
+      "instructions": [
+        "Toast 2 English muffin halves until golden brown.",
+        "In a skillet, heat 2 slices (50 grams) of bacon until lightly browned. Place on the toasted muffins.",
+        "Fill a saucepan with water, add white vinegar, and bring to a simmer.",
+        "Crack 2 eggs (about 100 grams total) into separate cups and gently slide into the simmering water. Poach for 3-4 minutes, then remove with a slotted spoon.",
+        "Place the poached eggs on top of the bacon.",
+        "Season with 2 grams of salt and 1 gram of black pepper.",
+        "Drizzle the hollandaise sauce over the eggs and serve immediately."
+      ],
+      "nutrition": {
+        "Calories": 626,
+        "Total Fat": 36.0065,
+        "Saturated Fat": 12.149999999999999,
+        "Cholesterol": 446.5,
+        "Sodium": 1224,
+        "Carbohydrate": 48.6935,
+        "Fiber": 1.8,
+        "Sugars": 0.2,
+        "Protein": 24.740000000000002
+      },
+      "lastUpdate": "Wed Apr 02 2025 14:27:35 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "Use fresh eggs for the best poaching results.",
+        "Keep the water at a gentle simmer, not a rolling boil, to poach eggs properly.",
+        "Whisk the hollandaise sauce constantly to prevent curdling."
+      ],
+      "gram calculations": {
+        "English muffins": 100,
+        "Eggs": 100,
+        "Bacon": 50,
+        "White vinegar": 5,
+        "Hollandaise sauce": 50
+      },
+      "categories": {
+        "English muffins": [
+          "Breads & Buns"
+        ],
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ],
+        "Bacon": [
+          "Bacon, Sausages & Ribs"
+        ],
+        "White vinegar": [
+          "Other Cooking Sauces"
+        ],
+        "Hollandaise sauce": [
+          "Other Cooking Sauces",
+          "Seasoning Mixes, Salts, Marinades & Tenderizers"
+        ]
+      },
+      "queries": {
+        "English muffins": "English Muffins",
+        "Eggs": "Eggs, Grade A, Large, egg whole",
+        "Bacon": "Bacon",
+        "White vinegar": "DISTILLED WHITE VINEGAR, DISTILLED WHITE",
+        "Hollandaise sauce": "HOLLANDAISE"
+      },
+      "references": []
+    },
+    "Sous Vide": {
+      "name": "Sous Vide Eggs",
+      "image": "../../Pictures/Recipes/France/Sous Vide.jpg",
+      "ingredients": [
+        "Egg"
+      ],
+      "instructions": [
+        "Set a precision cooker or sous vide machine to 165 F (74 C) in a pot of water.",
+        "Once the water has reached the desired temperature, add the egg into the pot.",
+        "After 15 minutes remove the egg from the pot.",
+        "Let the egg rest for 3 minutes.",
+        "Enjoy."
+      ],
+      "nutrition": {
+        "Calories": 74,
+        "Total Fat": 4.98,
+        "Saturated Fat": 1.6,
+        "Cholesterol": 205.5,
+        "Sodium": 64.5,
+        "Carbohydrate": 0.48,
+        "Fiber": 0,
+        "Sugars": 0.1,
+        "Protein": 6.2
+      },
+      "lastUpdate": "Wed Apr 02 2025 15:10:02 GMT-0400 (Eastern Daylight Time)",
+      "cooking tips": [
+        "Use fresh eggs to maximize flavor.",
+        "Put eggs in cold, ice water after cooking."
+      ],
+      "gram calculations": {
+        "Eggs": 50
+      },
+      "categories": {
+        "Eggs": [
+          "Eggs & Egg Substitutes",
+          "Dairy and Egg Products"
+        ]
+      },
+      "queries": {
+        "Eggs": "Eggs, Grade A, Large, egg whole"
       },
       "references": []
     }

@@ -34,22 +34,22 @@ a {
 
 
 
-.dishes {
+.country-recipes {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 20px;
     padding: 20px;
 }
-.dish {
+.recipe {
     text-align: center;
 }
-.dish img {
+.recipe img {
     width: 150px;
     height: 150px;
     border-radius: 8px;
     cursor: pointer;
     transition: transform 0.2s ease;
 }
-.dish img:hover {
+.recipe img:hover {
     transform: scale(1.1);
 }

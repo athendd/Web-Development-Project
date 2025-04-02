@@ -30,12 +30,12 @@ async function searchFood(query)
 }
 
 async function main() {
-    const query = "Egg";
+    const query = "Pie Crust";
     let foodData = null;
     foodData = await searchFood(query);
-    console.log(foodData); // Inspect the data here
-
-    // Keep the process alive until the user presses Enter
+    console.log(foodData.foods); // Inspect the data here
+    //console.log(foodData.foods[0].foodNutrients);
+    // Keep the process alive until the user presses the stop button
     const rl = readline.createInterface({
         input: process.stdin,
         output: process.stdout

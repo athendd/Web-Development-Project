@@ -34,11 +34,12 @@ function deepEqual(obj1, obj2) {
 function filterFoods(foods, currentFood, categories)
 {
     let updatedFoods = new Array();
+    console.log(currentFood);
     const currentCategories = categories[currentFood];
+    console.log(currentCategories);
     for (const food of foods)
     {
-        if (currentCategories.includes(food.foodCategory) && food.description.toLowerCase().includes(currentFood.toLowerCase()) && (food.servingSizeUnit == "g" ||
-            !food.hasOwnProperty("servingSize")))
+        if (currentCategories.includes(food.foodCategory) && (food.servingSizeUnit == "g" || !food.hasOwnProperty("servingSize")))
         {
             updatedFoods.push(food);
         }
@@ -183,14 +184,16 @@ function setNutritionTable(nutritionDictionary)
 document.addEventListener("DOMContentLoaded", async function () {
     const response = await fetch('http://localhost:3000/data');
     const data = await response.json();
-    let currentRecipe = data.Recipes['Breakfast Burrito'];
+    const urlParams = new URLSearchParams(window.location.search);
+    const recipeName = urlParams.get("recipe");
+    let currentRecipe = data.Recipes[recipeName];
+    console.log(currentRecipe);
     let titleLink = document.getElementById("title");
     let imageLink = document.getElementById("image");
     let ingredientsLink = document.getElementById("ingredients");
     let instructionsLink = document.getElementById("instructions");
     let cookingTipsLink = document.getElementById("cooking-tips-list");
     let referencesLink = document.getElementById("reference-list");
-
     titleLink.textContent = currentRecipe["name"];
     imageLink.src = currentRecipe["image"];
     currentRecipe["ingredients"].forEach(item => {
@@ -210,8 +213,13 @@ document.addEventListener("DOMContentLoaded", async function () {
     });
     currentRecipe["references"].forEach(item => {
         const li = document.createElement("li");
-        li.textContent = item;
-        referencesLink.appendChild(li);
+        const a = document.createElement("a");
+        a.href = item;      
+        a.textContent = item; 
+        // Opens the link in a new tab
+        a.target = "_blank";  
+        li.appendChild(a);   
+        referencesLink.appendChild(li); 
     })
 
     let nutritionDictionary = currentRecipe["nutrition"];
@@ -234,11 +242,22 @@ document.addEventListener("DOMContentLoaded", async function () {
         {
             nutritionDictionary = compareNutritionDics(foodDictionary, nutritionDictionary);
         }
+        /*
         fetch('http://localhost:3000/data', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(currentRecipe)
         });
+        */
+        fetch('http://localhost:3000/data', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                name: recipeName, // Ensure this is defined in your frontend
+                data: currentRecipe // The actual recipe data
+            })
+        });
+        
 
         spinnerContainer.style.display="none";
         nutritionTable.style.display = "block";

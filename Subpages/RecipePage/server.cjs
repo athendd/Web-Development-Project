@@ -22,12 +22,13 @@ app.get('/data', (req, res) => {
 
 // Write data
 app.post('/data', (req, res) => {
+    console.log("started");
     fs.readFile(DATA_FILE, (err, data) => {
         if (err) return res.status(500).send('Error reading data');
         let jsonData = JSON.parse(data);
-        const recipeName = "Breakfast Burrito"; 
+        const recipeName = req.body.name;
         if (jsonData.Recipes && jsonData.Recipes[recipeName]) {
-            jsonData.Recipes[recipeName] = req.body;
+            jsonData.Recipes[recipeName] = req.body.data;
             fs.writeFile(DATA_FILE, JSON.stringify(jsonData, null, 2), (err) => {
                 if (err) return res.status(500).send('Error writing data');
                 res.json({ message: 'Data updated successfully' });
