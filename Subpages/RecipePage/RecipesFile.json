@@ -1164,7 +1164,7 @@
         "Silken tofu",
         "Eggs",
         "Soy sauce",
-        "Rice vinegar",
+        "Cider vinegar",
         "Garlic, minced",
         "Ginger, minced",
         "Green onion, finely chopped",
@@ -1175,7 +1175,7 @@
       "instructions": [
         "Carefully remove 200 grams of silken tofu from its package and place it on a serving plate. Drain any excess liquid",
         "Dice 2 century eggs (about 100 grams total) into small pieces and spread them evenly over the tofu",
-        "In a small bowl, mix 15 ml of soy sauce, 5 ml of rice vinegar, 5 grams of minced garlic, 5 grams of minced ginger, 2 grams of white pepper, and 2 grams of salt",
+        "In a small bowl, mix 15 ml of soy sauce, 5 ml of cider vinegar, 5 grams of minced garlic, 5 grams of minced ginger, 2 grams of white pepper, and 2 grams of salt",
         "Drizzle the sauce mixture evenly over the tofu and century eggs",
         "Garnish with 10 grams of finely chopped green onion, 5 grams of chopped cilantro, 5 grams of sliced red chili, and 5 grams of sesame seeds",
         "Serve chilled or at room temperature"
@@ -1202,7 +1202,7 @@
         "Silken tofu": 200,
         "Eggs": 100,
         "Soy sauce": 15,
-        "Rice vinegar": 5,
+        "Cider vinegar": 5,
         "Garlic": 5,
         "Ginger": 5,
         "Green onion": 10,
@@ -1211,16 +1211,16 @@
         "Sesame seeds": 5
       },
       "categories": {
-        "Silken tofu": ["Plant-Based Protein", "Tofu & Meat Substitutes"],
+        "Silken tofu": ["Other Meats", "Pepperoni, Salami & Cold Cuts"],
         "Eggs": ["Eggs & Egg Products"],
-        "Soy sauce": ["Sauces & Condiments"],
-        "Rice vinegar": ["Other Cooking Sauces"],
+        "Soy sauce": ["Oriental, Mexican & Ethnic Sauces"],
+        "Cider vinegar": ["Other Cooking Sauces"],
         "Garlic": ["Pre-Packaged Fruit & Vegetables"],
-        "Ginger": ["Herbs & Spices"],
+        "Ginger": ["Pickles, Olives, Peppers & Relishes"],
         "Green onion": ["Onions"],
         "Cilantro": ["Herbs & Spices"],
-        "Red chili": ["Pre-Packaged Fruit & Vegetables"],
-        "Sesame seeds": ["Nuts & Seeds"]
+        "Red chili": ["Vegetables and Vegetable Products"],
+        "Sesame seeds": ["Nut and Seed Products"]
       },
       "queries": {
         "Silken tofu": "Silken Tofu",
@@ -1228,10 +1228,10 @@
         "Soy sauce": "Soy Sauce",
         "Rice vinegar": "Rice Vinegar",
         "Garlic": "Garlic",
-        "Ginger": "Ginger Root",
+        "Ginger": "Organic Ginger Roots",
         "Green onion": "Onions, green, raw",
         "Cilantro": "Cilantro",
-        "Red chili": "Red Chili Pepper",
+        "Red chili": "Peppers, sweet, red, frozen, chopped, boiled, drained, without salt",
         "Sesame seeds": "Sesame Seeds"
       },
       "references": []
@@ -1321,6 +1321,5 @@
       },
       "references": []
     }
-
   }
 }

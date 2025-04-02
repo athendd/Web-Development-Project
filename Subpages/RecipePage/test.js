@@ -30,7 +30,7 @@ async function searchFood(query)
 }
 
 async function main() {
-    const query = "Ginger Root";
+    const query = "Sesame Seeds";
     let foodData = null;
     foodData = await searchFood(query);
     console.log(foodData.foods); // Inspect the data here
