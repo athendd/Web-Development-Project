@@ -667,7 +667,7 @@
         "Tomatoes": 150,
         "Onion": 50,
         "Garlic": 5,
-        "Jalapeño": 1,
+        "Jalapeño": 15,
         "Chicken broth": 200,
         "Tomato sauce": 100,
         "Fresh cilantro": 10,
@@ -1051,7 +1051,7 @@
         "Tomatoes": ["Tomatoes"],
         "Carrots": ["Vegetables and Vegetable Products"],
         "Bell peppers": ["Vegetables and Vegetable Products"],
-        "Zucchini": ["Vegetables and Vegetable Products"],
+        "Zucchini": ["Pre-Packaged Fruit & Vegetables"],
         "Potatoes": ["Vegetables and Vegetable Products"],
         "Vegetable broth": ["Canned Soup"],
         "Fresh parsley": ["Vegetables and Vegetable Products"],
@@ -1064,16 +1064,15 @@
         "Tomatoes": "Tomatoes",
         "Carrots": "Carrots, raw",
         "Bell peppers": "Peppers, bell, red, raw",
-        "Zucchini": "Zucchini",
+        "Zucchini": "Zucchini Squash, Zucchini",
         "Potatoes": "Potatoes",
-        "Vegetable broth": "Vegetable Broth",
+        "Vegetable broth": "Vegetable Broth, Vegetable",
         "Fresh parsley": "Parsley, fresh",
         "Fresh cilantro": "Cilantro",
         "Eggs": "Eggs, Grade A, Large, egg whole"
       },
       "references": []
     },
-
     "Huevos Divorciados": {
       "name": "Huevos Divorciados",
       "image": "../../Pictures/Recipes/Mexico/Huevos Divorciados.jpg",
@@ -1088,8 +1087,7 @@
         "Tomatoes, chopped",
         "Jalapeño, sliced",
         "Cilantro, chopped",
-        "Queso fresco, crumbled",
-        "Crema Mexicana"
+        "Queso fresco, crumbled"      
       ],
       "instructions": [
         "In a pan, heat 10 grams of vegetable oil over medium heat and fry 2 corn tortillas until slightly crispy. Set aside",
@@ -1097,7 +1095,7 @@
         "Heat 100 grams of refried beans and spread them onto each tortilla",
         "Place one fried egg on each tortilla",
         "Pour 50 grams of red salsa over one egg and 50 grams of green salsa over the other egg",
-        "Garnish with 10 grams of finely chopped onion, 5 grams of minced garlic, 10 grams of chopped cilantro, 40 grams of crumbled queso fresco, and 10 grams of Crema Mexicana",
+        "Garnish with 10 grams of finely chopped onion, 5 grams of minced garlic, 10 grams of chopped cilantro, and 40 grams of crumbled queso fresco",
         "Serve with sliced avocado on the side"
       ],
       "nutrition": {
@@ -1129,36 +1127,33 @@
         "Tomatoes": 50,
         "Jalapeño": 1,
         "Cilantro": 10,
-        "Queso fresco": 40,
-        "Crema Mexicana": 10
+        "Queso fresco": 40
       },
       "categories": {
-        "Corn tortillas": ["Bread & Bakery"],
+        "Corn tortillas": ["Tortillas"],
         "Eggs": ["Eggs & Egg Substitutes"],
-        "Red salsa": ["Sauces & Condiments"],
-        "Green salsa": ["Sauces & Condiments"],
-        "Refried beans": ["Canned Beans"],
+        "Red salsa": ["Dips & Salsa"],
+        "Green salsa": ["Dips & Salsa"],
+        "Refried beans": ["Canned & Bottled Beans"],
         "Onion": ["Pre-Packed Fruit & Vegetables", "Vegetables and Vegetable Products"],
         "Garlic": ["Pre-Packaged Fruit & Vegetables"],
         "Tomatoes": ["Tomatoes"],
         "Jalapeño": ["Pre-Packaged Fruit & Vegetables"],
         "Cilantro": ["Herbs & Spices"],
-        "Queso fresco": ["Cheese"],
-        "Crema Mexicana": ["Dairy Products"]
+        "Queso fresco": ["Cheese"]
       },
       "queries": {
-        "Corn tortillas": "Corn Tortillas",
+        "Corn tortillas": "Tortilla, corn",
         "Eggs": "Eggs, Grade A, Large, egg whole",
-        "Red salsa": "Red Salsa",
-        "Green salsa": "Green Salsa",
+        "Red salsa": "Salsa",
+        "Green salsa": "Tomatillo Salsa",
         "Refried beans": "Refried Beans",
         "Onion": "Yellow Onion",
         "Garlic": "Garlic",
         "Tomatoes": "Tomatoes",
         "Jalapeño": "Jalapeno",
         "Cilantro": "Cilantro",
-        "Queso fresco": "Queso Fresco Fresh Crumbling cheese, queso fresco",
-        "Crema Mexicana": "Crema Mexicana"
+        "Queso fresco": "Queso Fresco Fresh Crumbling cheese, queso fresco"
       },
       "references": []
     },
@@ -1167,7 +1162,7 @@
       "image": "../../Pictures/Recipes/China/Century Egg and Tofu.jpg",
       "ingredients": [
         "Silken tofu",
-        "Century eggs",
+        "Eggs",
         "Soy sauce",
         "Rice vinegar",
         "Garlic, minced",
@@ -1205,7 +1200,7 @@
       ],
       "gram calculations": {
         "Silken tofu": 200,
-        "Century eggs": 100,
+        "Eggs": 100,
         "Soy sauce": 15,
         "Rice vinegar": 5,
         "Garlic": 5,
@@ -1217,7 +1212,7 @@
       },
       "categories": {
         "Silken tofu": ["Plant-Based Protein", "Tofu & Meat Substitutes"],
-        "Century eggs": ["Eggs & Egg Products"],
+        "Eggs": ["Eggs & Egg Products"],
         "Soy sauce": ["Sauces & Condiments"],
         "Rice vinegar": ["Other Cooking Sauces"],
         "Garlic": ["Pre-Packaged Fruit & Vegetables"],
@@ -1229,7 +1224,7 @@
       },
       "queries": {
         "Silken tofu": "Silken Tofu",
-        "Century eggs": "Century Egg, Preserved Egg",
+        "Eggs": "Century Egg, Preserved Egg",
         "Soy sauce": "Soy Sauce",
         "Rice vinegar": "Rice Vinegar",
         "Garlic": "Garlic",
@@ -1309,7 +1304,7 @@
         "Cornstarch": ["Flours & Corn Meal"],
         "Chicken broth": ["Canned Soup"],
         "Garlic": ["Pre-Packaged Fruit & Vegetables"],
-        "Ginger": ["Herbs & Spices"]
+        "Ginger": ["Pickles, Olives, Peppers & Relishes"]
       },
       "queries": {
         "Eggs": "Eggs, Grade A, Large, egg whole",
@@ -1322,7 +1317,7 @@
         "Cornstarch": "Organic Cornstarch",
         "Chicken broth": "Chicken Broth",
         "Garlic": "Garlic",
-        "Ginger": "Ginger Root"
+        "Ginger": "Organic Ginger Roots"
       },
       "references": []
     }
