@@ -13,8 +13,11 @@
     </div>
 
     <h1>Eggscellent Recipes</h1>
-    <div class="search-bar">
-        <input type="text" placeholder="Search for some eggscellent recipes...">
+    <div class="topnav">
+        <div style="width: 50%; position: relative;">
+            <input type="text" id="searchBar" placeholder="Search for some eggscellent recipes..." onkeyup="filterSearchInput()">
+            <div class="dropdown" id="dropdown"></div>
+        </div>
         <button id="recipeButton" type="button">Random Recipe Selector</button>
     </div>
 
