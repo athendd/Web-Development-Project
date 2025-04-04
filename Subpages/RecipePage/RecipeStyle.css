@@ -27,11 +27,28 @@ a {
     width: 100%;
     margin-bottom: 5%;
 }
-.instructions-box
-{
+.leftSide{
+    display: flex;
+    flex-direction: column;
     width: 26%;
     margin-top: 10%;
     margin-left: 1%;
+}
+.conversionCalculator{
+    width: 100%;
+    margin-bottom: 10%;
+    height: fit-content;
+    background-color: #fff;
+    border: 0.125em solid #d2b48c;
+    border-radius: 0.625em;
+    box-shadow: 0.125em 0.125em 0.625em rgba(22, 18, 18, 0.1);
+    text-align: center; 
+
+}
+.instructions-box
+{
+    width: 100%;
+    margin-bottom: 10%;
     height: fit-content;
     background-color: #fff;
     border: 0.125em solid #d2b48c;
@@ -94,6 +111,23 @@ img
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+#measurementInput{
+    margin-bottom: 5%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+#measurementOutput{
+    margin-bottom: 5%;
+    font-size: 1.5em;
+}
+#measurementButton{
+    width: 25%;
+    margin-bottom: 2.5%;
+    height: 2em;
+    font-size:large;
+    text-align: center;
 }
 #ingredients, #instructions
 {

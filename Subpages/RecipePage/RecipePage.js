@@ -1,3 +1,64 @@
+function calculateMeasurement(){
+    const typeOfMeasurement = document.getElementById('measurement');
+    const measurementValue = document.getElementById('measurementValue');
+    let warningMessage = document.getElementById('inputWarningMessage');
+    let output = document.getElementById('measurementOutput');
+    if (measurementValue.value === ""){
+        warningMessage.textContent = 'Need to input a number with no uncessary spaces or markings';
+        warningMessage.style.color='red';
+        output.style.color = "white";
+    }
+    else{
+        let givenInput = Number(measurementValue.value).toFixed(2);
+        const finalInput = Number(givenInput);
+
+        if (finalInput > 1000000 || finalInput < 0){
+            warningMessage.textContent = 'Inputted number must be between 0 and 1000000';
+            warningMessage.style.color='red';
+            output.style.color = "white";
+        }
+        else{
+            warningMessage.style.color='white';
+
+            if(typeOfMeasurement.value === "Teaspoon"){
+                output.textContent = gramsToTeaspoons(finalInput) + ' Teaspoons';
+                output.style.color = "black"; 
+            }
+            else if(typeOfMeasurement.value === "Tablespoon"){
+                output.textContent = gramsToTablespoons(finalInput) + ' Tablespoons';
+                output.style.color = "black";
+            }
+            else if(typeOfMeasurement.value === "Cups"){
+                output.textContent = gramsToCups(finalInput) + ' Cups';
+                output.style.color = "black";
+            }
+            else{
+                output.textContent = gramsToOunces(finalInput) + ' Ounces';
+                output.style.color = "black";
+            }
+        }
+    }
+}
+
+function gramsToCups(currentGrams){
+    const cups = (currentGrams / 250).toFixed(2);
+    return cups;
+}
+function gramsToTeaspoons(currentGrams){
+    const teaspoons = (currentGrams / 5.69).toFixed(2);
+    return teaspoons;
+
+}
+function gramsToTablespoons(currentGrams){
+    const tablespoons = (currentGrams / 21.25).toFixed(2);
+    return tablespoons;
+
+}
+function gramsToOunces(currentGrams){
+    const ounces = (currentGrams / 0.035).toFixed(2);
+    return ounces;
+}
+
 function compareNutritionDics(scraped, current)
 {
     const keys = Object.keys(current);
@@ -34,9 +95,7 @@ function deepEqual(obj1, obj2) {
 function filterFoods(foods, currentFood, categories)
 {
     let updatedFoods = new Array();
-    console.log(currentFood);
     const currentCategories = categories[currentFood];
-    console.log(currentCategories);
     for (const food of foods)
     {
         if (currentCategories.includes(food.foodCategory) && (food.servingSizeUnit == "g" || !food.hasOwnProperty("servingSize")))
@@ -106,7 +165,6 @@ function getFoodData(data, currentFood, gramCalculations, foodDictionary, catego
         delete nutrientMap[1005];
         nutrientMap[1050] = "Carbohydrate";
     }
-    console.log(firstFoodItem);
 
     /*
     Only use to check if an ingredient contains all necessary nutrients
@@ -187,7 +245,6 @@ document.addEventListener("DOMContentLoaded", async function () {
     const urlParams = new URLSearchParams(window.location.search);
     const recipeName = urlParams.get("recipe");
     let currentRecipe = data.Recipes[recipeName];
-    console.log(currentRecipe);
     let titleLink = document.getElementById("title");
     let imageLink = document.getElementById("image");
     let ingredientsLink = document.getElementById("ingredients");
