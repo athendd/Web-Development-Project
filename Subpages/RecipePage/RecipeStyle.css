@@ -34,6 +34,17 @@ a {
     margin-top: 10%;
     margin-left: 1%;
 }
+
+.substitutions{
+    width: 100%;
+    margin-bottom: 10%;
+    height: fit-content;
+    background-color: #fff;
+    border: 0.125em solid #d2b48c;
+    border-radius: 0.625em;
+    box-shadow: 0.125em 0.125em 0.625em rgba(22, 18, 18, 0.1);
+    text-align: center; 
+}
 .conversionCalculator{
     width: 100%;
     margin-bottom: 10%;
@@ -43,7 +54,6 @@ a {
     border-radius: 0.625em;
     box-shadow: 0.125em 0.125em 0.625em rgba(22, 18, 18, 0.1);
     text-align: center; 
-
 }
 .instructions-box
 {
@@ -66,7 +76,7 @@ a {
     border: 0.125em solid #d2b48c;
     border-radius: 0.625em;
     box-shadow: 0.125em 0.125em 0.625em rgba(22, 18, 18, 0.1);
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 }
 .container
 {

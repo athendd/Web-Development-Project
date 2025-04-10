@@ -59,6 +59,60 @@ function gramsToOunces(currentGrams){
     return ounces;
 }
 
+function turnOnCalculate(){
+    document.getElementById("nutrition-summary-container").style.display = 'none';
+    document.getElementById("spinnerContainer").style.display = 'flex';
+}
+
+function turnOffCalculate(){
+    document.getElementById('nutrition-summary-container').style.display = 'block';
+    document.getElementById('spinnerContainer').style.display = 'none';
+}
+
+function createOptionsList(options){
+    optionsList = [];
+    for (const option of options){
+        optionsList.push(option.foodName);
+    }
+
+    return optionsList;
+}
+
+function createParagraph(div, ingredient){
+    const newParagraph = document.createElement('p');
+    newParagraph.style = 'padding-left: 1%; font-weight: bold; font-size: 1.5em;'
+    const paragraphText = document.createTextNode(ingredient);
+    newParagraph.appendChild(paragraphText);
+    div.appendChild(newParagraph);
+}
+
+function createDropDown(div, options){
+    const dropdown = document.createElement('select');
+    dropdown.style = 'width: 40%; height: 10%; margin-left: 10%; margin-top: 5%;';
+    options.forEach(item => {
+        const option = document.createElement('option');
+        option.textContent = item;         
+        dropdown.appendChild(option);
+    });
+
+    div.appendChild(dropdown)
+}
+
+function createSubstitutionBlock(options){
+    const substitutions = document.getElementById('substitutionsDiv');
+
+    for (const ingredient in options){
+        const optionsList = createOptionsList(options[ingredient]);
+        const newDiv = document.createElement('div');
+        newDiv.style.display = 'flex';
+        createParagraph(newDiv, ingredient);
+        createDropDown(newDiv, optionsList);
+        substitutions.appendChild(newDiv);
+    }
+
+    
+}
+
 function compareNutritionDics(scraped, current)
 {
     const keys = Object.keys(current);
@@ -141,84 +195,6 @@ function checkData(nutrientIds, ids, food, nutrientMap)
     }
 }
 
-function getFoodData(data, currentFood, gramCalculations, foodDictionary, categories)
-{
-    const updatedFoods = filterFoods(data.foods, currentFood, categories);
-    const firstFoodItem = updatedFoods[0];
-    const foodNutrients = firstFoodItem.foodNutrients;
-    let nutrientMap = {
-        1063: "Sugars",
-        1004: "Total Fat",
-        1258: "Saturated Fat",
-        1079: "Fiber",
-        1093: "Sodium",
-        1005: "Carbohydrate",
-        1008: "Calories",
-        1253: "Cholesterol",
-        1003: "Protein"
-    };
-
-    const nutrientIds = foodNutrients.map(obj => obj["nutrientId"]);
-
-    if (!nutrientIds.includes(1005))
-    {
-        delete nutrientMap[1005];
-        nutrientMap[1050] = "Carbohydrate";
-    }
-
-    /*
-    Only use to check if an ingredient contains all necessary nutrients
-    Typically, if an ingredient is missing a nutrient that is because the ingredient has 0 for that nutrient
-
-    const ids = Object.keys(nutrientMap);
-    checkData(nutrientIds, ids, currentFood, nutrientMap);
-    */
-
-    foodNutrients.forEach(attr =>{
-        if (nutrientMap[attr.nutrientId]) {
-            let newValue = 0;
-            newValue = ((attr.value * gramCalculations[currentFood])/100);
-            foodDictionary[nutrientMap[attr.nutrientId]] += newValue;
-        }
-    });
-}   
-
-async function processAllFoods(queries, gramCalculations, categories)
-{
-   let foodDictionary = {
-        "Protein": 0,
-        "Cholesterol": 0,
-        "Total Fat": 0,
-        "Sugars": 0,
-        "Calories": 0,
-        "Sodium": 0, 
-        "Saturated Fat": 0,
-        "Fiber": 0,
-        "Carbohydrate": 0
-   };
-
-    const foodPromises = Object.values(queries).map(query => searchFood(query));    
-    const results = await Promise.all(foodPromises);
-
-    Object.keys(queries).forEach((key, index) => {
-        if (results[index] != null){
-            getFoodData(results[index], key, gramCalculations, foodDictionary, categories);
-        }
-    });   
-    
-    
-    return foodDictionary;
-}
-
-async function addNewData(data) {
-
-    await fetch('http://localhost:3000/data', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data)
-    });
-}
-
 function daysBetween(date1, date2)
 {
     const timeDiff = Math.abs(date2.getTime() - date1.getTime());
@@ -237,6 +213,139 @@ function setNutritionTable(nutritionDictionary)
     document.querySelector("#caloriesRow td:last-child").textContent = nutritionDictionary["Calories"].toFixed(2) + " KCAL";
     document.querySelector("#cholesterolRow td:last-child").textContent = nutritionDictionary["Cholesterol"].toFixed(2) + " MG";
     document.querySelector("#fiberRow td:last-child").textContent = nutritionDictionary["Fiber"].toFixed(2) + " G";  
+}
+
+function updateDatabase(recipe){
+    fetch('http://localhost:3000/data', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            name: recipe['name'],
+            data: recipe
+        })
+    });
+}
+
+function populateOptionsDictionary(options, foodData, recipe){
+    for (const food in recipe['queries']){
+        if (foodData[food] && foodData[food].foods){
+            options[food] = processFoodDataForOptions(foodData[food], recipe['categories'], food);
+        }
+        else{
+            options[food] = [];
+        }
+    }
+}
+
+function updateFoodDictionary(foodData, recipe){
+    let nutritionDictionary = recipe['nutrition'];
+    let newNutritionDictionary = {
+        "Protein": 0,
+        "Cholesterol": 0,
+        "Total Fat": 0,
+        "Sugars": 0,
+        "Calories": 0,
+        "Sodium": 0,
+        "Saturated Fat": 0,
+        "Fiber": 0,
+        "Carbohydrate": 0
+    };
+
+    try{
+        for (const food in recipe['queries']){
+            if (foodData[food]){
+                const foodNutrientData = processFoodDataForNutrition(foodData[food], food, recipe['gram calculations'], recipe['categories']);
+                for (const nutrient in foodNutrientData){
+                    newNutritionDictionary[nutrient] += foodNutrientData[nutrient];
+                }
+            }
+        }
+        if (deepEqual(nutritionDictionary, newNutritionDictionary) === false) {
+            nutritionDictionary = compareNutritionDics(newNutritionDictionary, nutritionDictionary);
+            recipe["nutrition"] = nutritionDictionary;
+        }
+
+        updateDatabase(recipe);
+    }catch (error) {
+        console.error("Error processing food data or timeout:", error);
+    }finally {
+        turnOffCalculate();
+    }
+}
+
+function processFoodDataForOptions(data, categories, currentFood) {
+    const updatedFoods = filterFoods(data.foods, currentFood, categories);
+    const options = [];
+    for (let food of updatedFoods) {
+        const option = {};
+        let foodToAdd = food.description;
+        if (Object.keys(food).includes('brandName')) {
+            foodToAdd += ' ' + food.brandName;
+        }
+        option['foodName'] = foodToAdd;
+        option['foodNutrients'] = food.foodNutrients;
+        options.push(option);
+    }
+    return options;
+}
+
+function processFoodDataForNutrition(data, currentFood, gramCalculations, categories) {
+    const updatedFoods = filterFoods(data.foods, currentFood, categories);
+    if (!updatedFoods || updatedFoods.length === 0) {
+        return {};
+    }
+    const firstFoodItem = updatedFoods[0];
+    const foodNutrients = firstFoodItem.foodNutrients;
+    let nutrientMap = {
+        1063: "Sugars",
+        1004: "Total Fat",
+        1258: "Saturated Fat",
+        1079: "Fiber",
+        1093: "Sodium",
+        1005: "Carbohydrate",
+        1008: "Calories",
+        1253: "Cholesterol",
+        1003: "Protein"
+    };
+
+    const nutrientIds = foodNutrients.map(obj => obj["nutrientId"]);
+
+    if (!nutrientIds.includes(1005)) {
+        delete nutrientMap[1005];
+        nutrientMap[1050] = "Carbohydrate";
+    }
+
+    const foodNutrientValues = {};
+    foodNutrients.forEach(attr => {
+        if (nutrientMap[attr.nutrientId]) {
+            let newValue = ((attr.value * gramCalculations[currentFood]) / 100);
+            foodNutrientValues[nutrientMap[attr.nutrientId]] = newValue;
+        }
+    });
+    return foodNutrientValues;
+}
+
+async function fetchFoodData(queries){
+    const apiKey = "ubzgeM1ViKn4aGfow4lahmRexcHWLMUkYaYgE9SV";
+    const results = {};
+    const foodPromises = Object.entries(queries).map(async ([foodName, query]) => {
+        const url = `https://api.nal.usda.gov/fdc/v1/foods/search?query=${query}&api_key=${apiKey}`;
+        try {
+            const response = await fetch(url);
+            const data = await response.json();
+            if (!data.foods || data.foods.length === 0) {
+                console.log(`Unable to find ${query} in database`);
+                results[foodName] = null;
+            } else {
+                results[foodName] = data;
+            }
+        } catch (error) {
+            console.error(`Error getting food data for ${query}`, error);
+            results[foodName] = null;
+        }
+    });
+    await Promise.all(foodPromises);
+    return results;
 }
 
 document.addEventListener("DOMContentLoaded", async function () {
@@ -273,54 +382,33 @@ document.addEventListener("DOMContentLoaded", async function () {
         const a = document.createElement("a");
         a.href = item;      
         a.textContent = item; 
-        // Opens the link in a new tab
         a.target = "_blank";  
         li.appendChild(a);   
         referencesLink.appendChild(li); 
     })
 
-    let nutritionDictionary = currentRecipe["nutrition"];
-
     const currentDate = new Date();
     const lastUpdate = new Date(currentRecipe["lastUpdate"]);
     const diff = daysBetween(currentDate, lastUpdate);
-    if (diff >= 30)
-    {
-        let nutritionTable = document.getElementById("nutrition-summary-container");
-        let spinnerContainer = document.getElementById("spinnerContainer");
-        nutritionTable.style.display = "none";
-        spinnerContainer.style.display="flex";
-        
 
-        currentRecipe["lastUpdate"] = currentDate.toString();
-        const foodDictionary = await processAllFoods(currentRecipe["queries"], currentRecipe["gram calculations"], currentRecipe["categories"]);
+    let fetchedFoodData;
 
-        if (deepEqual(nutritionDictionary, foodDictionary) == false)
-        {
-            nutritionDictionary = compareNutritionDics(foodDictionary, nutritionDictionary);
-        }
-        /*
-        fetch('http://localhost:3000/data', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(currentRecipe)
-        });
-        */
-        fetch('http://localhost:3000/data', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-                name: recipeName, // Ensure this is defined in your frontend
-                data: currentRecipe // The actual recipe data
-            })
-        });
-        
-
-        spinnerContainer.style.display="none";
-        nutritionTable.style.display = "block";
+    if (diff >= 30){
+        currentRecipe['lastUpdate'] = currentDate.toString();
+        turnOnCalculate();
+        fetchedFoodData = await fetchFoodData(currentRecipe['queries']);
+        updateFoodDictionary(fetchedFoodData, currentRecipe);
+        setNutritionTable(currentRecipe['nutrition']);
+    }
+    else{
+        setNutritionTable(currentRecipe['nutrition']);
+        fetchedFoodData = await fetchFoodData(currentRecipe['queries']);
     }
 
-    
-    setNutritionTable(nutritionDictionary);
+    let optionsDictionary = {};
+    populateOptionsDictionary(optionsDictionary, fetchedFoodData, currentRecipe);
+
+    createSubstitutionBlock(optionsDictionary);
+
 });
 
