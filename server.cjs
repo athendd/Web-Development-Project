@@ -4,7 +4,7 @@ const cors = require('cors');
 
 const app = express();
 const PORT = 3000;
-const DATA_FILE = 'RecipesFile.json';
+const DATA_FILE = '../Web-Development-Project/Subpages/RecipePage/RecipesFile.json';
 
 app.use(express.json());
 app.use(cors());
