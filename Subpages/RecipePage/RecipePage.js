@@ -1,3 +1,6 @@
+let gramCounts;
+let categories;
+
 function calculateMeasurement(){
     const typeOfMeasurement = document.getElementById('measurement');
     const measurementValue = document.getElementById('measurementValue');
@@ -78,6 +81,14 @@ function createOptionsList(options){
     return optionsList;
 }
 
+function createButton(div){
+    const substitutionButton = document.createElement('button');
+    substitutionButton.style = 'margin-bottom: 5%;';
+    substitutionButton.textContent = 'Calculate';
+    substitutionButton.onclick = 'CalculateNutrients()';
+    div.appendChild(substitutionButton);
+}
+
 function createParagraph(div, ingredient){
     const newParagraph = document.createElement('p');
     newParagraph.style = 'padding-left: 1%; font-weight: bold; font-size: 1.5em;'
@@ -86,7 +97,7 @@ function createParagraph(div, ingredient){
     div.appendChild(newParagraph);
 }
 
-function createDropDown(div, options){
+function createDropDown(div, ingredient, options){
     const dropdown = document.createElement('select');
     dropdown.style = 'width: 40%; height: 10%; margin-left: 10%; margin-top: 5%;';
     options.forEach(item => {
@@ -94,6 +105,7 @@ function createDropDown(div, options){
         option.textContent = item;         
         dropdown.appendChild(option);
     });
+    dropdown.id = `dropDownFor${ingredient}`;
 
     div.appendChild(dropdown)
 }
@@ -106,11 +118,10 @@ function createSubstitutionBlock(options){
         const newDiv = document.createElement('div');
         newDiv.style.display = 'flex';
         createParagraph(newDiv, ingredient);
-        createDropDown(newDiv, optionsList);
+        createDropDown(newDiv, ingredient, optionsList);
         substitutions.appendChild(newDiv);
     }
-
-    
+    createButton(substitutions);
 }
 
 function compareNutritionDics(scraped, current)
@@ -144,6 +155,10 @@ function deepEqual(obj1, obj2) {
         }
     }
     return true;
+}
+
+function calculateNutrients(){
+    console.log('here');
 }
 
 function filterFoods(foods, currentFood, categories)
@@ -202,6 +217,18 @@ function daysBetween(date1, date2)
     return daysDiff;
 }
 
+function updateRecipeNutrition(updatedDic, currDic){
+    if (deepEqual(currDic, updatedDic) === false) {
+        currDic = compareNutritionDics(updatedDic, currDic);
+    }
+}
+
+function getDropDownData(food){
+    let dropdown = document.getElementById(`dropDownFor${food}`);
+    const selectedIndex = dropdown.selectedIndex;
+    return selectedIndex;
+}
+
 function setNutritionTable(nutritionDictionary)
 {
     document.querySelector("#proteinRow td:last-child").textContent = nutritionDictionary["Protein"].toFixed(2) + " G";
@@ -237,8 +264,7 @@ function populateOptionsDictionary(options, foodData, recipe){
     }
 }
 
-function updateFoodDictionary(foodData, recipe){
-    let nutritionDictionary = recipe['nutrition'];
+function getUpdatedNutritionDictionary(foodData, queries, initialRun){
     let newNutritionDictionary = {
         "Protein": 0,
         "Cholesterol": 0,
@@ -252,24 +278,20 @@ function updateFoodDictionary(foodData, recipe){
     };
 
     try{
-        for (const food in recipe['queries']){
+        for (const food of queries){
             if (foodData[food]){
-                const foodNutrientData = processFoodDataForNutrition(foodData[food], food, recipe['gram calculations'], recipe['categories']);
+                const foodNutrientData = processFoodDataForNutrition(foodData[food], food, initialRun);
                 for (const nutrient in foodNutrientData){
                     newNutritionDictionary[nutrient] += foodNutrientData[nutrient];
                 }
             }
         }
-        if (deepEqual(nutritionDictionary, newNutritionDictionary) === false) {
-            nutritionDictionary = compareNutritionDics(newNutritionDictionary, nutritionDictionary);
-            recipe["nutrition"] = nutritionDictionary;
-        }
-
-        updateDatabase(recipe);
     }catch (error) {
         console.error("Error processing food data or timeout:", error);
+        return NaN;
     }finally {
         turnOffCalculate();
+        return newNutritionDictionary;
     }
 }
 
@@ -289,12 +311,14 @@ function processFoodDataForOptions(data, categories, currentFood) {
     return options;
 }
 
-function processFoodDataForNutrition(data, currentFood, gramCalculations, categories) {
+function processFoodDataForNutrition(data, currentFood, initialRun) {
     const updatedFoods = filterFoods(data.foods, currentFood, categories);
     if (!updatedFoods || updatedFoods.length === 0) {
         return {};
     }
-    const firstFoodItem = updatedFoods[0];
+    if (initialRun === true){
+        const firstFoodItem = updatedFoods[0];
+    }
     const foodNutrients = firstFoodItem.foodNutrients;
     let nutrientMap = {
         1063: "Sugars",
@@ -318,7 +342,7 @@ function processFoodDataForNutrition(data, currentFood, gramCalculations, catego
     const foodNutrientValues = {};
     foodNutrients.forEach(attr => {
         if (nutrientMap[attr.nutrientId]) {
-            let newValue = ((attr.value * gramCalculations[currentFood]) / 100);
+            let newValue = ((attr.value * gramCounts[currentFood]) / 100);
             foodNutrientValues[nutrientMap[attr.nutrientId]] = newValue;
         }
     });
@@ -391,14 +415,20 @@ document.addEventListener("DOMContentLoaded", async function () {
     const lastUpdate = new Date(currentRecipe["lastUpdate"]);
     const diff = daysBetween(currentDate, lastUpdate);
 
+    gramCounts = currentRecipe['gram calculations'];
+    categories = currentRecipe['categories'];
+
     let fetchedFoodData;
 
     if (diff >= 30){
         currentRecipe['lastUpdate'] = currentDate.toString();
         turnOnCalculate();
         fetchedFoodData = await fetchFoodData(currentRecipe['queries']);
-        updateFoodDictionary(fetchedFoodData, currentRecipe);
+        console.log('this');
+        const updatedFoodDictionary = getUpdatedNutritionDictionary(fetchedFoodData, Object.keys(fetchedFoodData), false);
+        updateRecipeNutrition(updatedFoodDictionary, currentRecipe['nutrition']);
         setNutritionTable(currentRecipe['nutrition']);
+        updateDatabase(currentRecipe);
     }
     else{
         setNutritionTable(currentRecipe['nutrition']);
