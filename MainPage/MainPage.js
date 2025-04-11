@@ -1,3 +1,41 @@
+const recipes = [
+    // General
+    "Baked",
+    "Boiled",
+    "Deviled",
+    "Omelette",
+    "Over Easy",
+    "Poached",
+    "Scrambled",
+    "Sunny Side Up",
+    // America
+    "Avocado Toast",
+    "Breakfast Burrito",
+    "Eggs Benedict",
+    // Brazil
+    "Feijao Tropeiro",
+    "Moqueca de Ovos",
+    "Ovos Mexidos com Chorizo",
+    // China
+    "Century Egg and Tofu",
+    "Egg Foo Young",
+    "Egg Fried Rice",
+    "Steamed Egg Custard",
+    // France
+    "Croque Madame",
+    "French Omelette",
+    "Quiche Lorraine",
+    "Sous Vide",
+    // Mexican
+    "Chilaquiles con Heuvos",
+    "Huevos Divorciados",
+    "Heuvos Rancheros",
+    // Morocco
+    "Kefta Mkaouara",
+    "Shakshuka",
+    "Vegetable and Egg Tagine"
+];
+
 document.addEventListener("DOMContentLoaded", function () {
     // Populate scolling egg images in top banner
     const bannerImages = document.querySelector(".banner-images");
@@ -20,47 +58,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     // Random recipe button funtionality
-    const recipes = [
-        // General
-        "Baked",
-        "Boiled",
-        "Deviled",
-        "Omelette",
-        "Over Easy",
-        "Poached",
-        "Scrambled",
-        "Sunny Side Up",
-        // America
-        "Avocado Toast",
-        "Breakfast Burrito",
-        "Eggs Benedict",
-        // Brazil
-        "Feijao Tropeiro",
-        "Moqueca de Ovos",
-        "Ovos Mexidos com Chorizo",
-        // China
-        "Century Egg and Tofu",
-        "Egg Foo Young",
-        "Egg Fried Rice",
-        "Steamed Egg Custard",
-        // France
-        "Croque Madame",
-        "French Omelette",
-        "Quiche Lorraine",
-        "Sous Vide",
-        // Mexican
-        "Chilaquiles con Heuvos",
-        "Huevos Divorciados",
-        "Heuvos Rancheros",
-        // Morocco
-        "Kefta Mkaouara",
-        "Shakshuka",
-        "Vegetable and Egg Tagine"
-    ];
     const button = document.getElementById("recipeButton");
     button.addEventListener("click", function () {
         let chosenIndex = Math.round(Math.random() * recipes.length);
-        window.location.href = `../Subpages/RecipePage/RecipePage.html?recipe=${encodeURIComponent(recipes[chosenIndex])}`;
+        window.location.href = `../Subpages/RecipePage/Recipe.html?recipe=${encodeURIComponent(recipes[chosenIndex])}`;
     });
 
 
@@ -85,6 +86,30 @@ document.addEventListener("DOMContentLoaded", function () {
         countryPages.appendChild(countryDiv);
     });
 });
+
+// Search Bar Functionality
+function filterSearchInput(){
+    const input = document.getElementById('searchBar').value.toLowerCase();
+    const dropdown =  document.getElementById('dropdown');
+    dropdown.innerHTML = '';
+    const filtered = recipes.filter(option => option.toLowerCase().includes(input));
+    if (filtered.length > 0 && input !== "") {
+        dropdown.style.display = "block";
+        filtered.forEach(option => {
+            const div = document.createElement("div");
+            div.textContent = option;
+            div.onclick = () => {
+                window.location.href = `../Subpages/RecipePage/Recipe.html?recipe=${encodeURIComponent(div.textContent)}`;
+                dropdown.style.display = 'none';
+            };
+            dropdown.appendChild(div);
+            console.log('yes');
+        });
+    } else {
+        dropdown.style.display = "none";
+    }
+}
+
 
 /*
 const dishes = ["Omelette", "Boiled Egg", "Scrambled Eggs", "Poached Egg", "Sunny Side Up Egg",

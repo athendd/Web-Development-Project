@@ -38,7 +38,7 @@ body {
 h1 {
     font-size: 4em;
     font-weight: bold;
-    margin: 20px 0;
+    margin-bottom: 5%;
     font-family: 'Calluna';
     color: #d2b48c;
     text-decoration: underline;
@@ -47,35 +47,46 @@ h1 {
 
 
 button {
-    margin-left: 20px;
-    margin-top: 40px;
     background-color: lightblue;
-    height: 50px;
+    height: 4em;
     font-weight: bold;
     border-color: black;
-    border-width: 2px;
+    border-width: 0.125em;
     border-style:solid;
 }
 button:hover {
     background-color: blue;
 }
 
-
-
-.search-bar {
-    margin-top: 40px;
-    margin-bottom: 80px;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-.search-bar input {
-    width: 45%;
-    padding: 10px;
-    font-size: 1em;
-    border: 2px solid #ccc;
-    border-radius: 5px;
+.topnav{
+    align-items: center;
     justify-content: center;
-    align-content: center;
+    display: flex;
+    width: 100%;
+    margin-bottom: 5%;
+}
+#searchBar{
+    width: 95%;
+    height: 2em;
+}
+#searchBar input[type=text]{
+    overflow: hidden;
+}
+.dropdown {
+    position: absolute;
+    margin-left: 2%;
+    width: 96%;
+    height: 4em;
+    background: white;
+    border: 1px solid #ccc;
+    display: none;
+    overflow-y: auto;
+}
+.dropdown div {
+    cursor: pointer;
+}
+.dropdown div:hover {
+    background: #ddd;
 }
 
 

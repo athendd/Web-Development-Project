@@ -4,45 +4,45 @@
       "name": "Breakfast Burrito",
       "image": "../../Pictures/Recipes/America/Breakfast Burrito.jpg",
       "ingredients": [
-        "2 tablespoons of sour cream",
-        "1 large flour tortilla",
-        "2 strips of bacon",
-        "4 eggs",
-        "6 Tater Tots",
-        "1 quarter of a yellow onion",
-        "1 quarter of a cup of shredded cheddar cheese",
-        "1/3 cup of chorizo"
+        "Sour cream",
+        "Flour tortilla",
+        "Bacon",
+        "Eggs",
+        "Tater tots",
+        "Yellow onion, diced",
+        "Shredded cheddar cheese",
+        "Chorizo"
       ],
       "instructions": [
         "Turn an oven on to 400 degrees Fahrenheit",
-        "Right afterwards, add the 2 strips of bacon into the oven and cook until desired doneness",
-        "Heat a pan up to medium heat, then add in chorizo",
+        "Right afterwards, add the 2 strips of bacon (28 grmas) into the oven and cook until desired doneness",
+        "Heat a pan up to medium heat, then add in chorizo (80 grams)",
         "Cook chorizo on pan for 15-20 minutes",
         "Remove the chorizo from the pan",
         "Dice up quarter of an onion",
         "Add to saucepan and keep on medium heat for 5 minutes",
         "Bring saucepan down to low heat",
-        "Mix the 3 eggs well",
-        "Add eggs to saucepan with onions and continuously mix the eggs",
+        "Mix the 4 eggs (150 grams) well",
+        "Add eggs to saucepan with diced onions (40 grams) and continuously mix the eggs",
         "Once the eggs are set but still slightly watery, remove from saucepan",
-        "Cook the 6 tater tots by following instructions on the bag",
+        "Cook the 6 tater tots (50 grams) by following instructions on the bag",
         "Place the tortilla on a plate",
         "Spread sour cream all over the tortilla",
-        "Add tater tots, eggs, cheddar cheese, chorizo, and bacon to tortilla",
+        "Add tater tots, eggs, cheddar cheese (28 grams), chorizo, and bacon to tortilla",
         "Finish up and enjoy!"
       ],
       "nutrition": {
         "Calories": 1163.04,
-        "Total Fat": 80.86200000000001,
-        "Saturated Fat": 31.5784,
+        "Total Fat": 80.862,
+        "Saturated Fat": 31.578400000000006,
         "Cholesterol": 967.4,
         "Sodium": 2151.5,
         "Carbohydrate": 47.2446,
         "Fiber": 3.46,
         "Sugars": 2.728,
-        "Protein": 55.64719999999999
+        "Protein": 55.647200000000005
       },
-      "lastUpdate": "Mon Mar 31 2025 13:11:48 GMT-0400 (Eastern Daylight Time)",
+      "lastUpdate": "Fri Apr 11 2025 10:01:02 GMT-0400 (Eastern Daylight Time)",
       "cooking tips": [
         "Put bacon into cold oven before heating",
         "For soft scrambled eggs, constantly stir eggs with a spatula",
@@ -106,7 +106,7 @@
       "name": "Croque Madame",
       "image": "../../Pictures/Recipes/France/Croque Madame.jpg",
       "ingredients": [
-        "Unsalted Butter",
+        "Unsalted butter",
         "All-purpose flour",
         "Whole milk",
         "Gruyère cheese, grated",
@@ -119,7 +119,7 @@
       "instructions": [
         "In a medium saucepan over medium heat, melt the 30 grams of butter",
         "Add the 30 grams of flour and whisk continuously for 2-3 minutes. This creates a roux. Ensure it doesn't brown",
-        "Gradually pour in the 300ml of whole milk, whisking constantly to prevent lumps",
+        "Gradually pour in the 300 grams of whole milk, whisking constantly to prevent lumps",
         "Bring the mixture to a simmer over medium heat, stirring regularly. The sauce will thicken",
         "Season with salt, pepper, and a pinch of nutmeg and cheese",
         "Reduce the heat to low and stir in the 60 grams of Gruyère cheese until melted and smooth",
@@ -128,14 +128,14 @@
         "Brush both sides of the 2 slices of bread with the melted 20 grams of butter",
         "Place them on a baking sheet and lightly toast them in the oven for about 3-5 minutes, or until golden",
         "Spread a generous amount of the Mornay sauce on one side of each toasted bread slice",
-        "On one slice, layer half the grated Gruyère, the 150 grams of ham, and spread the 2 teaspoons of Dijon mustard over the ham",
+        "On one slice, layer half the grated Gruyère, the 150 grams of ham, and spread the 12 grams of Dijon mustard over the ham",
         "Then add the remainding grate gruyere",
         "Top with the second piece of bread",
         "Top with Mornay and Cheese",
         "Cover the top of each sandwich with the remaining Mornay sauce and sprinkle with the remaining grated Gruyère cheese",
         "Bake the sandwiches in the preheated oven for approximately 10 minutes, or until the cheese is melted and golden brown",
         "If you have a broiler setting, you can broil for the last couple minutes, watching close to prevent burning, for a nicely browned top",
-        "While the sandwiches are baking, heat 1 tablespoon of olive oil in a frying pan over medium heat",
+        "While the sandwiches are baking, add 15 grams of olive oil in a frying pan over medium heat",
         "Carefully crack the 2 eggs into the pan and fry them sunny-side up, or to your desired doneness",
         "Season with salt and pepper",
         "Once the sandwiches are baked, place a fried egg on top of each sandwich",
@@ -641,7 +641,7 @@
         "In a separate pan, heat 10 grams of oil and fry 2 eggs (about 100 grams total) to your preferred doneness, seasoning with salt and pepper",
         "Serve the chilaquiles on a plate and top each portion with a fried egg",
         "Garnish with 10 grams of chopped cilantro",
-        "Serve immediately"
+        "Enjoy"
       ],
       "nutrition": {
         "Calories": 1365.8500000000001,
@@ -1021,7 +1021,7 @@
       "name": "Vegetable and Egg Tagine",
       "image": "../../Pictures/Recipes/Morocco/Vegetable and Egg Tagine.jpg",
       "ingredients": [
-        "Oil",
+        "Olive oil",
         "Onion, finely chopped",
         "Garlic, minced",
         "Tomatoes, chopped",
@@ -1049,7 +1049,8 @@
         "Crack 4 eggs (about 200 grams total) over the simmering vegetables",
         "Cover and cook for another 5-7 minutes, or until the eggs are set to your preference",
         "Garnish with 10 grams of chopped fresh parsley and 10 grams of chopped fresh cilantro",
-        "Serve hot with crusty bread or couscous"
+        "Serve hot with crusty bread or couscous",
+        "Enjoy"
       ],
       "nutrition": {
         "Calories": 423.29999999999995,
@@ -1156,7 +1157,8 @@
         "Place one fried egg on each tortilla",
         "Pour 50 grams of red salsa over one egg and 50 grams of green salsa over the other egg",
         "Garnish with 10 grams of finely chopped onion, 5 grams of minced garlic, 10 grams of chopped cilantro, and 40 grams of crumbled queso fresco",
-        "Serve with sliced avocado on the side"
+        "Serve with sliced avocado on the side",
+        "Enjoy"
       ],
       "nutrition": {
         "Calories": 525.1500000000001,
@@ -1261,7 +1263,8 @@
         "In a small bowl, mix 15 ml of soy sauce, 5 ml of cider vinegar, 5 grams of minced garlic, 5 grams of minced ginger, 2 grams of white pepper, and 2 grams of salt",
         "Drizzle the sauce mixture evenly over the tofu and eggs",
         "Garnish with 10 grams of finely chopped green onion, 5 grams of chopped cilantro, 5 grams of sliced red chili, and 5 grams of sesame seeds",
-        "Serve chilled or at room temperature"
+        "Serve chilled or at room temperature",
+        "Enjoy"
       ],
       "nutrition": {
         "Calories": 308.65,
@@ -1359,7 +1362,8 @@
         "Pour a portion of the egg mixture into the skillet, shaping it into a round patty. Cook for 2-3 minutes per side until golden brown and set. Repeat with remaining mixture",
         "In a saucepan, mix 200 ml of chicken broth, 5 grams of soy sauce, 5 grams of oyster sauce, 5 grams of cornstarch, 5 grams of minced garlic, and 5 grams of minced ginger",
         "Simmer the sauce for 2-3 minutes until thickened, stirring constantly",
-        "Drizzle the sauce over the cooked Egg Foo Young and serve hot"
+        "Drizzle the sauce over the cooked Egg Foo Young and serve hot",
+        "Enjoy"
       ],
       "nutrition": {
         "Calories": 396.28999999999996,
@@ -1459,14 +1463,15 @@
         "Black pepper"
       ],
       "instructions": [
-        "Preheat the oven to 375°F (190°C). Roll out the pie crust and fit it into a 9-inch (23 cm) pie dish. Prick the bottom with a fork and pre-bake for 10 minutes.",
-        "In a skillet, cook 100 grams of chopped bacon over medium heat until crispy. Remove and drain on paper towels.",
-        "In the same skillet, sauté 50 grams of finely chopped onion until soft and translucent.",
-        "In a mixing bowl, whisk together 4 large eggs (about 200 grams), 200 ml of heavy cream, 100 ml of milk, 2 grams of salt, 1 gram of black pepper, and 1 gram of nutmeg.",
-        "Spread the cooked bacon and onions evenly over the pre-baked crust, then sprinkle 100 grams of shredded Gruyère cheese on top.",
-        "Pour the egg mixture over the ingredients in the crust.",
-        "Bake for 35-40 minutes until the quiche is set and the top is golden brown.",
-        "Let the quiche cool slightly before slicing and serving."
+        "Preheat the oven to 375°F (190°C). Roll out the pie crust and fit it into a 9-inch (23 cm) pie dish. Prick the bottom with a fork and pre-bake for 10 minutes",
+        "In a skillet, cook 100 grams of chopped bacon over medium heat until crispy. Remove and drain on paper towels",
+        "In the same skillet, sauté 50 grams of finely chopped onion until soft and translucent",
+        "In a mixing bowl, whisk together 4 large eggs (about 200 grams), 200 ml of heavy cream, 100 ml of milk, 2 grams of salt, 1 gram of black pepper, and 1 gram of nutmeg",
+        "Spread the cooked bacon and onions evenly over the pre-baked crust, then sprinkle 100 grams of shredded Gruyère cheese on top",
+        "Pour the egg mixture over the ingredients in the crust",
+        "Bake for 35-40 minutes until the quiche is set and the top is golden brown",
+        "Let the quiche cool slightly before slicing and serving",
+        "Enjoy"
       ],
       "nutrition": {
         "Calories": 2893,
@@ -1481,10 +1486,10 @@
       },
       "lastUpdate": "Wed Apr 02 2025 15:14:37 GMT-0400 (Eastern Daylight Time)",
       "cooking tips": [
-        "Blind-bake the crust to prevent sogginess.",
-        "For a richer flavor, use a mix of Gruyère and Parmesan cheese.",
-        "Let the quiche cool for at least 10 minutes before slicing to allow it to set properly.",
-        "Substitute bacon with smoked salmon or ham for variation."
+        "Blind-bake the crust to prevent sogginess",
+        "For a richer flavor, use a mix of Gruyère and Parmesan cheese",
+        "Let the quiche cool for at least 10 minutes before slicing to allow it to set properly",
+        "Substitute bacon with smoked salmon or ham for variation"
       ],
       "gram calculations": {
         "Pie crust": 200,
@@ -1544,14 +1549,15 @@
         "Green onions, chopped"
       ],
       "instructions": [
-        "In a mixing bowl, beat 3 large eggs (about 150 grams total) until smooth.",
-        "Gradually add 300 ml of warm water while continuing to whisk gently.",
-        "Season the mixture with 5 grams of soy sauce, 2 grams of salt, and 1 gram of white pepper.",
-        "Strain the mixture through a fine sieve to remove air bubbles for a smoother texture.",
-        "Pour the egg mixture into a heatproof bowl or ramekins.",
-        "Cover the bowl with plastic wrap or foil to prevent condensation from dripping into the custard.",
-        "Steam over medium-low heat for 10-15 minutes until the custard is just set.",
-        "Drizzle with 5 grams of sesame oil and garnish with chopped green onions before serving."
+        "In a mixing bowl, beat 3 large eggs (about 150 grams total) until smooth",
+        "Gradually add 300 ml of warm water while continuing to whisk gently",
+        "Season the mixture with 5 grams of soy sauce, 2 grams of salt, and 1 gram of white pepper",
+        "Strain the mixture through a fine sieve to remove air bubbles for a smoother texture",
+        "Pour the egg mixture into a heatproof bowl or ramekins",
+        "Cover the bowl with plastic wrap or foil to prevent condensation from dripping into the custard",
+        "Steam over medium-low heat for 10-15 minutes until the custard is just set",
+        "Drizzle with 5 grams of sesame oil and garnish with chopped green onions before serving",
+        "Enjoy"
       ],
       "nutrition": {
         "Calories": 269.4,
@@ -1566,10 +1572,10 @@
       },
       "lastUpdate": "Wed Apr 02 2025 14:02:24 GMT-0400 (Eastern Daylight Time)",
       "cooking tips": [
-        "Use warm water instead of cold water for a silkier texture.",
-        "Strain the egg mixture to remove air bubbles and ensure smooth custard.",
-        "Cover the dish while steaming to prevent condensation from affecting the texture.",
-        "Adjust steaming time based on container size and heat level."
+        "Use warm water instead of cold water for a silkier texture",
+        "Strain the egg mixture to remove air bubbles and ensure smooth custard",
+        "Cover the dish while steaming to prevent condensation from affecting the texture",
+        "Adjust steaming time based on container size and heat level"
       ],
       "gram calculations": {
         "Eggs": 150,
@@ -1612,14 +1618,15 @@
         "Cheese (optional)"
       ],
       "instructions": [
-        "In a mixing bowl, beat 3 large eggs (about 150 grams total) until fully combined and slightly frothy.",
-        "Season with 2 grams of salt and 1 gram of white pepper.",
-        "Heat butter in a non-stick skillet over low heat until melted but not browned.",
-        "Pour in the eggs and continuously stir with a spatula while shaking the pan to create small curds.",
-        "Once the eggs begin to set but are still slightly runny, smooth out the surface and let them cook for another 10-15 seconds.",
-        "If using, sprinkle fresh herbs or cheese onto the omelette before folding.",
-        "Gently roll the omelette into a cylindrical shape and slide it onto a plate.",
-        "Brush with an additional small amount of butter for a glossy finish before serving."
+        "In a mixing bowl, beat 3 large eggs (about 150 grams total) until fully combined and slightly frothy",
+        "Season with 2 grams of salt and 1 gram of white pepper",
+        "Heat butter in a non-stick skillet over low heat until melted but not browned",
+        "Pour in the eggs and continuously stir with a spatula while shaking the pan to create small curds",
+        "Once the eggs begin to set but are still slightly runny, smooth out the surface and let them cook for another 10-15 seconds",
+        "If using, sprinkle fresh herbs or cheese onto the omelette before folding",
+        "Gently roll the omelette into a cylindrical shape and slide it onto a plate",
+        "Brush with an additional small amount of butter for a glossy finish before serving",
+        "Enjoy"
       ],
       "nutrition": {
         "Calories": 222,
@@ -1634,10 +1641,10 @@
       },
       "lastUpdate": "Wed Apr 02 2025 14:01:51 GMT-0400 (Eastern Daylight Time)",
       "cooking tips": [
-        "Use low heat to prevent overcooking and achieve a tender texture.",
-        "Continuously stir and shake the pan to create a smooth and creamy consistency.",
-        "For extra creaminess, add a teaspoon of heavy cream or milk to the eggs before cooking.",
-        "Use a rubber spatula to shape and fold the omelette gently."
+        "Use low heat to prevent overcooking and achieve a tender texture",
+        "Continuously stir and shake the pan to create a smooth and creamy consistency",
+        "For extra creaminess, add a teaspoon of heavy cream or milk to the eggs before cooking",
+        "Use a rubber spatula to shape and fold the omelette gently"
       ],
       "gram calculations": {
         "Eggs": 150
@@ -1664,13 +1671,13 @@
         "Red pepper flakes (optional)"
       ],
       "instructions": [
-        "Toast 2 slices of bread until golden and crisp.",
-        "Spread the guacamole evenly onto the toasted bread.",
-        "Drizzle with 5 grams of olive oil and sprinkle red pepper flakes if desired.",
-        "Bring a saucepan up to medim heat before adding in some butter or oil.",
-        "Add in an egg and cook until the white is set.",
-        "Top with fried egg for extra flavor and protein.",
-        "Serve immediately."
+        "Toast 2 slices of bread until golden and crisp",
+        "Spread the guacamole evenly onto the toasted bread",
+        "Drizzle with 5 grams of olive oil and sprinkle red pepper flakes if desired",
+        "Bring a saucepan up to medim heat before adding in some butter or oil",
+        "Add in an egg and cook until the white is set",
+        "Top with fried egg for extra flavor and protein",
+        "Enjoy"
       ],
       "nutrition": {
         "Calories": 453.5,
@@ -1685,10 +1692,10 @@
       },
       "lastUpdate": "Wed Apr 02 2025 13:59:58 GMT-0400 (Eastern Daylight Time)",
       "cooking tips": [
-        "Use ripe avocados for a creamy texture.",
-        "Toast the bread until crisp to prevent sogginess.",
-        "Add extra toppings like feta cheese, radishes, or microgreens for variety.",
-        "For a tangy kick, add a splash of balsamic glaze."
+        "Use ripe avocados for a creamy texture",
+        "Toast the bread until crisp to prevent sogginess",
+        "Add extra toppings like feta cheese, radishes, or microgreens for variety",
+        "For a tangy kick, add a splash of balsamic glaze"
       ],
       "gram calculations": {
         "Sourdough bread": 60,
@@ -1723,13 +1730,13 @@
         "Pepper (optional)"
       ],
       "instructions": [
-        "Bring a saucepan up to low heat.",
-        "Add in butter or oil to the saucepan.",
-        "Whisk the eggs together in a mixing bowl.",
-        "Pour the whisked eggs into the saucepan.",
-        "Use a spatula to keep moving the eggs while also jiggling the saucepan.",
-        "Once the eggs are only a litte watery, remove from heat and add desired seasongs.",
-        "Enjoy."
+        "Bring a saucepan up to low heat",
+        "Add in butter or oil to the saucepan",
+        "Whisk the eggs together in a mixing bowl",
+        "Pour the whisked eggs into the saucepan",
+        "Use a spatula to keep moving the eggs while also jiggling the saucepan",
+        "Once the eggs are only a litte watery, remove from heat and add desired seasongs",
+        "Enjoy"
       ],
       "nutrition": {
         "Calories": 222,
@@ -1744,8 +1751,8 @@
       },
       "lastUpdate": "Wed Apr 02 2025 15:12:17 GMT-0400 (Eastern Daylight Time)",
       "cooking tips": [
-        "Move the saucepan and mix the eggs with spatula to keep the curdles small.",
-        "Add salt to the eggs to bring out the flavor.",
+        "Move the saucepan and mix the eggs with spatula to keep the curdles small",
+        "Add salt to the eggs to bring out the flavor",
         "Use a combination of olive oil and butter"
       ],
       "gram calculations": {
@@ -1772,13 +1779,13 @@
         "Herbs (optional, such as parsley or chives)"
       ],
       "instructions": [
-        "In a bowl, beat 3 eggs (about 150 grams) with a pinch of salt, black pepper, and optionally some milk or cream.",
-        "Heat butter or oil in a non-stick skillet over medium-low heat until melted.",
-        "Pour the egg mixture into the pan, tilting to spread evenly.",
-        "Use a spatula to gently stir the eggs while shaking the pan to allow uncooked eggs to reach the surface.",
-        "Once the eggs begin to set but are still slightly runny on top, add 20 grams of cheese if using.",
-        "Carefully fold the omelette in half and cook for another 30 seconds until fully set.",
-        "Slide onto a plate and garnish with chopped herbs if desired. Serve immediately."
+        "In a bowl, beat 3 eggs (about 150 grams) with a pinch of salt, black pepper, and optionally some milk or cream",
+        "Heat butter or oil in a non-stick skillet over medium-low heat until melted",
+        "Pour the egg mixture into the pan, tilting to spread evenly",
+        "Use a spatula to gently stir the eggs while shaking the pan to allow uncooked eggs to reach the surface",
+        "Once the eggs begin to set but are still slightly runny on top, add 20 grams of cheese if using",
+        "Carefully fold the omelette in half and cook for another 30 seconds until fully set",
+        "Slide onto a plate and garnish with chopped herbs if desired. Serve immediately"
       ],
       "nutrition": {
         "Calories": 222,
@@ -1793,10 +1800,10 @@
       },
       "lastUpdate": "Wed Apr 02 2025 15:10:43 GMT-0400 (Eastern Daylight Time)",
       "cooking tips": [
-        "Use fresh eggs for the best texture and flavor.",
-        "Cook over medium-low heat to avoid overcooking.",
-        "For a fluffier omelette, beat the eggs thoroughly before cooking.",
-        "Add fillings like mushrooms, spinach, or ham for variety."
+        "Use fresh eggs for the best texture and flavor",
+        "Cook over medium-low heat to avoid overcooking",
+        "For a fluffier omelette, beat the eggs thoroughly before cooking",
+        "Add fillings like mushrooms, spinach, or ham for variety"
       ],
       "gram calculations": {
         "Eggs": 150
@@ -1826,12 +1833,12 @@
         "Tomatoes or spinach (optional)"
       ],
       "instructions": [
-        "Preheat oven to 375°F (190°C). Grease a small baking dish or ramekin with butter or olive oil.",
-        "Crack 2 eggs (about 100 grams) into the dish and season with a pinch of salt and 1 gram of black pepper.",
-        "Drizzle with 10 grams of heavy cream if using and sprinkle with 15 grams of cheese.",
-        "Optionally, add 20 grams of chopped tomatoes or spinach for extra flavor.",
-        "Bake for 12-15 minutes, or until the egg whites are set but the yolks are still slightly runny.",
-        "Remove from oven and garnish with 5 grams of fresh herbs. Serve warm."
+        "Preheat oven to 375°F (190°C). Grease a small baking dish or ramekin with butter or olive oil",
+        "Crack 2 eggs (about 100 grams) into the dish and season with a pinch of salt and 1 gram of black pepper",
+        "Drizzle with 10 grams of heavy cream if using and sprinkle with 15 grams of cheese",
+        "Optionally, add 20 grams of chopped tomatoes or spinach for extra flavor",
+        "Bake for 12-15 minutes, or until the egg whites are set but the yolks are still slightly runny",
+        "Remove from oven and garnish with 5 grams of fresh herbs. Serve warm"
       ],
       "nutrition": {
         "Calories": 148,
@@ -1846,10 +1853,10 @@
       },
       "lastUpdate": "Wed Apr 02 2025 15:10:32 GMT-0400 (Eastern Daylight Time)",
       "cooking tips": [
-        "Use fresh eggs for the best texture and flavor.",
-        "Adjust baking time to achieve desired yolk consistency.",
-        "Serve with toasted bread or a side salad for a complete meal.",
-        "Experiment with different cheeses and toppings for variety."
+        "Use fresh eggs for the best texture and flavor",
+        "Adjust baking time to achieve desired yolk consistency",
+        "Serve with toasted bread or a side salad for a complete meal",
+        "Experiment with different cheeses and toppings for variety"
       ],
       "gram calculations": {
         "Eggs": 100
@@ -1878,13 +1885,13 @@
         "Paprika"
       ],
       "instructions": [
-        "Place 6 eggs (about 300 grams total) in a pot and cover with water. Bring to a boil, then cover and remove from heat. Let sit for 12 minutes.",
-        "Transfer eggs to an ice bath and let cool for 5 minutes. Peel and slice in half lengthwise.",
-        "Remove the yolks and place them in a bowl. Mash with a fork until smooth.",
-        "Add 50 grams of mayonnaise, 10 grams of Dijon mustard, 5 grams of white vinegar, 2 grams of salt, and 1 gram of black pepper to the yolks. Mix until creamy.",
-        "Spoon or pipe the yolk mixture back into the egg whites.",
-        "Sprinkle with paprika.",
-        "Serve chilled."
+        "Place 6 eggs (about 300 grams total) in a pot and cover with water. Bring to a boil, then cover and remove from heat. Let sit for 12 minutes",
+        "Transfer eggs to an ice bath and let cool for 5 minutes. Peel and slice in half lengthwise",
+        "Remove the yolks and place them in a bowl. Mash with a fork until smooth",
+        "Add 50 grams of mayonnaise, 10 grams of Dijon mustard, 5 grams of white vinegar, 2 grams of salt, and 1 gram of black pepper to the yolks. Mix until creamy",
+        "Spoon or pipe the yolk mixture back into the egg whites",
+        "Sprinkle with paprika",
+        "Serve chilled"
       ],
       "nutrition": {
         "Calories": 210,
@@ -1899,10 +1906,10 @@
       },
       "lastUpdate": "Wed Apr 02 2025 14:25:30 GMT-0400 (Eastern Daylight Time)",
       "cooking tips": [
-        "For easier peeling, use eggs that are at least a week old.",
-        "Chill the filling before piping for better texture.",
-        "Experiment with toppings like crispy bacon, pickles, or hot sauce.",
-        "Use a piping bag for a more decorative presentation."
+        "For easier peeling, use eggs that are at least a week old",
+        "Chill the filling before piping for better texture",
+        "Experiment with toppings like crispy bacon, pickles, or hot sauce",
+        "Use a piping bag for a more decorative presentation"
       ],
       "gram calculations": {
         "Eggs": 300,
@@ -1940,12 +1947,12 @@
         "Egg"
       ],
       "instructions": [
-        "Bring a saucepan up to low heat.",
-        "Add oil or butter to the saucepan.",
-        "Crack the egg into the saucepan.",
-        "Once the white of the egg has set, flip the egg over.",
-        "After 20-30 seconds remove the egg from the saucepan.",
-        "Enjoy."
+        "Bring a saucepan up to low heat",
+        "Add oil or butter to the saucepan",
+        "Crack the egg into the saucepan",
+        "Once the white of the egg has set, flip the egg over",
+        "After 20-30 seconds remove the egg from the saucepan",
+        "Enjoy"
       ],
       "nutrition": {
         "Calories": 74,
@@ -1960,8 +1967,8 @@
       },
       "lastUpdate": "Wed Apr 02 2025 15:10:48 GMT-0400 (Eastern Daylight Time)",
       "cooking tips": [
-        "Use fresh eggs to maximize flavor.",
-        "Add desired seasonings to eggs before consuming them."
+        "Use fresh eggs to maximize flavor",
+        "Add desired seasonings to eggs before consuming them"
       ],
       "gram calculations": {
         "Eggs": 50
@@ -1984,11 +1991,11 @@
         "Egg"
       ],
       "instructions": [
-        "Add egg to pot full of cold water.",
-        "Bring the pot to a boil.",
-        "Let eggs boil until desired doneness (6 minutes for soft boiled and 10 for hard boiled).",
-        "Remove eggs from pot and let them cool off.",
-        "Enjoy."
+        "Add egg to pot full of cold water",
+        "Bring the pot to a boil",
+        "Let eggs boil until desired doneness (6 minutes for soft boiled and 10 for hard boiled)",
+        "Remove eggs from pot and let them cool off",
+        "Enjoy"
       ],
       "nutrition": {
         "Calories": 74,
@@ -2003,8 +2010,8 @@
       },
       "lastUpdate": "Wed Apr 02 2025 13:59:45 GMT-0400 (Eastern Daylight Time)",
       "cooking tips": [
-        "Use fresh eggs to maximize flavor.",
-        "Put eggs in cold, ice water after boiling."
+        "Use fresh eggs to maximize flavor",
+        "Put eggs in cold, ice water after boiling"
       ],
       "gram calculations": {
         "Eggs": 50
@@ -2036,13 +2043,14 @@
         "Black pepper"
       ],
       "instructions": [
-        "Heat oil in a large skillet or wok over medium-high heat.",
-        "Add 2 beaten eggs (about 100 grams) and scramble until just set. Remove from the skillet and set aside.",
-        "In the same skillet, add 5 grams of vegetable oil, 50 grams of diced carrots, 50 grams of peas, and 5 grams of minced garlic. Sauté for 2 minutes.",
-        "Add 300 grams of cooked rice and stir-fry for 3-4 minutes.",
-        "Return the scrambled eggs to the skillet and mix well.",
-        "Season with 10 grams of soy sauce, 5 grams of sesame oil, salt, and black pepper.",
-        "Stir in 20 grams of chopped green onions and serve hot."
+        "Heat oil in a large skillet or wok over medium-high heat",
+        "Add 2 beaten eggs (about 100 grams) and scramble until just set. Remove from the skillet and set aside",
+        "In the same skillet, add 5 grams of vegetable oil, 50 grams of diced carrots, 50 grams of peas, and 5 grams of minced garlic. Sauté for 2 minutes",
+        "Add 300 grams of cooked rice and stir-fry for 3-4 minutes",
+        "Return the scrambled eggs to the skillet and mix well",
+        "Season with 10 grams of soy sauce, 5 grams of sesame oil, salt, and black pepper",
+        "Stir in 20 grams of chopped green onions and serve hot",
+        "Enjoy"
       ],
       "nutrition": {
         "Calories": 1337.95,
@@ -2057,9 +2065,9 @@
       },
       "lastUpdate": "Wed Apr 02 2025 14:28:59 GMT-0400 (Eastern Daylight Time)",
       "cooking tips": [
-        "Use cold, day-old rice for the best texture.",
-        "Stir-fry over high heat to prevent the rice from becoming mushy.",
-        "Customize with protein like chicken, shrimp, or tofu."
+        "Use cold, day-old rice for the best texture",
+        "Stir-fry over high heat to prevent the rice from becoming mushy",
+        "Customize with protein like chicken, shrimp, or tofu"
       ],
       "gram calculations": {
         "Rice": 300,
@@ -2123,13 +2131,13 @@
         "Hollandaise sauce"
       ],
       "instructions": [
-        "Toast 2 English muffin halves until golden brown.",
-        "In a skillet, heat 2 slices (50 grams) of bacon until lightly browned. Place on the toasted muffins.",
-        "Fill a saucepan with water, add white vinegar, and bring to a simmer.",
-        "Crack 2 eggs (about 100 grams total) into separate cups and gently slide into the simmering water. Poach for 3-4 minutes, then remove with a slotted spoon.",
-        "Place the poached eggs on top of the bacon.",
-        "Season with 2 grams of salt and 1 gram of black pepper.",
-        "Drizzle the hollandaise sauce over the eggs and serve immediately."
+        "Toast 2 English muffin halves until golden brown",
+        "In a skillet, heat 2 slices (50 grams) of bacon until lightly browned. Place on the toasted muffins",
+        "Fill a saucepan with water, add white vinegar, and bring to a simmer",
+        "Crack 2 eggs (about 100 grams total) into separate cups and gently slide into the simmering water. Poach for 3-4 minutes, then remove with a slotted spoon",
+        "Place the poached eggs on top of the bacon",
+        "Season with 2 grams of salt and 1 gram of black pepper",
+        "Drizzle the hollandaise sauce over the eggs and serve immediately"
       ],
       "nutrition": {
         "Calories": 626,
@@ -2144,9 +2152,9 @@
       },
       "lastUpdate": "Wed Apr 02 2025 14:27:35 GMT-0400 (Eastern Daylight Time)",
       "cooking tips": [
-        "Use fresh eggs for the best poaching results.",
-        "Keep the water at a gentle simmer, not a rolling boil, to poach eggs properly.",
-        "Whisk the hollandaise sauce constantly to prevent curdling."
+        "Use fresh eggs for the best poaching results",
+        "Keep the water at a gentle simmer, not a rolling boil, to poach eggs properly",
+        "Whisk the hollandaise sauce constantly to prevent curdling"
       ],
       "gram calculations": {
         "English muffins": 100,
@@ -2190,11 +2198,11 @@
         "Egg"
       ],
       "instructions": [
-        "Set a precision cooker or sous vide machine to 165 F (74 C) in a pot of water.",
-        "Once the water has reached the desired temperature, add the egg into the pot.",
-        "After 15 minutes remove the egg from the pot.",
-        "Let the egg rest for 3 minutes.",
-        "Enjoy."
+        "Set a precision cooker or sous vide machine to 165 F (74 C) in a pot of water",
+        "Once the water has reached the desired temperature, add the egg into the pot",
+        "After 15 minutes remove the egg from the pot",
+        "Let the egg rest for 3 minutes",
+        "Enjoy"
       ],
       "nutrition": {
         "Calories": 74,
@@ -2209,8 +2217,8 @@
       },
       "lastUpdate": "Wed Apr 02 2025 15:10:02 GMT-0400 (Eastern Daylight Time)",
       "cooking tips": [
-        "Use fresh eggs to maximize flavor.",
-        "Put eggs in cold, ice water after cooking."
+        "Use fresh eggs to maximize flavor",
+        "Put eggs in cold, ice water after cooking"
       ],
       "gram calculations": {
         "Eggs": 50

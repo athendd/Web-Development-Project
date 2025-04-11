@@ -4,7 +4,7 @@ const cors = require('cors');
 
 const app = express();
 const PORT = 3000;
-const DATA_FILE = 'RecipesFile.json';
+const DATA_FILE = '../Web-Development-Project/Subpages/RecipePage/RecipesFile.json';
 
 app.use(express.json());
 app.use(cors());
@@ -22,7 +22,6 @@ app.get('/data', (req, res) => {
 
 // Write data
 app.post('/data', (req, res) => {
-    console.log("started");
     fs.readFile(DATA_FILE, (err, data) => {
         if (err) return res.status(500).send('Error reading data');
         let jsonData = JSON.parse(data);
