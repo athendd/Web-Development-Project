@@ -1,5 +1,8 @@
 let gramCounts;
 let categories;
+let ingredients;
+let foodData;
+let optionsDictionary = {};
 
 function calculateMeasurement(){
     const typeOfMeasurement = document.getElementById('measurement');
@@ -85,7 +88,7 @@ function createButton(div){
     const substitutionButton = document.createElement('button');
     substitutionButton.style = 'margin-bottom: 5%;';
     substitutionButton.textContent = 'Calculate';
-    substitutionButton.onclick = 'CalculateNutrients()';
+    substitutionButton.onclick = calculateNutrients;
     div.appendChild(substitutionButton);
 }
 
@@ -110,11 +113,11 @@ function createDropDown(div, ingredient, options){
     div.appendChild(dropdown)
 }
 
-function createSubstitutionBlock(options){
+function createSubstitutionBlock(){
     const substitutions = document.getElementById('substitutionsDiv');
 
-    for (const ingredient in options){
-        const optionsList = createOptionsList(options[ingredient]);
+    for (const ingredient in optionsDictionary){
+        const optionsList = createOptionsList(optionsDictionary[ingredient]);
         const newDiv = document.createElement('div');
         newDiv.style.display = 'flex';
         createParagraph(newDiv, ingredient);
@@ -158,10 +161,15 @@ function deepEqual(obj1, obj2) {
 }
 
 function calculateNutrients(){
-    console.log('here');
+    turnOnCalculate();
+    const updatedFoodDictionary = getUpdatedNutritionDictionary(false);
+    console.log(updatedFoodDictionary);
+    setNutritionTable(updatedFoodDictionary);
+    turnOffCalculate();
+
 }
 
-function filterFoods(foods, currentFood, categories)
+function filterFoods(foods, currentFood)
 {
     let updatedFoods = new Array();
     const currentCategories = categories[currentFood];
@@ -253,18 +261,18 @@ function updateDatabase(recipe){
     });
 }
 
-function populateOptionsDictionary(options, foodData, recipe){
+function populateOptionsDictionary(recipe){
     for (const food in recipe['queries']){
         if (foodData[food] && foodData[food].foods){
-            options[food] = processFoodDataForOptions(foodData[food], recipe['categories'], food);
+            optionsDictionary[food] = processFoodDataForOptions(food);
         }
         else{
-            options[food] = [];
+            optionsDictionary[food] = [];
         }
     }
 }
 
-function getUpdatedNutritionDictionary(foodData, queries, initialRun){
+function getUpdatedNutritionDictionary(initialRun){
     let newNutritionDictionary = {
         "Protein": 0,
         "Cholesterol": 0,
@@ -278,9 +286,9 @@ function getUpdatedNutritionDictionary(foodData, queries, initialRun){
     };
 
     try{
-        for (const food of queries){
+        for (const food of ingredients){
             if (foodData[food]){
-                const foodNutrientData = processFoodDataForNutrition(foodData[food], food, initialRun);
+                const foodNutrientData = processFoodDataForNutrition(food, initialRun);
                 for (const nutrient in foodNutrientData){
                     newNutritionDictionary[nutrient] += foodNutrientData[nutrient];
                 }
@@ -295,8 +303,8 @@ function getUpdatedNutritionDictionary(foodData, queries, initialRun){
     }
 }
 
-function processFoodDataForOptions(data, categories, currentFood) {
-    const updatedFoods = filterFoods(data.foods, currentFood, categories);
+function processFoodDataForOptions(currentFood) {
+    const updatedFoods = filterFoods(foodData[currentFood].foods, currentFood);
     const options = [];
     for (let food of updatedFoods) {
         const option = {};
@@ -311,15 +319,19 @@ function processFoodDataForOptions(data, categories, currentFood) {
     return options;
 }
 
-function processFoodDataForNutrition(data, currentFood, initialRun) {
-    const updatedFoods = filterFoods(data.foods, currentFood, categories);
+function processFoodDataForNutrition(currentFood, initialRun) {
+    const updatedFoods = filterFoods(foodData[currentFood].foods, currentFood);
+    let foodItem;
     if (!updatedFoods || updatedFoods.length === 0) {
         return {};
     }
     if (initialRun === true){
-        const firstFoodItem = updatedFoods[0];
+        foodItem = updatedFoods[0];
     }
-    const foodNutrients = firstFoodItem.foodNutrients;
+    else{
+        foodItem = updatedFoods[getDropDownData(currentFood)];
+    }
+    const foodNutrients = foodItem.foodNutrients;
     let nutrientMap = {
         1063: "Sugars",
         1004: "Total Fat",
@@ -417,28 +429,22 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     gramCounts = currentRecipe['gram calculations'];
     categories = currentRecipe['categories'];
-
-    let fetchedFoodData;
+    ingredients = Object.keys(currentRecipe['categories']);
 
     if (diff >= 30){
         currentRecipe['lastUpdate'] = currentDate.toString();
         turnOnCalculate();
-        fetchedFoodData = await fetchFoodData(currentRecipe['queries']);
-        console.log('this');
-        const updatedFoodDictionary = getUpdatedNutritionDictionary(fetchedFoodData, Object.keys(fetchedFoodData), false);
+        foodData = await fetchFoodData(currentRecipe['queries']);
+        const updatedFoodDictionary = getUpdatedNutritionDictionary(true);
         updateRecipeNutrition(updatedFoodDictionary, currentRecipe['nutrition']);
         setNutritionTable(currentRecipe['nutrition']);
         updateDatabase(currentRecipe);
     }
     else{
         setNutritionTable(currentRecipe['nutrition']);
-        fetchedFoodData = await fetchFoodData(currentRecipe['queries']);
+        foodData = await fetchFoodData(currentRecipe['queries']);
     }
-
-    let optionsDictionary = {};
-    populateOptionsDictionary(optionsDictionary, fetchedFoodData, currentRecipe);
-
-    createSubstitutionBlock(optionsDictionary);
-
+    populateOptionsDictionary(currentRecipe);
+    createSubstitutionBlock();
 });
 
