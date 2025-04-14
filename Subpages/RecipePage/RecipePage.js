@@ -24,13 +24,13 @@ const substitutionsDiv = document.getElementById('substitutionsDiv');
 function convertGramsToUnit(grams, unit, types) {
     grams = Number(grams);
     switch (unit) {
-        case "Teaspoon":
+        case "Teaspoons":
             let teaspoonCalculations = [];
             for (let i = 0; i < types.length; i++){
                 teaspoonCalculations.push((grams/ GRAMS_TO_TEASPOONS[i]).toFixed(2))
             }
             return teaspoonCalculations;
-        case "Tablespoon":
+        case "Tablespoons":
             let tablespoonCalculations = [];
             for (let i = 0; i < types.length; i++){
                 tablespoonCalculations.push((grams/ GRAMS_TO_TABLESPOONS[i]).toFixed(2))
@@ -52,14 +52,22 @@ function convertGramsToUnit(grams, unit, types) {
 function updateMeasurementOutput(result, unit, types) {
     measurementOutput.innerHTML = '';
 
-    if (unit === 'Ounces'){
-        measurementOutput.innerHTML = `<span style=text-align: center; font-size: 1em;><strong>${unit}</strong></span> <br> <br>`;
-        measurementOutput.innerHTML += `${result}`;
+    
+
+    if (unit === 'Ounce' || unit === 'Ounces'){
+        if (result <= 1){
+            unit = unit.slice(0, -1);
+        }
+
+        measurementOutput.innerHTML = `<p style="text-align: center;">${result} ${unit}</p>`;
     }
     else{
-        measurementOutput.innerHTML = `<span style=text-align: center; font-size: 1em;><strong>${unit}</strong></span> <br> <br>`;
         for (let i = 0; i < types.length; i++){
-            measurementOutput.innerHTML += `${types[i]}: ${result[i]} <br>`;
+            let currentUnit = unit;
+            if (result[i] <= 1){
+                currentUnit = unit.slice(0, -1)
+            }
+            measurementOutput.innerHTML += `<p style="text-align: left; padding-right: 0.5%; padding-left: 0.5%;"><strong>${types[i]}:</strong> <span style="float: right;"> ${result[i]} ${currentUnit}</span></p>`;
         }
     }
     measurementOutput.style.color = "black";
