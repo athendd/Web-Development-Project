@@ -1,92 +1,126 @@
-let gramCounts;
-let categories;
-let ingredients;
-let foodData;
-let optionsDictionary = {};
+let foodNutrientData = {};
+const measurementTypes =  ['Honey', 'Water', 'Sugar', 'Flour', 'Butter', 'Rice', 'Salt', 'General'];
 
-function calculateMeasurement(){
-    const typeOfMeasurement = document.getElementById('measurement');
-    const measurementValue = document.getElementById('measurementValue');
-    let warningMessage = document.getElementById('inputWarningMessage');
-    let output = document.getElementById('measurementOutput');
-    if (measurementValue.value === ""){
-        warningMessage.textContent = 'Need to input a number with no uncessary spaces or markings';
-        warningMessage.style.color='red';
-        output.style.color = "white";
+const GRAMS_TO_TEASPOONS = [6.801911799746, 4.928921594019, 3.474889723783, 2.607399523236, 4.490247572151 , 3.548823547694, 6.309019640344, 5];
+const GRAMS_TO_TABLESPOONS =  [20.405735399237, 14.786764782056, 10.42466917135, 7.822198569708, 13.470742716453, 10.64647064308, 18.927058921032, 15];
+const GRAMS_TO_CUPS =  [326.49176634918 , 236.58823648491, 166.79470672186, 125.15517710052, 215.53188343775, 170.34353026913, 302.83294270069, 250];
+const GRAMS_TO_OUNCES =  28.35;
+
+const measurementDropdown = document.getElementById('measurement');
+const measurementValueInput = document.getElementById('measurementValue');
+const inputWarningMessage = document.getElementById('inputWarningMessage');
+const measurementOutput = document.getElementById('measurementOutput');
+
+const titleLink = document.getElementById("title");
+const imageLink = document.getElementById("image");
+const ingredientsLink = document.getElementById("ingredients");
+const instructionsLink = document.getElementById("instructions");
+const cookingTipsLink = document.getElementById("cooking-tips-list");
+const referencesLink = document.getElementById("reference-list");
+const nutritionSummaryLink = document.getElementById("nutrition-summary-container");
+const spinnerContainerLink = document.getElementById("spinnerContainer");
+const substitutionsDiv = document.getElementById('substitutionsDiv');
+
+function convertGramsToUnit(grams, unit, types) {
+    grams = Number(grams);
+    switch (unit) {
+        case "Teaspoons":
+            let teaspoonCalculations = [];
+            for (let i = 0; i < types.length; i++){
+                teaspoonCalculations.push((grams/ GRAMS_TO_TEASPOONS[i]).toFixed(2))
+            }
+            return teaspoonCalculations;
+        case "Tablespoons":
+            let tablespoonCalculations = [];
+            for (let i = 0; i < types.length; i++){
+                tablespoonCalculations.push((grams/ GRAMS_TO_TABLESPOONS[i]).toFixed(2))
+            }
+            return tablespoonCalculations;
+        case "Cups":
+            let cupsCalculations = [];
+            for (let i = 0; i < types.length; i++){
+                cupsCalculations.push((grams/ GRAMS_TO_CUPS[i]).toFixed(2))
+            }
+            return cupsCalculations;
+        case "Ounces":
+            return (grams / GRAMS_TO_OUNCES).toFixed(2);
+        default:
+            return "Invalid unit";
+    }
+}
+
+function updateMeasurementOutput(result, unit, types) {
+    measurementOutput.innerHTML = '';
+
+    if (unit === 'Ounce' || unit === 'Ounces'){
+        if (result <= 1){
+            unit = unit.slice(0, -1);
+        }
+
+        measurementOutput.innerHTML = `<p style="text-align: center;">${result} ${unit}</p>`;
     }
     else{
-        let givenInput = Number(measurementValue.value).toFixed(2);
-        const finalInput = Number(givenInput);
-
-        if (finalInput > 1000000 || finalInput < 0){
-            warningMessage.textContent = 'Inputted number must be between 0 and 1000000';
-            warningMessage.style.color='red';
-            output.style.color = "white";
-        }
-        else{
-            warningMessage.style.color='white';
-
-            if(typeOfMeasurement.value === "Teaspoon"){
-                output.textContent = gramsToTeaspoons(finalInput) + ' Teaspoons';
-                output.style.color = "black"; 
+        for (let i = 0; i < types.length; i++){
+            let currentUnit = unit;
+            if (result[i] <= 1){
+                currentUnit = unit.slice(0, -1)
             }
-            else if(typeOfMeasurement.value === "Tablespoon"){
-                output.textContent = gramsToTablespoons(finalInput) + ' Tablespoons';
-                output.style.color = "black";
-            }
-            else if(typeOfMeasurement.value === "Cups"){
-                output.textContent = gramsToCups(finalInput) + ' Cups';
-                output.style.color = "black";
-            }
-            else{
-                output.textContent = gramsToOunces(finalInput) + ' Ounces';
-                output.style.color = "black";
-            }
+            measurementOutput.innerHTML += `<p style="text-align: left; padding-right: 0.5%; padding-left: 0.5%;"><strong>${types[i]}:</strong> <span style="float: right;"> ${result[i]} ${currentUnit}</span></p>`;
         }
     }
+    measurementOutput.style.color = "black";
 }
 
-function gramsToCups(currentGrams){
-    const cups = (currentGrams / 250).toFixed(2);
-    return cups;
+function displayInputWarning(message) {
+    inputWarningMessage.textContent = message;
+    inputWarningMessage.style.color = 'red';
+    measurementOutput.innerHTML = '';
+    measurementOutput.style.color = "white";
 }
-function gramsToTeaspoons(currentGrams){
-    const teaspoons = (currentGrams / 5.69).toFixed(2);
-    return teaspoons;
 
-}
-function gramsToTablespoons(currentGrams){
-    const tablespoons = (currentGrams / 21.25).toFixed(2);
-    return tablespoons;
+function calculateMeasurement() {
+    const measurementTypes =  ['Honey', 'Water', 'Sugar', 'Flour', 'Butter', 'Rice', 'Salt', 'General'];
+    const measurementType = measurementDropdown.value;
+    const inputValue = measurementValueInput.value.trim();
 
-}
-function gramsToOunces(currentGrams){
-    const ounces = (currentGrams / 0.035).toFixed(2);
-    return ounces;
+    if (inputValue === "") {
+        displayInputWarning('Input a number with no unnecessary spaces or markings');
+        return;
+    }
+
+    const numericValue = Number(inputValue);
+
+    if (isNaN(numericValue)) {
+        displayInputWarning('Invalid input. Please enter a valid number.');
+        return;
+    }
+
+    const finalInput = numericValue.toFixed(2);
+
+    if (finalInput > 1000000 || finalInput < 0) {
+        displayInputWarning('Inputted number must be between 0 and 1000000');
+        return;
+    }
+
+    inputWarningMessage.style.color = 'white'; 
+
+    const conversionResult = convertGramsToUnit(finalInput, measurementType, measurementTypes);
+    updateMeasurementOutput(conversionResult, measurementType, measurementTypes);
 }
 
 function turnOnCalculate(){
-    document.getElementById("nutrition-summary-container").style.display = 'none';
-    document.getElementById("spinnerContainer").style.display = 'flex';
+    nutritionSummaryLink.style.display = 'none';
+    spinnerContainerLink.style.display = 'flex';
 }
 
 function turnOffCalculate(){
-    document.getElementById('nutrition-summary-container').style.display = 'block';
-    document.getElementById('spinnerContainer').style.display = 'none';
-}
-
-function createOptionsList(options){
-    optionsList = [];
-    for (const option of options){
-        optionsList.push(option.foodName);
-    }
-
-    return optionsList;
+    nutritionSummaryLink.style.display = 'block';
+    spinnerContainerLink.style.display = 'none';
 }
 
 function createButton(div){
     const substitutionButton = document.createElement('button');
-    substitutionButton.style = 'margin-bottom: 5%;';
+    substitutionButton.style = 'margin-bottom: 5%; width: 25%; height: 2em; font-size:large;';
     substitutionButton.textContent = 'Calculate';
     substitutionButton.onclick = calculateNutrients;
     div.appendChild(substitutionButton);
@@ -114,17 +148,15 @@ function createDropDown(div, ingredient, options){
 }
 
 function createSubstitutionBlock(){
-    const substitutions = document.getElementById('substitutionsDiv');
-
-    for (const ingredient in optionsDictionary){
-        const optionsList = createOptionsList(optionsDictionary[ingredient]);
+    for (const ingredient of Object.keys(foodNutrientData)){
+        const optionsList = Object.keys(foodNutrientData[ingredient]);
         const newDiv = document.createElement('div');
         newDiv.style.display = 'flex';
         createParagraph(newDiv, ingredient);
         createDropDown(newDiv, ingredient, optionsList);
-        substitutions.appendChild(newDiv);
+        substitutionsDiv.appendChild(newDiv);
     }
-    createButton(substitutions);
+    createButton(substitutionsDiv);
 }
 
 function compareNutritionDics(scraped, current)
@@ -161,27 +193,37 @@ function deepEqual(obj1, obj2) {
 }
 
 function calculateNutrients(){
-    turnOnCalculate();
     const updatedFoodDictionary = getUpdatedNutritionDictionary(false);
-    console.log(updatedFoodDictionary);
     setNutritionTable(updatedFoodDictionary);
-    turnOffCalculate();
-
 }
 
-function filterFoods(foods, currentFood)
+function filterFoods(currentIngredient, foods, recipe)
 {
-    let updatedFoods = new Array();
-    const currentCategories = categories[currentFood];
+    const gramCalculations = recipe['gram calculations'];
+    const categories = recipe['categories'];
+    foodNutrientData[currentIngredient] = {};
+    currentFoodData = foodNutrientData[currentIngredient];
+    const currentCategories = categories[currentIngredient];
     for (const food of foods)
     {
         if (currentCategories.includes(food.foodCategory) && (food.servingSizeUnit == "g" || !food.hasOwnProperty("servingSize")))
         {
-            updatedFoods.push(food);
+            let key = food.description;
+            if (food.brandName){
+                key = food.brandName + ' ' + key;
+            }
+            else{
+                if (food.brandOwner){
+                    key = food.brandOwner + ' ' + key;
+                }
+            }
+
+            if (Object.keys(currentFoodData).includes(key) === false){
+                currentFoodData[key] = processNecessaryNutrition(food.foodNutrients, gramCalculations[currentIngredient]);
+            }
+            
         }
     }
-    
-    return updatedFoods;
 }
 
 async function searchFood(query)
@@ -204,17 +246,6 @@ async function searchFood(query)
     {
         console.log("Error getting the food", error);
         return null;
-    }
-}
-
-function checkData(nutrientIds, ids, food, nutrientMap)
-{
-    for (const id of ids)
-    {
-        if (!nutrientIds.includes(Number(id)))
-        {   
-            console.log(food + " does not have a value for " + nutrientMap[id])
-        }
     }
 }
 
@@ -261,17 +292,6 @@ function updateDatabase(recipe){
     });
 }
 
-function populateOptionsDictionary(recipe){
-    for (const food in recipe['queries']){
-        if (foodData[food] && foodData[food].foods){
-            optionsDictionary[food] = processFoodDataForOptions(food);
-        }
-        else{
-            optionsDictionary[food] = [];
-        }
-    }
-}
-
 function getUpdatedNutritionDictionary(initialRun){
     let newNutritionDictionary = {
         "Protein": 0,
@@ -285,53 +305,35 @@ function getUpdatedNutritionDictionary(initialRun){
         "Carbohydrate": 0
     };
 
-    try{
-        for (const food of ingredients){
-            if (foodData[food]){
-                const foodNutrientData = processFoodDataForNutrition(food, initialRun);
-                for (const nutrient in foodNutrientData){
-                    newNutritionDictionary[nutrient] += foodNutrientData[nutrient];
-                }
-            }
-        }
-    }catch (error) {
-        console.error("Error processing food data or timeout:", error);
-        return NaN;
-    }finally {
-        turnOffCalculate();
-        return newNutritionDictionary;
-    }
-}
+    const ingredients = Object.keys(foodNutrientData);
 
-function processFoodDataForOptions(currentFood) {
-    const updatedFoods = filterFoods(foodData[currentFood].foods, currentFood);
-    const options = [];
-    for (let food of updatedFoods) {
-        const option = {};
-        let foodToAdd = food.description;
-        if (Object.keys(food).includes('brandName')) {
-            foodToAdd += ' ' + food.brandName;
-        }
-        option['foodName'] = foodToAdd;
-        option['foodNutrients'] = food.foodNutrients;
-        options.push(option);
-    }
-    return options;
-}
+    let indices = new Array(ingredients.length);
 
-function processFoodDataForNutrition(currentFood, initialRun) {
-    const updatedFoods = filterFoods(foodData[currentFood].foods, currentFood);
-    let foodItem;
-    if (!updatedFoods || updatedFoods.length === 0) {
-        return {};
-    }
-    if (initialRun === true){
-        foodItem = updatedFoods[0];
+    if (initialRun){
+        indices.fill(0);
     }
     else{
-        foodItem = updatedFoods[getDropDownData(currentFood)];
+        for (let i = 0; i < ingredients.length; i++){
+            indices[i] = getDropDownData(ingredients[i]);
+        }
     }
-    const foodNutrients = foodItem.foodNutrients;
+
+    for (let i = 0; i < ingredients.length; i++){
+        const currentIngredient = foodNutrientData[ingredients[i]];
+        const keys = Object.keys(currentIngredient);
+        const currentNutrition = currentIngredient[keys[indices[i]]];
+        for (let nutrient of Object.keys(newNutritionDictionary)){
+            if (currentNutrition[nutrient]){
+                newNutritionDictionary[nutrient] += currentNutrition[nutrient];
+            }
+        }
+    }
+
+    turnOffCalculate();
+    return newNutritionDictionary;
+}
+
+function processNecessaryNutrition(nutrients, gramCount) {
     let nutrientMap = {
         1063: "Sugars",
         1004: "Total Fat",
@@ -344,7 +346,7 @@ function processFoodDataForNutrition(currentFood, initialRun) {
         1003: "Protein"
     };
 
-    const nutrientIds = foodNutrients.map(obj => obj["nutrientId"]);
+    const nutrientIds = nutrients.map(obj => obj["nutrientId"]);
 
     if (!nutrientIds.includes(1005)) {
         delete nutrientMap[1005];
@@ -352,18 +354,20 @@ function processFoodDataForNutrition(currentFood, initialRun) {
     }
 
     const foodNutrientValues = {};
-    foodNutrients.forEach(attr => {
+    nutrients.forEach(attr => {
         if (nutrientMap[attr.nutrientId]) {
-            let newValue = ((attr.value * gramCounts[currentFood]) / 100);
+            let newValue = ((attr.value * gramCount) / 100);
             foodNutrientValues[nutrientMap[attr.nutrientId]] = newValue;
         }
     });
     return foodNutrientValues;
 }
 
-async function fetchFoodData(queries){
+async function fetchFoodData(recipe){
     const apiKey = "ubzgeM1ViKn4aGfow4lahmRexcHWLMUkYaYgE9SV";
     const results = {};
+    const queries = recipe['queries'];
+    const ingredients = Object.keys(recipe['queries']);
     const foodPromises = Object.entries(queries).map(async ([foodName, query]) => {
         const url = `https://api.nal.usda.gov/fdc/v1/foods/search?query=${query}&api_key=${apiKey}`;
         try {
@@ -381,7 +385,10 @@ async function fetchFoodData(queries){
         }
     });
     await Promise.all(foodPromises);
-    return results;
+
+    for (let ingredient of ingredients){
+        (filterFoods(ingredient, results[ingredient].foods, recipe));
+    }
 }
 
 document.addEventListener("DOMContentLoaded", async function () {
@@ -389,13 +396,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     const data = await response.json();
     const urlParams = new URLSearchParams(window.location.search);
     const recipeName = urlParams.get("recipe");
-    let currentRecipe = data.Recipes[recipeName];
-    let titleLink = document.getElementById("title");
-    let imageLink = document.getElementById("image");
-    let ingredientsLink = document.getElementById("ingredients");
-    let instructionsLink = document.getElementById("instructions");
-    let cookingTipsLink = document.getElementById("cooking-tips-list");
-    let referencesLink = document.getElementById("reference-list");
+    const currentRecipe = data.Recipes[recipeName];
     titleLink.textContent = currentRecipe["name"];
     imageLink.src = currentRecipe["image"];
     currentRecipe["ingredients"].forEach(item => {
@@ -427,14 +428,12 @@ document.addEventListener("DOMContentLoaded", async function () {
     const lastUpdate = new Date(currentRecipe["lastUpdate"]);
     const diff = daysBetween(currentDate, lastUpdate);
 
-    gramCounts = currentRecipe['gram calculations'];
-    categories = currentRecipe['categories'];
     ingredients = Object.keys(currentRecipe['categories']);
 
     if (diff >= 30){
         currentRecipe['lastUpdate'] = currentDate.toString();
         turnOnCalculate();
-        foodData = await fetchFoodData(currentRecipe['queries']);
+        await fetchFoodData(currentRecipe);
         const updatedFoodDictionary = getUpdatedNutritionDictionary(true);
         updateRecipeNutrition(updatedFoodDictionary, currentRecipe['nutrition']);
         setNutritionTable(currentRecipe['nutrition']);
@@ -442,9 +441,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     }
     else{
         setNutritionTable(currentRecipe['nutrition']);
-        foodData = await fetchFoodData(currentRecipe['queries']);
+        await fetchFoodData(currentRecipe);
     }
-    populateOptionsDictionary(currentRecipe);
     createSubstitutionBlock();
 });
-
