@@ -52,8 +52,6 @@ function convertGramsToUnit(grams, unit, types) {
 function updateMeasurementOutput(result, unit, types) {
     measurementOutput.innerHTML = '';
 
-    
-
     if (unit === 'Ounce' || unit === 'Ounces'){
         if (result <= 1){
             unit = unit.slice(0, -1);
